@@ -77,7 +77,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     Container(
                       height: 80,
                       width: 80,
-                      color: Colors.red,
+                      decoration: BoxDecoration(
+                        color: Colors.blueAccent,
+                        
+                      ),
                       child: Center(child: Text("%", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
                     ), Container(
                       height: 80,
