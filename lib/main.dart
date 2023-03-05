@@ -265,7 +265,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     Container(
                       height: 80,
                       width: 80,
-                      color: Colors.grey[850],
+                      decoration: BoxDecoration(
+                        color: Colors.grey[850],
+                        borderRadius: BorderRadius.circular(10)
+                      ),
                       child: Center(child: Text("=", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
                     ),
                   ],
