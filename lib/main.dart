@@ -79,6 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       width: 80,
                       decoration: BoxDecoration(
                         color: Colors.blueAccent,
+
                         
                       ),
                       child: Center(child: Text("%", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
