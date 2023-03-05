@@ -78,7 +78,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.blueAccent,
+                          color: Colors.orange,
+
                         borderRadius: BorderRadius.circular(40)
 
                       ),
@@ -87,28 +88,28 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                        color: Colors.orange,
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child:  Text("CE", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child:  Text("+/-", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                        color: Colors.orange,
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("C", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("%", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                          color: Colors.red,
+                          color: Colors.orange,
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("?", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("÷", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
                     ),
                   ],
                 ),
@@ -119,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                          color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
                       child: Center(child: Text("7", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
@@ -127,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                          color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
                       child: Center(child: Text("8", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
@@ -136,7 +137,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                        color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
                       child: Center(child: Text("9", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
@@ -145,10 +146,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                        color: Colors.orange,
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("*", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("×", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
                   ],
                 ),
@@ -159,7 +160,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                          color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
                       child: Center(child: Text("4", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
@@ -167,7 +168,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                          color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
                       child: Center(child: Text("5", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
@@ -176,7 +177,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                          color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
                       child: Center(child: Text("6", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
@@ -185,7 +186,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                        color: Colors.orange,
                         borderRadius: BorderRadius.circular(40)
                       ),
                       child: Center(child: Text("-", style: TextStyle(color: Colors.white, fontSize: 50, fontWeight: FontWeight.bold),)),
@@ -225,7 +226,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.grey[850],
+                        color: Colors.orange,
                         borderRadius: BorderRadius.circular(40)
                       ),
                       
@@ -236,17 +237,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 SizedBox(height: 15,),
                 Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
+
                     Container(
                       height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                        color: Colors.grey[850],
-                        borderRadius: BorderRadius.circular(40)
-                      ),
-                      child: Center(child: Text("+/-", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
-                    ),Container(
-                      height: 80,
-                      width: 80,
+                      width: 170,
                       decoration: BoxDecoration(
                         color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
@@ -266,7 +260,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
-                        color: Colors.grey[850],
+                        color: Colors.orange,
                         borderRadius: BorderRadius.circular(40)
                       ),
                       child: Center(child: Text("=", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
