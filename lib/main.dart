@@ -64,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.black,
 
         body: Padding(
           padding: const EdgeInsets.all(15),
@@ -148,6 +149,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       decoration: BoxDecoration(
                         color: Colors.orange,
                         borderRadius: BorderRadius.circular(40)
+
                       ),
                       child: Center(child: Text("×", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
