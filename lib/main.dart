@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("7", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("7", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ), Container(
                       height: 80,
                       width: 80,
@@ -132,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("8", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("8", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
@@ -141,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("9", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("9", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
@@ -165,7 +165,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("4", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("4", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ), Container(
                       height: 80,
                       width: 80,
@@ -173,7 +173,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("5", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("5", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
@@ -182,7 +182,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("6", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("6", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
@@ -205,7 +205,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("1", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("1", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),Container(
                       height: 80,
                       width: 80,
@@ -213,7 +213,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("2", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("2", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
@@ -222,7 +222,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("3", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("3", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
@@ -232,7 +232,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(40)
                       ),
                       
-                      child: Center(child: Text("+", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("+", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
                   ],
                 ),
@@ -247,7 +247,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.grey[850],
                         borderRadius: BorderRadius.circular(40)
                       ),
-                      child: Center(child: Text("0", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+                      child: Center(child: Text("0", style: TextStyle(color: Colors.white, fontSize: 50, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
