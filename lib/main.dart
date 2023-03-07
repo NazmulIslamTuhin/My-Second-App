@@ -335,14 +335,21 @@ class _MyHomePageState extends State<MyHomePage> {
                 Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
 
-                    Container(
-                      height: 80,
-                      width: 170,
-                      decoration: BoxDecoration(
-                        color: Colors.grey[850],
-                        borderRadius: BorderRadius.circular(40)
+                    InkWell(
+                      onTap: (){
+                        setState(() {
+                          value = "0";
+                        });
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 170,
+                        decoration: BoxDecoration(
+                          color: Colors.grey[850],
+                          borderRadius: BorderRadius.circular(40)
+                        ),
+                        child: Center(child: Text("0", style: TextStyle(color: Colors.white, fontSize: 50, fontWeight: FontWeight.bold),)),
                       ),
-                      child: Center(child: Text("0", style: TextStyle(color: Colors.white, fontSize: 50, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
