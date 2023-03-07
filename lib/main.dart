@@ -67,13 +67,12 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.black,
-
         body: Padding(
           padding: const EdgeInsets.all(15),
           child: SingleChildScrollView(
             child: Column(crossAxisAlignment: CrossAxisAlignment.center,
               children:  [
-                SizedBox(height: 20,),
+                SizedBox(height: 5,),
                 Row(mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Text("Calculator" , style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),),
@@ -81,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
 
 
-                SizedBox(height: 90,),
+                SizedBox(height: 80,),
                 Row(mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Text(value, style: TextStyle(color: Colors.white, fontSize: 60),),
