@@ -83,17 +83,25 @@ class _MyHomePageState extends State<MyHomePage> {
                 SizedBox(height: 33,),
                 Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    Container(
-                      height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                          color: Colors.white,
+                    InkWell(
+                      onTap: (){
+                        setState(() {
+                          value = "AC";
+                        });
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 80,
+                        decoration: BoxDecoration(
+                            color: Colors.white,
 
-                        borderRadius: BorderRadius.circular(40)
+                          borderRadius: BorderRadius.circular(40)
 
+                        ),
+                        child: Center(child: Text("AC", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),)),
                       ),
-                      child: Center(child: Text("AC", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),)),
-                    ), Container(
+                    ),
+                    Container(
                       height: 80,
                       width: 80,
                       decoration: BoxDecoration(
