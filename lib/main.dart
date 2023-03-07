@@ -279,23 +279,38 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         child: Center(child: Text("1", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                       ),
-                    ),Container(
-                      height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                        color: Colors.grey[850],
-                        borderRadius: BorderRadius.circular(40)
-                      ),
-                      child: Center(child: Text("2", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
-                    Container(
-                      height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                        color: Colors.grey[850],
-                        borderRadius: BorderRadius.circular(40)
+                    InkWell(
+                      onTap: (){
+                        setState(() {
+                          value = "2";
+                        });
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 80,
+                        decoration: BoxDecoration(
+                          color: Colors.grey[850],
+                          borderRadius: BorderRadius.circular(40)
+                        ),
+                        child: Center(child: Text("2", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                       ),
-                      child: Center(child: Text("3", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
+                    ),
+                    InkWell(
+                      onTap: (){
+                        setState(() {
+                          value = "3";
+                        });
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 80,
+                        decoration: BoxDecoration(
+                          color: Colors.grey[850],
+                          borderRadius: BorderRadius.circular(40)
+                        ),
+                        child: Center(child: Text("3", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
+                      ),
                     ),
                     Container(
                       height: 80,
