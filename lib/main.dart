@@ -264,14 +264,21 @@ class _MyHomePageState extends State<MyHomePage> {
                 SizedBox(height: 15,),
                 Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    Container(
-                      height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                        color: Colors.grey[850],
-                        borderRadius: BorderRadius.circular(40)
+                    InkWell(
+                      onTap: (){
+                        setState(() {
+                          value = "1";
+                        });
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 80,
+                        decoration: BoxDecoration(
+                          color: Colors.grey[850],
+                          borderRadius: BorderRadius.circular(40)
+                        ),
+                        child: Center(child: Text("1", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                       ),
-                      child: Center(child: Text("1", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),Container(
                       height: 80,
                       width: 80,
