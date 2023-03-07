@@ -73,8 +73,15 @@ class _MyHomePageState extends State<MyHomePage> {
           child: SingleChildScrollView(
             child: Column(crossAxisAlignment: CrossAxisAlignment.center,
               children:  [
+                SizedBox(height: 20,),
+                Row(mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Text("Calculator" , style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),),
+                  ],
+                ),
 
-                SizedBox(height: 110,),
+
+                SizedBox(height: 90,),
                 Row(mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Text(value, style: TextStyle(color: Colors.white, fontSize: 60),),
