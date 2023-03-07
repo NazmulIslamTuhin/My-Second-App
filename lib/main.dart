@@ -53,6 +53,8 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
+  String value = "0";
+
 
   @override
   Widget build(BuildContext context) {
@@ -72,7 +74,13 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(crossAxisAlignment: CrossAxisAlignment.center,
               children:  [
 
-                SizedBox(height: 223,),
+                SizedBox(height: 110,),
+                Row(mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Text(value, style: TextStyle(color: Colors.white, fontSize: 60),),
+                  ],
+                ),
+                SizedBox(height: 33,),
                 Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Container(
@@ -117,31 +125,53 @@ class _MyHomePageState extends State<MyHomePage> {
                 SizedBox(height: 15,),
                 Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    Container(
-                      height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                          color: Colors.grey[850],
-                        borderRadius: BorderRadius.circular(40)
+                    InkWell(
+                      onTap: (){
+                        setState(() {
+                          value = "7";
+                        });
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 80,
+                        decoration: BoxDecoration(
+                            color: Colors.grey[850],
+                          borderRadius: BorderRadius.circular(40)
+                        ),
+                        child: Center(child: Text("7", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                       ),
-                      child: Center(child: Text("7", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
-                    ), Container(
-                      height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                          color: Colors.grey[850],
-                        borderRadius: BorderRadius.circular(40)
-                      ),
-                      child: Center(child: Text("8", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
-                    Container(
-                      height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                        color: Colors.grey[850],
-                        borderRadius: BorderRadius.circular(40)
+                    InkWell(
+                      onTap: (){
+                        setState(() {
+                          value = "8";
+                        });
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 80,
+                        decoration: BoxDecoration(
+                            color: Colors.grey[850],
+                          borderRadius: BorderRadius.circular(40)
+                        ),
+                        child: Center(child: Text("8", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                       ),
-                      child: Center(child: Text("9", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
+                    ),
+                    InkWell(
+                      onTap: (){
+                        setState(() {
+                          value = "9";
+                        });
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 80,
+                        decoration: BoxDecoration(
+                          color: Colors.grey[850],
+                          borderRadius: BorderRadius.circular(40)
+                        ),
+                        child: Center(child: Text("9", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
+                      ),
                     ),
                     Container(
                       height: 80,
