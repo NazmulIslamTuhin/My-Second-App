@@ -101,14 +101,21 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Center(child: Text("AC", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),)),
                       ),
                     ),
-                    Container(
-                      height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(40)
+                    InkWell(
+                      onTap: (){
+                        setState(() {
+                          value = "+/-";
+                        });
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 80,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(40)
+                        ),
+                        child: Center(child:  Text("+/-", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),)),
                       ),
-                      child: Center(child:  Text("+/-", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
