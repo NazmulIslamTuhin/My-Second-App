@@ -210,14 +210,22 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         child: Center(child: Text("4", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                       ),
-                    ), Container(
-                      height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                          color: Colors.grey[850],
-                        borderRadius: BorderRadius.circular(40)
+                    ),
+                    InkWell(
+                      onTap: (){
+                        setState(() {
+                          value = "5";
+                        });
+                      },
+                      child: Container(
+                        height: 80,
+                        width: 80,
+                        decoration: BoxDecoration(
+                            color: Colors.grey[850],
+                          borderRadius: BorderRadius.circular(40)
+                        ),
+                        child: Center(child: Text("5", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                       ),
-                      child: Center(child: Text("5", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
                     ),
                     Container(
                       height: 80,
