@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 SizedBox(height: 5,),
                 Row(mainAxisAlignment: MainAxisAlignment.start,
                   children: [
-                    Text("Calculator" , style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),),
+                    Text("Calculator" , style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),),
                   ],
                 ),
 
