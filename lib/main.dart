@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     InkWell(
                       onTap: (){
                         setState(() {
-                          value = "AC";
+                          value = "0";
                         });
                       },
                       child: Container(
@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(40)
 
                         ),
-                        child: Center(child: Text("AC", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),)),
+                        child: Center(child: Text( "AC", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),)),
                       ),
                     ),
                     InkWell(
