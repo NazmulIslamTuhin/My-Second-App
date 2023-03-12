@@ -137,7 +137,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(40)
                         ),
-                        child: Center(child: Text("%", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold),)),
+                        child: Center(child: Text("%", style: TextStyle(color: Colors.black, fontSize: 40, fontWeight: FontWeight.bold),)),
                       ),
                     ),
                     InkWell(
@@ -153,7 +153,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             color: Colors.orange,
                           borderRadius: BorderRadius.circular(40)
                         ),
-                        child: Center(child: Text("÷", style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),)),
+                        child: Center(child: Text("÷", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
                       ),
                     ),
                   ],
