@@ -57,19 +57,21 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
+
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.black,
         body: Padding(
             padding: const EdgeInsets.all(15),
             child: SingleChildScrollView(
               child: Column(mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SizedBox(height: 5,),
-                  Row(mainAxisAlignment: MainAxisAlignment.start,
+                  Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: const [
                       Text("weather", style: TextStyle(color: Colors.red,
                           fontWeight: FontWeight.bold,
-                          fontSize: 20),),
+                          fontSize: 35),),
                     ],
                   ),
                 ],
