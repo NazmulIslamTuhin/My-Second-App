@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/src/extension_navigation.dart';
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'bKash Manual',
+      title: 'Weather',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -28,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'bKash Manual'),
+      home: const MyHomePage(title: 'Weather'),
     );
   }
 }
@@ -61,17 +63,26 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.black,
+        appBar: AppBar(backgroundColor: Colors.green, title: Text("Weather"),
+        ) ,
+
         body: Padding(
             padding: const EdgeInsets.all(15),
             child: SingleChildScrollView(
-              child: Column(mainAxisAlignment: MainAxisAlignment.center,
+             child: Column(mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SizedBox(height: 5,),
                   Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: const [
                       Text("weather", style: TextStyle(color: Colors.red,
                           fontWeight: FontWeight.bold,
-                          fontSize: 35),),
+                          fontSize: 35),
+                      ),
+
+
+
+
+
                     ],
                   ),
                 ],
