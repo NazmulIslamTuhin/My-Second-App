@@ -80,8 +80,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   Text(" Mostly Clear", style: TextStyle(color: Colors.black, fontSize: 30,),),
                   Text("H:31°  L:19°", style: TextStyle(color: Colors.black, fontSize: 30,),),
                   SizedBox(height: 50,),
-                  Text("Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
-                    style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold),)
+                  Container(
+                    height: 300,
+                    width: 500,
+                    color: Colors.black26,
+                    padding: const EdgeInsets.all(20),
+
+                    child: Text("Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
+                      style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold),),
+
+                  )
 
                 ],
               ),
