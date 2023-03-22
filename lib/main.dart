@@ -1,9 +1,5 @@
-import 'dart:html';
 
 import 'package:flutter/material.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:get/get_navigation/src/extension_navigation.dart';
-import 'package:get/get_navigation/src/snackbar/snackbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -62,10 +58,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.black,
-        appBar: AppBar(backgroundColor: Colors.green, title: Text("Weather"),
-        ) ,
-
+        backgroundColor: Colors.white,
+        appBar: AppBar(title: Center(child: Text("Weather", style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold, fontSize: 25),)),),
         body: Padding(
             padding: const EdgeInsets.all(15),
             child: SingleChildScrollView(
@@ -74,10 +68,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(height: 5,),
                   Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: const [
-                      Text("weather", style: TextStyle(color: Colors.red,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 35),
+                      Text("Rajshahi", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30, ),
                       ),
+                      Text("21°", style: TextStyle( color: Colors.red, fontSize: 15,fontWeight: FontWeight.bold), )
 
 
 
