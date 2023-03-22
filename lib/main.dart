@@ -63,19 +63,18 @@ class _MyHomePageState extends State<MyHomePage> {
         body: Padding(
             padding: const EdgeInsets.all(15),
             child: SingleChildScrollView(
-             child: Column(mainAxisAlignment: MainAxisAlignment.center,
+             child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(height: 5,),
                   Row(mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
-                      Text("Rajshahi", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30, ),
+                    children: [
+                      Text("Rajshahi", style: TextStyle(color: Colors.black,  fontSize: 30, ),
                       ),
-                      Text("21°", style: TextStyle( color: Colors.red, fontSize: 15,fontWeight: FontWeight.bold), )
-
-
-
-
-
+                    ],
+                  ),
+                  Row(mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text("21°", style: TextStyle( color: Colors.red, fontSize: 55,),),
                     ],
                   ),
                 ],
