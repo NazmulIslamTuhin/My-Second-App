@@ -77,6 +77,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       Text("21°", style: TextStyle( color: Colors.red, fontSize: 55,),),
                     ],
                   ),
+                  Text("Clear", style: TextStyle(color: Colors.black, fontSize: 35, fontStyle: FontStyle.italic),)
+                  
                 ],
               ),
             )
