@@ -59,13 +59,13 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.white,
-        appBar: AppBar(title: Center(child: Text("Weather", style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold, fontSize: 25),)),),
+        appBar: AppBar(title: Center(child: Text("Weather", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),)),),
         body: Padding(
             padding: const EdgeInsets.all(15),
             child: SingleChildScrollView(
              child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  SizedBox(height: 10,),
+                  SizedBox(height: 30,),
                   Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text("Rajshahi", style: TextStyle(color: Colors.black, fontSize: 40, fontStyle: FontStyle.italic),
@@ -74,12 +74,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("21°", style: TextStyle( color: Colors.black, fontWeight: FontWeight.bold, fontSize: 55,),),
+                      Text("21°", style: TextStyle( color: Colors.black,  fontSize: 80,),),
                     ],
                   ),
-                  Text("Clear", style: TextStyle(color: Colors.black, fontSize: 45,  fontStyle: FontStyle.italic),),
+                  Text(" Mostly Clear", style: TextStyle(color: Colors.black, fontSize: 30,),),
+                  Text("H:31°  L:19°", style: TextStyle(color: Colors.black, fontSize: 30,),),
                   SizedBox(height: 50,),
-                  Text("This is a weather", style: TextStyle(color: Colors.black, fontSize: 20,  fontStyle: FontStyle.italic),)
+                  Text("Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
+                    style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold),)
 
                 ],
               ),
