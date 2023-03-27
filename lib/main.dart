@@ -82,9 +82,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(height: 50,),
 
                   Container(
-                    height: 300,
+                    height: 100,
                     width: 500,
-                    color: Colors.black26,
+                    color: Colors.black12,
                     padding: const EdgeInsets.all(20),
                     child: Text("Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
                       style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold, ),),
