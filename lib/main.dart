@@ -103,7 +103,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("10-day Forecast", style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),),
+                    child: Text("                           10-day Forecast", style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
                   Container(
@@ -114,7 +114,10 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("Today", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                     child: Text("               Today             23°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+
+
+
                   ),
                   SizedBox(height: 0.5,),
                   Container(
@@ -125,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("Saturday ", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("             Saturday          21°--33° ", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
                   Container(
@@ -136,7 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("Sunday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("            Sunday              26°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
                   Container(
@@ -147,7 +150,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("Monday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("           Monday              32°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
                   Container(
@@ -158,7 +161,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("Tuesday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("           Tuesday              24°--28°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
                   Container(
@@ -169,7 +172,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("Wednesday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("          Wednesday          31°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
                   Container(
@@ -180,7 +183,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("Thursday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("            Thursday            21°--30°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
                   Container(
@@ -191,7 +194,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("Friday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("            Friday                  25°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
 
