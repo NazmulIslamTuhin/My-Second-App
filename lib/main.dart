@@ -115,8 +115,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     padding: const EdgeInsets.all(10),
                     child: Text("Saturday ", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-
                   ),
+                  SizedBox(height: 0.5,),
                   Container(
                     height: 50,
                     width: 350,
@@ -160,6 +160,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: const EdgeInsets.all(10),
                     child: Text("Wednesday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
+                  SizedBox(height: 0.5,),
                   Container(
                     height: 50,
                     width: 350,
