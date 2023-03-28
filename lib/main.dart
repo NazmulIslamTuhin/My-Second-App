@@ -96,14 +96,28 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   SizedBox(height: 10,),
                   Container(
-                    height: 300,
-                    width: 300,
+                    height: 50,
+                    width: 350,
                     decoration: BoxDecoration(
                         color: Colors.black12,
                         borderRadius: BorderRadius.circular(10)
                     ),
+                    padding: const EdgeInsets.all(10),
+                    child: Text("Today", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
 
                   ),
+                  Container(
+                    height: 50,
+                    width: 350,
+                    decoration: BoxDecoration(
+                        color: Colors.black12,
+                        borderRadius: BorderRadius.circular(10)
+                    ),
+                    padding: const EdgeInsets.all(10),
+                    child: Text("Today", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+
+                  ),
+
 
 
                 ],
