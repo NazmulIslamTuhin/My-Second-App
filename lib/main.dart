@@ -179,7 +179,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("Tuesday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("Friday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
 
