@@ -99,11 +99,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 40,
                     width: 350,
                     decoration: BoxDecoration(
-                        color: Colors.blueAccent,
+                        color: Colors.blue,
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("                           10-day Forecast", style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),),
+                    child: Text("                           10-day Forecast", style: TextStyle(color: Colors.white70, fontSize: 15, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
                   Container(
