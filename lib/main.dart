@@ -84,7 +84,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   Container(
                     height: 100,
                     width: 500,
-                    color: Colors.black12,
+                    decoration: BoxDecoration(
+                      color: Colors.black12,
+
+
+                        borderRadius: BorderRadius.circular(10)
+
+                    ),
+
                     padding: const EdgeInsets.all(20),
                     child: Text("Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
                       style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold, ),),
