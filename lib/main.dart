@@ -96,10 +96,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   SizedBox(height: 10,),
                   Container(
-                    height: 200,
+                    height: 300,
                     width: 300,
                     decoration: BoxDecoration(
-                        color: Colors.black12
+                        color: Colors.black12,
+                        borderRadius: BorderRadius.circular(10)
                     ),
 
                   ),
