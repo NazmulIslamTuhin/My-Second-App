@@ -94,11 +94,16 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text("Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
                       style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold, ),),
                   ),
+                  SizedBox(height: 10,),
                   Container(
                     height: 200,
                     width: 300,
-
+                    decoration: BoxDecoration(
+                        color: Colors.black12
                     ),
+
+                  ),
+
 
                 ],
               ),
