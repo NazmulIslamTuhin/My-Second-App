@@ -114,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                     child: Text("               Today             23°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                     child: Text("             Today               23°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
 
 
 
@@ -128,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("             Saturday          21°--33° ", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("           Saturday            21°--33° ", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
                   Container(
@@ -139,7 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("            Sunday              26°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("           Sunday               26°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
                   Container(
@@ -194,7 +194,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("            Friday                  25°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Text("              Friday                25°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
 
