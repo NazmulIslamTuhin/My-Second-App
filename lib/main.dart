@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: const EdgeInsets.all(10),
                     child: Text("                           10-day Forecast", style: TextStyle(color: Colors.white70, fontSize: 15, fontWeight: FontWeight.bold),),
                   ),
-                  SizedBox(height: 0.5,),
+                  SizedBox(height: 5,),
                   Container(
                     height: 50,
                     width: 350,
