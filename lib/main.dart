@@ -77,7 +77,13 @@ class _MyHomePageState extends State<MyHomePage> {
                       Text("21°", style: TextStyle( color: Colors.black,  fontSize: 80,),),
                     ],
                   ),
-                  Text(" Mostly Clear", style: TextStyle(color: Colors.black, fontSize: 30,),),
+                  SizedBox(height: 5,),
+
+                  Row(mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text("Mostly clear", style: TextStyle(color: Colors.black,fontSize: 30),),
+                  ],),
+                  // Text(" Mostly Clear", style: TextStyle(color: Colors.black, fontSize: 30,),),
                   Text("H:31°  L:19°", style: TextStyle(color: Colors.black, fontSize: 30,),),
                   SizedBox(height: 50,),
 
@@ -196,13 +202,15 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: const EdgeInsets.all(10),
                     child: Text("              Friday                25°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
-                  SizedBox(height: 0.5,),
-                  Container(
-                    height: 200,
-                    width: 200,
-                    decoration: BoxDecoration(
-                      color: Colors.redAccent,
-                      borderRadius: BorderRadius.circular(10)
+                  SizedBox(height: 30,),
+                  Center(
+                    child: Container(
+                      height: 200,
+                      width: 200,
+                      decoration: BoxDecoration(
+                        color: Colors.redAccent,
+                        borderRadius: BorderRadius.circular(10)
+                      ),
                     ),
                   )
 
