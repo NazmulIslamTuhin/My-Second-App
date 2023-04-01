@@ -197,6 +197,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text("              Friday                25°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
+                  Container(
+                    height: 200,
+                    width: 200,
+                    decoration: BoxDecoration(
+                      color: Colors.redAccent,
+                      borderRadius: BorderRadius.circular(10)
+                    ),
+                  )
 
 
 
