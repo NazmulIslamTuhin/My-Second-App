@@ -203,18 +203,16 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text("              Friday                25°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 30,),
-                  Center(
-                    child: Container(
-                      height: 200,
-                      width: 200,
-                      decoration: BoxDecoration(
-                        color: Colors.redAccent,
+                  Container(
+                    height: 200,
+                    width: 350,
+                    decoration: BoxDecoration(
+                        color: Colors.black12,
                         borderRadius: BorderRadius.circular(10)
-                      ),
                     ),
-                  )
-
-
+                    padding: const EdgeInsets.all(10),
+                    child: Center(child: Text("comming soon", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
+                  ),
 
 
 
