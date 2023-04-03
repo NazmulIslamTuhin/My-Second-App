@@ -121,8 +121,15 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                     child: Text("             Today               23°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-
+                    child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children:[
+                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children:[
+                                Center(child: Text("Today", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                ),Text("31°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                              ]),
+                        ]),
 
 
                   ),
@@ -266,23 +273,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   SizedBox(height: 30,),
 
-                  Container(
-                    padding: EdgeInsets.all(10),
-                    height: 40,
-                    width: 350,
-                    decoration: BoxDecoration(
-                        color: Colors.red,
-                        borderRadius: BorderRadius.circular(10)
-                    ),
-                    child: Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children:[
-                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              children:[
-                                Center(child: Text("Nz")),Text("az")
-                              ]),
-                        ]),
-                  )
+
 
 
                   // Row(mainAxisAlignment: MainAxisAlignment.start,
