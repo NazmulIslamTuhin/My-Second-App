@@ -257,12 +257,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     padding: const EdgeInsets.all(10),
                     child: Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children:[
                           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children:[
                                 Center(child: Text("Friday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                                ),Text("26°--32°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                ),Text("28°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                               ]),
                         ]),
 
