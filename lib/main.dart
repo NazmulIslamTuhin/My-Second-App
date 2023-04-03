@@ -282,9 +282,9 @@ class _MyHomePageState extends State<MyHomePage> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 10,),
+                  SizedBox(height: 15,),
 
-                  Row(mainAxisAlignment: MainAxisAlignment.start,
+                  Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
                         height: 180,
@@ -294,7 +294,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             borderRadius: BorderRadius.circular(10)
                         ),
                         padding: const EdgeInsets.all(10),
-                        child: Center(child: Text("1", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
+                        child: Center(child: Text("UV INDEX", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
                       ),
                       SizedBox(width: 15,),
                       Container(
@@ -307,7 +307,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
 
                         padding: const EdgeInsets.all(10),
-                        child: Center(child: Text("2", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
+                        child: Center(child: Text("SUNRISE", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
                       ),
                     ],
                   ),
