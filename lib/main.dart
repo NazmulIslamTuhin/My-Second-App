@@ -88,6 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(height: 50,),
 
                   Container(
+                    padding: const EdgeInsets.all(20),
                     height: 100,
                     width: 500,
                     decoration: BoxDecoration(
@@ -96,8 +97,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
                     ),
 
-                    padding: const EdgeInsets.all(20),
-                    child: Text("Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
+
+                    child:const Text ("Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
                       style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold, ),),
                   ),
                   SizedBox(height: 10,),
@@ -109,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("                           10-day Forecast", style: TextStyle(color: Colors.white70, fontSize: 15, fontWeight: FontWeight.bold),),
+                    child: Center(child: const Text("10-day Forecast", style: TextStyle(color: Colors.white70, fontSize: 15, fontWeight: FontWeight.bold),)),
                   ),
                   SizedBox(height: 5,),
                   Container(
@@ -207,7 +208,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 200,
                     width: 350,
                     decoration: BoxDecoration(
-                        color: Colors.black12,
+                        color: Colors.blue,
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
