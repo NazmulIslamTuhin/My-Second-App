@@ -204,15 +204,33 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text("              Friday                25°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 30,),
-                  Container(
-                    height: 200,
-                    width: 350,
-                    decoration: BoxDecoration(
-                        color: Colors.blue,
-                        borderRadius: BorderRadius.circular(10)
-                    ),
-                    padding: const EdgeInsets.all(10),
-                    child: Center(child: Text("comming soon", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
+
+                  Row(mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        height: 180,
+                        width: 170,
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.circular(10)
+                        ),
+                        padding: const EdgeInsets.all(10),
+                        child: Center(child: Text("1", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
+                      ),
+                      SizedBox(width: 15,),
+                      Container(
+
+                        height: 180,
+                        width: 170,
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.circular(10)
+                        ),
+
+                        padding: const EdgeInsets.all(10),
+                        child: Center(child: Text(" 2", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
+                      ),
+                    ],
                   ),
 
 
