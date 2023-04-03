@@ -271,12 +271,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(height: 30,),
                   Container(
                     height: 150,
-                    width: 300,
+                    width: 400,
                     decoration: BoxDecoration(
                       color: Colors.black,
                       borderRadius: BorderRadius.circular(10)
                     ),
                     child: Column(mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text("This is a container", style: TextStyle(color: Colors.redAccent, fontSize: 20),)
+                      ],
                     ),
                   )
 
