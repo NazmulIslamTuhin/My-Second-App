@@ -241,8 +241,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         children:[
                           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children:[
-                                Center(child: Text("Thursday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                                ),Text("28°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                Text("Thursday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                               Text("28°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                               ]),
                         ]),
 
@@ -259,47 +259,30 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children:[
-                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children:[
-                                Center(child: Text("Friday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                                ),Text("28°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                 Center(child: Text("Friday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
+                                Center(child: Text("28°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
                               ]),
                         ]),
 
                   ),
 
                   SizedBox(height: 30,),
+                  Container(
+                    height: 150,
+                    width: 300,
+                    decoration: BoxDecoration(
+                      color: Colors.black,
+                      borderRadius: BorderRadius.circular(10)
+                    ),
+                    child: Column(mainAxisAlignment: MainAxisAlignment.center,
+                    ),
+                  )
 
 
 
-
-                  Row(mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Container(
-                        height: 180,
-                        width: 170,
-                        decoration: BoxDecoration(
-                            color: Colors.blue,
-                            borderRadius: BorderRadius.circular(10)
-                        ),
-                        padding: const EdgeInsets.all(10),
-                        child: Center(child: Text("1", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
-                      ),
-                      SizedBox(width: 15,),
-                      Container(
-
-                        height: 180,
-                        width: 170,
-                        decoration: BoxDecoration(
-                            color: Colors.blue,
-                            borderRadius: BorderRadius.circular(10)
-                        ),
-
-                        padding: const EdgeInsets.all(10),
-                        child: Center(child: Text("2", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
-                      ),
-                    ],
-                  ),
+                  
 
 
 
