@@ -193,45 +193,71 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text("            Thursday            21°--30°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
-                  Container(
-                    height: 50,
-                    width: 350,
-                    decoration: BoxDecoration(
-                        color: Colors.black12,
-                        borderRadius: BorderRadius.circular(10)
-                    ),
-                    padding: const EdgeInsets.all(10),
-                    child: Text("              Friday                25°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                  ),
-                  SizedBox(height: 30,),
-
-                  Row(mainAxisAlignment: MainAxisAlignment.start,
+                  Row(
                     children: [
                       Container(
-                        height: 180,
-                        width: 170,
+                        height: 50,
+                        width: 350,
                         decoration: BoxDecoration(
-                            color: Colors.blue,
+                            color: Colors.black12,
                             borderRadius: BorderRadius.circular(10)
                         ),
                         padding: const EdgeInsets.all(10),
-                        child: Center(child: Text("1", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
-                      ),
-                      SizedBox(width: 15,),
-                      Container(
+                        child: Text("              Friday                25°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
 
-                        height: 180,
-                        width: 170,
-                        decoration: BoxDecoration(
-                            color: Colors.blue,
-                            borderRadius: BorderRadius.circular(10)
-                        ),
-
-                        padding: const EdgeInsets.all(10),
-                        child: Center(child: Text(" 2", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
                       ),
                     ],
                   ),
+
+                  SizedBox(height: 30,),
+
+                  Container(
+                    padding: EdgeInsets.all(10),
+                    height: 40,
+                    width: 350,
+                    decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(10)
+                    ),
+                    child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children:[
+                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children:[
+                                Center(child: Text("Name")),Text("Abc")
+                              ]),
+                        ]),
+                  )
+
+
+                  // Row(mainAxisAlignment: MainAxisAlignment.start,
+                  //   children: [
+                  //     Container(
+                  //       height: 180,
+                  //       width: 170,
+                  //       decoration: BoxDecoration(
+                  //           color: Colors.blue,
+                  //           borderRadius: BorderRadius.circular(10)
+                  //       ),
+                  //       padding: const EdgeInsets.all(10),
+                  //       child: Center(child: Text("1", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
+                  //     ),
+                  //     SizedBox(width: 15,),
+                  //     Container(
+                  //
+                  //       height: 180,
+                  //       width: 170,
+                  //       decoration: BoxDecoration(
+                  //           color: Colors.blue,
+                  //           borderRadius: BorderRadius.circular(10)
+                  //       ),
+                  //
+                  //       padding: const EdgeInsets.all(10),
+                  //       child: Center(child: Text("2", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
+                  //     ),
+                  //   ],
+                  // ),
+
 
 
 
