@@ -278,7 +278,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     child: Column(mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text("This is a container", style: TextStyle(color: Colors.redAccent, fontSize: 20),)
+                        Text("New container", style: TextStyle(color: Colors.redAccent, fontSize: 20),)
                       ],
                     ),
                   )
