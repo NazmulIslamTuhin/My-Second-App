@@ -276,9 +276,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       color: Colors.black,
                       borderRadius: BorderRadius.circular(10)
                     ),
-                    child: Column(mainAxisAlignment: MainAxisAlignment.center,
+                    padding: const EdgeInsets.all(10),
+                    child: Column(mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        Text("New container", style: TextStyle(color: Colors.redAccent, fontSize: 20),)
+                        Text("PRECIPITATION", style: TextStyle(color: Colors.redAccent, fontSize: 15, fontWeight: FontWeight.bold),)
                       ],
                     ),
                   ),
