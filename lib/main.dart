@@ -281,7 +281,36 @@ class _MyHomePageState extends State<MyHomePage> {
                         Text("New container", style: TextStyle(color: Colors.redAccent, fontSize: 20),)
                       ],
                     ),
-                  )
+                  ),
+                  SizedBox(height: 10,),
+
+                  Row(mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        height: 180,
+                        width: 170,
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.circular(10)
+                        ),
+                        padding: const EdgeInsets.all(10),
+                        child: Center(child: Text("1", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
+                      ),
+                      SizedBox(width: 15,),
+                      Container(
+
+                        height: 180,
+                        width: 170,
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.circular(10)
+                        ),
+
+                        padding: const EdgeInsets.all(10),
+                        child: Center(child: Text("2", style: TextStyle(color: Colors.black, fontSize: 90, fontWeight: FontWeight.bold),)),
+                      ),
+                    ],
+                  ),
 
 
 
