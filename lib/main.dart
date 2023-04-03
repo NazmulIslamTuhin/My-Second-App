@@ -135,8 +135,15 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("           Saturday            21°--33° ", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                  ),
+                    child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children:[
+                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children:[
+                                Center(child: Text("Saturday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                ),Text("31°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                              ]),
+                        ]),),
                   SizedBox(height: 0.5,),
                   Container(
                     height: 50,
@@ -146,8 +153,15 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("           Sunday               26°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                  ),
+                    child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children:[
+                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children:[
+                                Center(child: Text("Sunday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                ),Text("24°--34°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                              ]),
+                        ]),),
                   SizedBox(height: 0.5,),
                   Container(
                     height: 50,
@@ -157,8 +171,15 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("           Monday              32°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                  ),
+                    child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children:[
+                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children:[
+                                Center(child: Text("Monday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                ),Text("33°--34°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                              ]),
+                        ]), ),
                   SizedBox(height: 0.5,),
                   Container(
                     height: 50,
@@ -168,8 +189,15 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("           Tuesday              24°--28°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                  ),
+                    child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children:[
+                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children:[
+                                Center(child: Text("Tuesday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                ),Text("28°--33°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                              ]),
+                        ]),),
                   SizedBox(height: 0.5,),
 
                   Container(
