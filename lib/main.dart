@@ -203,8 +203,14 @@ class _MyHomePageState extends State<MyHomePage> {
                             borderRadius: BorderRadius.circular(10)
                         ),
                         padding: const EdgeInsets.all(10),
-                        child: Text("              Friday                25°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-
+                        child: Column(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children:[
+                              Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                  children:[
+                                    Center(child: Text("Friday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),Text("31°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                  ]),
+                            ]),
                       ),
                     ],
                   ),
@@ -224,7 +230,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children:[
                           Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children:[
-                                Center(child: Text("Name")),Text("Abc")
+                                Center(child: Text("Nz")),Text("az")
                               ]),
                         ]),
                   )
