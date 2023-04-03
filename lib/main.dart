@@ -171,6 +171,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text("           Tuesday              24°--28°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(height: 0.5,),
+
                   Container(
                     height: 50,
                     width: 350,
@@ -179,9 +180,19 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("          Wednesday          31°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                    child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children:[
+                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children:[
+                                Center(child: Text("Wednesday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                ),Text("33°--33°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                              ]),
+                        ]),
+
                   ),
                   SizedBox(height: 0.5,),
+
                   Container(
                     height: 50,
                     width: 350,
@@ -190,8 +201,17 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Text("            Thursday            21°--30°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                  ),
+                    child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children:[
+                          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children:[
+                                Center(child: Text("Thursday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                ),Text("28°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                              ]),
+                        ]),
+
+                   ),
                   SizedBox(height: 0.5,),
                   Row(
                     children: [
@@ -208,7 +228,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             children:[
                               Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                   children:[
-                                    Center(child: Text("Friday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),Text("31°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                    Center(child: Text("Friday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                    ),Text("31°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                                   ]),
                             ]),
                       ),
