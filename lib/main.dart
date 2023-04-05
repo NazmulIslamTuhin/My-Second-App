@@ -279,7 +279,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: const EdgeInsets.all(10),
                     child: Column(mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        Text("PRECIPITATION", style: TextStyle(color: Colors.redAccent, fontSize: 15, fontWeight: FontWeight.bold),)
+                        Text("PRECIPITATION", textAlign: TextAlign.left, style: TextStyle(color: Colors.redAccent, fontSize: 15, fontWeight: FontWeight.bold),)
                       ],
                     ),
                   ),
