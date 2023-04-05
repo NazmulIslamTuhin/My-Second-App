@@ -300,7 +300,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       SizedBox(width: 15,),
 
                       Container(
-                        height: 50,
+                        height: 180,
                         width: 170,
                         decoration: BoxDecoration(
                             color: Colors.blue,
