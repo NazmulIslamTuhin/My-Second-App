@@ -308,7 +308,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
 
                         padding: const EdgeInsets.all(10),
-                        child: Center(child: Text("SUNRISE              this is a heading",style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
+                        child: Center(child: Text("SUNRISE",style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
 
                       ),
                     ],
