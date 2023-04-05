@@ -298,19 +298,40 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Center(child: Text("UV INDEX", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
                       ),
                       SizedBox(width: 15,),
-                      Container(
 
-                        height: 180,
+                      Container(
+                        height: 50,
                         width: 170,
                         decoration: BoxDecoration(
-                            color: Colors.blue,
+                            color: Colors.black12,
                             borderRadius: BorderRadius.circular(10)
                         ),
-
                         padding: const EdgeInsets.all(10),
-                        child: Center(child: Text("SUNRISE",style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),),),
+                        child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children:[
+                              Row(mainAxisAlignment: MainAxisAlignment.spaceAround ,
+                                  children:[
+                                    Center(child: Text("  Friday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
+                                    SizedBox(height: 5,),
+                                    Center(child: Text("28°--31°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold,),)),
+                                  ]),
+                            ]),
 
                       ),
+                      // Container(
+                      //
+                      //   height: 180,
+                      //   width: 170,
+                      //   decoration: BoxDecoration(
+                      //       color: Colors.blue,
+                      //       borderRadius: BorderRadius.circular(10)
+                      //   ),
+                      //
+                      //   padding: const EdgeInsets.all(10),
+                      //   child: Center(child: Text("SUNRISE",style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),),),
+                      //
+                      // ),
                     ],
                   ),
 
