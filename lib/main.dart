@@ -310,7 +310,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children:[
-                              Row(mainAxisAlignment: MainAxisAlignment.spaceAround ,
+                              Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
                                   children:[
                                     Center(child: Text("  SUNRISE", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
                                     SizedBox( height: 100,),
