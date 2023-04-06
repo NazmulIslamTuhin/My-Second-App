@@ -298,7 +298,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Column(mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Center(child: Text("UV INDEX", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
-                          Text("Low")
+                          Center(child: Text("Low", style: TextStyle(color: Colors.redAccent, fontSize: 20),))
                         ],
                         ),
 
