@@ -316,7 +316,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     SizedBox( height: 50,),
                                     Center(child: Text("6:21 PM", style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 30,),
-                                    Text("SUNRISE: 5:50AM")
+                                    Center(child: Text("SUNRISE: 5:50AM"))
                                   ]),
                             ]),
 
