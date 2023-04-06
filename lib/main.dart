@@ -277,7 +277,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Row(crossAxisAlignment: CrossAxisAlignment.start,
+                    child: Column(crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("PRECIPITATION", style: TextStyle(color: Colors.redAccent, fontSize: 15, fontWeight: FontWeight.bold,),)
                       ],
@@ -295,32 +295,38 @@ class _MyHomePageState extends State<MyHomePage> {
                             borderRadius: BorderRadius.circular(10)
                         ),
                         padding: const EdgeInsets.all(10),
-                        child: Center(child: Text("UV INDEX", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
-                      ),
-                      SizedBox(width: 15,),
-
-                      Container(
-                        height: 180,
-                        width: 170,
-                        decoration: BoxDecoration(
-                            color: Colors.blue,
-                            borderRadius: BorderRadius.circular(10)
+                        child: Column(mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Center(child: Text("UV INDEX", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
+                        ],
                         ),
-                        padding: const EdgeInsets.all(10),
-                        child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children:[
-                              Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
-                                  children:[
-                                    Center(child: Text("  SUNSET", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
-                                    SizedBox( height: 50,),
-                                    Center(child: Text("6:21 PM", style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold,),)),
-                                    SizedBox(height: 30,),
-                                    Center(child: Text("SUNRISE: 5:50AM", style: TextStyle(color: Colors.black, fontSize: 12, fontWeight: FontWeight.bold),))
-                                  ]),
-                            ]),
+
 
                       ),
+
+
+                      // Container(
+                      //   height: 180,
+                      //   width: 170,
+                      //   decoration: BoxDecoration(
+                      //       color: Colors.blue,
+                      //       borderRadius: BorderRadius.circular(10)
+                      //   ),
+                      //   padding: const EdgeInsets.all(10),
+                      //   child: Column(
+                      //       mainAxisAlignment: MainAxisAlignment.center,
+                      //       children:[
+                      //         Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
+                      //             children:[
+                      //               Center(child: Text("  SUNSET", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
+                      //               SizedBox( height: 50,),
+                      //               Center(child: Text("6:21 PM", style: TextStyle(color: Colors.black, fontSize: 35, fontWeight: FontWeight.bold,),)),
+                      //               SizedBox(height: 30,),
+                      //               Center(child: Text("SUNRISE: 5:50AM", style: TextStyle(color: Colors.black, fontSize: 12, fontWeight: FontWeight.bold),))
+                      //             ]),
+                      //       ]),
+                      //
+                      // ),
                       // Container(
                       //
                       //   height: 180,
