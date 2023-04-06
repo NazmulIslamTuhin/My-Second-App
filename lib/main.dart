@@ -277,7 +277,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
-                    child: Column( crossAxisAlignment: CrossAxisAlignment.center,
+                    child: Column(crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("PRECIPITATION", style: TextStyle(color: Colors.redAccent, fontSize: 15, fontWeight: FontWeight.bold,),)
                       ],
