@@ -349,8 +349,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Column(mainAxisAlignment: MainAxisAlignment.start,
                           children: [
                             Center(child: Text("visibility", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold), )),
-                            SizedBox(height: 10,),
+                            SizedBox(height: 20,),
                             Text("19km", style: TextStyle(fontSize: 40),),
+                            SizedBox(height: 10,),
                             Text("It's Perfectly Clrar Right Now")
                           ],
                         ),
