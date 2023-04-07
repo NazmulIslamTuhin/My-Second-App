@@ -302,7 +302,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Center(child: Text("Low", style: TextStyle(color: Colors.pink, fontSize: 30,fontWeight: FontWeight.bold),)),
                           SizedBox(height: 0,),
 
-                          Text("Use sun protextion 9 am to 2pm", style: TextStyle(fontSize: 16),),
+                          Text("Use sun protextion 9 am to 2pm", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
                         ],
                         ),
 
