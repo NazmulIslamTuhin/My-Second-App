@@ -348,7 +348,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: EdgeInsets.all(10),
                         child: Column(mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Center(child: Text("visibility", )),
+                            Center(child: Text("visibility", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold), )),
                           ],
                         ),
                       ),
