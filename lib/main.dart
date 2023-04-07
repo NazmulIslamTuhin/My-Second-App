@@ -340,7 +340,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Container(
                         height: 180,
-                        width: 100,
+                        width: 170,
                         decoration: BoxDecoration(
                           color: Colors.red,
                           borderRadius: BorderRadius.circular(10)
