@@ -352,7 +352,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             SizedBox(height: 20,),
                             Text("15km", style: TextStyle(fontSize: 40),),
                             SizedBox(height: 10,),
-                            Text("It's Perfectly Clrar Right Now")
+                            Text("It's Perfectly Clrar Right Now", style: TextStyle(fontSize: 18),)
                           ],
                         ),
                       ),
