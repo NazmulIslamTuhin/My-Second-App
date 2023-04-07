@@ -350,7 +350,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             Center(child: Text("visibility", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold), )),
                             SizedBox(height: 20,),
-                            Text("19km", style: TextStyle(fontSize: 40),),
+                            Text("15km", style: TextStyle(fontSize: 40),),
                             SizedBox(height: 10,),
                             Text("It's Perfectly Clrar Right Now")
                           ],
