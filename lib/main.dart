@@ -305,10 +305,8 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text("Use sun protextion 9 am to 2pm", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
                         ],
                         ),
-
-
                       ),
-                      SizedBox(width: 5,),
+                      SizedBox(width: 10,),
 
 
                       Container(
