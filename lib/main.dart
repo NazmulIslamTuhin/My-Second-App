@@ -346,7 +346,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(10)
                         ),
                         padding: EdgeInsets.all(10),
-                        child: Row(mainAxisAlignment: MainAxisAlignment.end,
+                        child: Column(mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Center(child: Text("visibility", )),
                           ],
