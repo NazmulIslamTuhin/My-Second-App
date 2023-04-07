@@ -342,13 +342,13 @@ class _MyHomePageState extends State<MyHomePage> {
                         height: 180,
                         width: 170,
                         decoration: BoxDecoration(
-                          color: Colors.red,
+                          color: Colors.black26,
                           borderRadius: BorderRadius.circular(10)
                         ),
                         padding: EdgeInsets.all(10),
                         child: Column(mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text("visibility"),
+                            Text("visibility",),
                           ],
                         ),
                       ),
