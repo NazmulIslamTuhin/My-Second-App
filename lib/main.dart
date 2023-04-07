@@ -339,7 +339,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Row(mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Container(
-                        height: 100,
+                        height: 180,
                         width: 100,
                         decoration: BoxDecoration(
                           color: Colors.red,
