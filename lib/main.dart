@@ -360,16 +360,21 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   SizedBox(height: 10,),
                   Container(
-                    height: 100,
-                    width: 100,
+                    height: 150,
+                    width: 350,
                     decoration: BoxDecoration(
-                      color: Colors.red,
+                      color: Colors.black12,
                       borderRadius: BorderRadius.circular(10)
                     ),
                     padding: EdgeInsets.all(10),
                     child: Column(mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("new contaier")
+                      Row(mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text("Report an Issu"),
+                        ],
+                      ),
+                      Text("You can describe the curent condition at your location to help improve forecasts")
                     ],
                     ),
                   )
