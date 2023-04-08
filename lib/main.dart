@@ -358,6 +358,21 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ],
                   ),
+                  SizedBox(height: 10,),
+                  Container(
+                    height: 100,
+                    width: 100,
+                    decoration: BoxDecoration(
+                      color: Colors.red,
+                      borderRadius: BorderRadius.circular(10)
+                    ),
+                    padding: EdgeInsets.all(10),
+                    child: Column(mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text("new contaier")
+                    ],
+                    ),
+                  )
 
 
 
