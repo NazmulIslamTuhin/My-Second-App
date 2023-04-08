@@ -352,7 +352,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             SizedBox(height: 20,),
                             Center(child: Text("15km", style: TextStyle(fontSize: 40),)),
                             SizedBox(height: 10,),
-                             Center(child: Text("It's Perfectly Clear Right Now", style: TextStyle(fontSize: 15),))
+                             Center(child: Text("It's Perfectly Clear Right Now", style: TextStyle(fontSize: 15, backgroundColor: Colors.red),))
                           ],
                         ),
                       ),
