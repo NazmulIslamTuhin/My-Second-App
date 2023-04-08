@@ -339,8 +339,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   Row(mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Container(
-                        height: 180,
-                        width: 170,
+                        height: 150,
+                        width: 350,
                         decoration: BoxDecoration(
                           color: Colors.greenAccent,
                           borderRadius: BorderRadius.circular(10)
@@ -350,9 +350,9 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             Center(child: Text("visibility", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold), )),
                             SizedBox(height: 20,),
-                            Text("15km", style: TextStyle(fontSize: 40),),
+                            Center(child: Text("15km", style: TextStyle(fontSize: 40),)),
                             SizedBox(height: 10,),
-                            Center(child: Text("It's Perfectly Clear Right Now", style: TextStyle(fontSize: 18),))
+                             Center(child: Text("It's Perfectly Clear Right Now", style: TextStyle(fontSize: 15),))
                           ],
                         ),
                       ),
