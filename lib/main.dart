@@ -371,10 +371,15 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Row(mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text("Report an Issu"),
+                          Text("Report an Issue", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.blueAccent),),
                         ],
                       ),
-                      Text("You can describe the curent condition at your location to help improve forecasts")
+                      SizedBox(height: 10,),
+                      Column(mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text("You can describe the curent condition at your location to help improve forecasts"),
+                        ],
+                      )
                     ],
                     ),
                   )
