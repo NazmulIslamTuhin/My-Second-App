@@ -424,10 +424,10 @@ class _MyHomePageState extends State<MyHomePage> {
                               Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
                                   children:[
                                     Center(child: Text(" PRECIPITATION", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
-                                    SizedBox( height: 50,),
+                                    SizedBox( height: 30,),
                                     Center(child: Text("0 mm", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
-                                    SizedBox(height: 30,),
-                                    Center(child: Text("SUNRISE: 5:50AM", style: TextStyle(color: Colors.black, fontSize: 12, fontWeight: FontWeight.bold),))
+                                    SizedBox(height: 20,),
+                                    Center(child: Text("None expected in next 10 days", style: TextStyle(color: Colors.black, fontSize: 12, fontWeight: FontWeight.bold),))
                                   ]),
                             ]),
 
