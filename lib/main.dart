@@ -306,7 +306,12 @@ class _MyHomePageState extends State<MyHomePage> {
                           Center(child: Text("Low", style: TextStyle(color: Colors.red, fontSize: 40,fontWeight: FontWeight.bold),)),
                           SizedBox(height: 20,),
 
-                          Text("Use sun protextion 9 am to 2pm", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
+                          Column(mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Center(child: Text("Use sun protextion", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),)),
+                              Text(" 9 am to 2pm",style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),),
+                            ],
+                          ),
                         ],
                         ),
                       ),
