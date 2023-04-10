@@ -352,7 +352,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             Center(child: Text("33°", style: TextStyle(color: Colors.red, fontSize: 35,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 10,),
 
-                            Text("Humidity is making it feel warmer", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
+                            Center(child: Text("Humidity is making it feel warmer", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),)),
                           ],
                         ),
                       ),
@@ -372,11 +372,11 @@ class _MyHomePageState extends State<MyHomePage> {
                             children:[
                               Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
                                   children:[
-                                    Center(child: Text("  SUNSET", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
-                                    SizedBox( height: 50,),
-                                    Center(child: Text("6:21 PM", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
+                                    Center(child: Text("  HUMIDITY", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
+                                    SizedBox( height: 20,),
+                                    Center(child: Text("39%", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 30,),
-                                    Center(child: Text("SUNRISE: 5:50AM", style: TextStyle(color: Colors.black, fontSize: 12, fontWeight: FontWeight.bold),))
+                                    Center(child: Text("The dew point is 17° right now", style: TextStyle(color: Colors.black, fontSize: 12, fontWeight: FontWeight.bold),))
                                   ]),
                             ]),
 
