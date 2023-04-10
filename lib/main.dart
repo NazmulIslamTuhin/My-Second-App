@@ -398,12 +398,12 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: const EdgeInsets.all(10),
                         child: Column(mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            Center(child: Text("UV INDEX", style: TextStyle(color: Colors.lightGreenAccent, fontSize: 20, fontWeight: FontWeight.bold),)),
+                            Center(child: Text("WIND", style: TextStyle(color: Colors.lightGreenAccent, fontSize: 20, fontWeight: FontWeight.bold),)),
                             SizedBox(height: 10,),
-                            Center(child: Text("Low", style: TextStyle(color: Colors.red, fontSize: 30,fontWeight: FontWeight.bold),)),
+                            Center(child: Text("", style: TextStyle(color: Colors.red, fontSize: 30,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 10,),
 
-                            Text("Use sun protextion 9 am to 2pm", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
+                            Text("", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
                           ],
                         ),
                       ),
@@ -423,9 +423,9 @@ class _MyHomePageState extends State<MyHomePage> {
                             children:[
                               Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
                                   children:[
-                                    Center(child: Text("  SUNSET", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
+                                    Center(child: Text(" PRECIPITATION", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
                                     SizedBox( height: 50,),
-                                    Center(child: Text("6:21 PM", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
+                                    Center(child: Text("0 mm", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 30,),
                                     Center(child: Text("SUNRISE: 5:50AM", style: TextStyle(color: Colors.black, fontSize: 12, fontWeight: FontWeight.bold),))
                                   ]),
