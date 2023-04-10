@@ -365,11 +365,12 @@ class _MyHomePageState extends State<MyHomePage> {
                                 Text("UV INDEX", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                               ],
                             ),
-                            SizedBox(height: 10,),
+                            SizedBox(height: 30,),
                             Center(child: Text("33°", style: TextStyle(color: Colors.red, fontSize: 35,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 10,),
 
-                            Center(child: Text("Humidity is making it feel warmer", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),)),
+                            Text("Humidity is making", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
+                            Text("it feel warmer", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: Colors.black),)
                           ],
                         ),
                       ),
