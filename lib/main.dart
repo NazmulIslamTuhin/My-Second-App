@@ -297,7 +297,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: const EdgeInsets.all(10),
                         child: Column(mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          Center(child: Text("UV INDEX", style: TextStyle(color: Colors.lightGreenAccent, fontSize: 20, fontWeight: FontWeight.bold),)),
+                          Text("UV INDEX", style: TextStyle(color: Colors.lightGreenAccent, fontSize: 15, fontWeight: FontWeight.bold),),
                           SizedBox(height: 10,),
                           Center(child: Text("Low", style: TextStyle(color: Colors.red, fontSize: 30,fontWeight: FontWeight.bold),)),
                           SizedBox(height: 10,),
