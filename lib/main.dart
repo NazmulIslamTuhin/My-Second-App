@@ -333,7 +333,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   children:[
                                     Row(mainAxisAlignment: MainAxisAlignment.start,
                                       children: [
-                                        Text("SUNSET", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                        Text("SUNSET", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                                       ],
                                     ),
                                     SizedBox( height: 50,),
