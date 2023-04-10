@@ -349,7 +349,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             Center(child: Text("UV INDEX", style: TextStyle(color: Colors.lightGreenAccent, fontSize: 20, fontWeight: FontWeight.bold),)),
                             SizedBox(height: 10,),
-                            Center(child: Text("Low", style: TextStyle(color: Colors.red, fontSize: 30,fontWeight: FontWeight.bold),)),
+                            Center(child: Text("33°", style: TextStyle(color: Colors.red, fontSize: 30,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 10,),
 
                             Text("Use sun protextion 9 am to 2pm", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
