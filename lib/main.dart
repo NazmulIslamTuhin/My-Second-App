@@ -331,7 +331,11 @@ class _MyHomePageState extends State<MyHomePage> {
                             children:[
                               Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
                                   children:[
-                                    Center(child: Text("  SUNSET", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
+                                    Row(mainAxisAlignment: MainAxisAlignment.start,
+                                      children: [
+                                        Text("SUNSET", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                      ],
+                                    ),
                                     SizedBox( height: 50,),
                                     Center(child: Text("6:21 PM", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 30,),
