@@ -396,8 +396,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                      ],
                                    ),
                                     SizedBox( height: 30,),
-                                    Center(child: Text("39%", style: TextStyle(color: Colors.yellow, fontSize: 35, fontWeight: FontWeight.bold,),)),
-                                    SizedBox(height: 20,),
+                                    Center(child: Text("39%", style: TextStyle(color: Colors.yellow, fontSize: 40, fontWeight: FontWeight.bold,),)),
+                                    SizedBox(height: 15,),
                                     Row(mainAxisAlignment: MainAxisAlignment.center,
                                       children: [
                                         Text("The dew point is", style: TextStyle(color: Colors.black, fontSize: 17, fontWeight: FontWeight.bold),),
