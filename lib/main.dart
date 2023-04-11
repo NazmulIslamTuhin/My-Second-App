@@ -403,7 +403,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                         Text("The dew point is", style: TextStyle(color: Colors.black, fontSize: 17, fontWeight: FontWeight.bold),),
                                       ],
                                     ),
-                                    Text("17° right now")
+                                    Text("17° right now", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: Colors.black),)
                                   ]),
                             ]),
 
