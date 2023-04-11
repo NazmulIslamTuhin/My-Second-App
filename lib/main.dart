@@ -390,8 +390,12 @@ class _MyHomePageState extends State<MyHomePage> {
                             children:[
                               Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
                                   children:[
-                                    Center(child: Text("  HUMIDITY", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),)),
-                                    SizedBox( height: 20,),
+                                   Row(mainAxisAlignment: MainAxisAlignment.start,
+                                     children: [
+                                       Text("  HUMIDITY", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
+                                     ],
+                                   ),
+                                    SizedBox( height: 25,),
                                     Center(child: Text("39%", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 30,),
                                     Center(child: Text("The dew point is 17° right now", style: TextStyle(color: Colors.black, fontSize: 12, fontWeight: FontWeight.bold),))
