@@ -427,12 +427,13 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             Center(child: Text("WIND", style: TextStyle(color: Colors.lightGreenAccent, fontSize: 20, fontWeight: FontWeight.bold),)),
                             SizedBox(height: 10,),
-                            Center(child: Text("", style: TextStyle(color: Colors.red, fontSize: 30,fontWeight: FontWeight.bold),)),
-                            SizedBox(height: 10,),
-
-                            Text("", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
+                            Center(child: Text("N", style: TextStyle(color: Colors.red, fontSize: 20,fontWeight: FontWeight.bold),)),
+                            SizedBox(height: 50,),
+                            Text("S", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
+                            Text("W")
                           ],
                         ),
+                        
                       ),
                       SizedBox(width: 10,),
 
@@ -456,7 +457,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     SizedBox(height: 10,),
                                     Text("in last 24h"),
                                     SizedBox(height: 20,),
-                                    Center(child: Text("None expected in next 10 days", style: TextStyle(color: Colors.black, fontSize: 12, fontWeight: FontWeight.bold),))
+                                    Center(child: Text("None expected in next 10 days", style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),))
                                   ]),
                             ]),
 
