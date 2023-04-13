@@ -366,7 +366,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               ],
                             ),
                             SizedBox(height: 30,),
-                            Center(child: Text("33°", style: TextStyle(color: Colors.red, fontSize: 35,fontWeight: FontWeight.bold),)),
+                            Center(child: Text("33°", style: TextStyle(color: Colors.red, fontSize: 40,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 10,),
 
                             Text("Humidity is making", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
