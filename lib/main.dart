@@ -455,7 +455,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             children:[
                               Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
                                   children:[
-                                    Center(child: Text(" PRECIPITATION", style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),)),
+                                    Center(child: Text(" PRECIPITATION", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),)),
                                     SizedBox( height: 20,),
                                     Center(child: Text("0 mm", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 10,),
