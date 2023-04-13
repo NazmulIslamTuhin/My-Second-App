@@ -435,8 +435,13 @@ class _MyHomePageState extends State<MyHomePage> {
                             SizedBox(height: 25,),
                             Row(mainAxisAlignment: MainAxisAlignment.start,
                               children: [
-                                Text("w", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,),),
-
+                                Text("  w", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,),),
+                                SizedBox(width: 100,),
+                                Row(mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text("E", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,),),
+                                  ],
+                                ),
                               ],
                             ),
                             SizedBox(height: 25,),
