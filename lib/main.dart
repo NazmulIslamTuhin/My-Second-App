@@ -367,7 +367,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             SizedBox(height: 30,),
                             Center(child: Text("33°", style: TextStyle(color: Colors.red, fontSize: 40,fontWeight: FontWeight.bold),)),
-                            SizedBox(height: 10,),
+                            SizedBox(height: 15,),
 
                             Text("Humidity is making", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
                             Text("it feel warmer", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: Colors.black),)
@@ -425,7 +425,11 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: const EdgeInsets.all(10),
                         child: Column(mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            Center(child: Text("WIND", style: TextStyle(color: Colors.lightGreenAccent, fontSize: 20, fontWeight: FontWeight.bold),)),
+                             Row(mainAxisAlignment: MainAxisAlignment.start,
+                               children: [
+                                 Text("WIND", style: TextStyle(color: Colors.lightGreenAccent, fontSize: 15, fontWeight: FontWeight.bold),),
+                               ],
+                             ),
                             SizedBox(height: 10,),
                             Center(child: Text("N", style: TextStyle(color: Colors.red, fontSize: 20,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 50,),
@@ -456,7 +460,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     Center(child: Text("0 mm", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 10,),
                                     Text("in last 24h"),
-                                    SizedBox(height: 20,),
+                                    SizedBox(height: 10,),
                                     Center(child: Text("None expected in next 10 days", style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),))
                                   ]),
                             ]),
