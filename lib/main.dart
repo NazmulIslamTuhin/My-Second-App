@@ -433,8 +433,12 @@ class _MyHomePageState extends State<MyHomePage> {
                             SizedBox(height: 10,),
                             Center(child: Text("N", style: TextStyle(color: Colors.red, fontSize: 20,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 50,),
-                            Text("S", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
-                            Text("W")
+
+                            Column(crossAxisAlignment: CrossAxisAlignment.end,
+                              children: [
+                                Text("S", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                              ],
+                            )
                           ],
                         ),
                         
