@@ -464,7 +464,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     Center(child: Text("0 mm", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 1,),
                                     Text("in last 24h"),
-                                    SizedBox(height: 20,),
+                                    SizedBox(height: 18,),
                                     Center(child: Text("None expected in", style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),)),
                                     Text("next 10 days", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold,),)
                                   ]),
