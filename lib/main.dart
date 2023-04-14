@@ -430,7 +430,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                  Text("WIND", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                                ],
                              ),
-                            SizedBox(height: 5,),
+                            SizedBox(height: 4,),
                             Center(child: Text("N", style: TextStyle(color: Colors.red, fontSize: 25,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 25,),
                             Row(mainAxisAlignment: MainAxisAlignment.start,
