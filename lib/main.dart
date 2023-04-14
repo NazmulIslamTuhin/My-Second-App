@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: SingleChildScrollView(
              child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  SizedBox(height: 30,),
+                  SizedBox(height: 20,),
                   Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text("Rajshahi", style: TextStyle(color: Colors.black, fontSize: 40, fontStyle: FontStyle.italic),
@@ -392,10 +392,10 @@ class _MyHomePageState extends State<MyHomePage> {
                                   children:[
                                     Row(mainAxisAlignment: MainAxisAlignment.start,
                                      children: [
-                                       Text("  HUMIDITY", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
+                                       Text("HUMIDITY", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                                      ],
                                    ),
-                                    SizedBox( height: 30,),
+                                    SizedBox( height: 35,),
                                     Center(child: Text("39%", style: TextStyle(color: Colors.yellow, fontSize: 40, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 15,),
                                     Row(mainAxisAlignment: MainAxisAlignment.center,
