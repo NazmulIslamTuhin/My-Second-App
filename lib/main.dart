@@ -431,7 +431,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                ],
                              ),
                             SizedBox(height: 10,),
-                            Center(child: Text("N", style: TextStyle(color: Colors.red, fontSize: 20,fontWeight: FontWeight.bold),)),
+                            Center(child: Text("N", style: TextStyle(color: Colors.red, fontSize: 25,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 25,),
                             Row(mainAxisAlignment: MainAxisAlignment.start,
                               children: [
@@ -439,16 +439,16 @@ class _MyHomePageState extends State<MyHomePage> {
                                 SizedBox(width: 100,),
                                 Row(mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Text("E", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold, color: Colors.purpleAccent),),
+                                    Text("E", style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold, color: Colors.purpleAccent),),
                                   ],
                                 ),
                               ],
                             ),
-                            SizedBox(height: 25,),
+                            SizedBox(height: 20,),
 
                             Column(crossAxisAlignment: CrossAxisAlignment.end,
                               children: [
-                                Text("S", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                                Text("S", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
                               ],
                             )
                           ],
