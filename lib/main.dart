@@ -271,7 +271,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(height: 30,),
                   Container(
                     height: 150,
-                    width: 400,
+                    width: 350,
                     decoration: BoxDecoration(
                       color: Colors.black,
                       borderRadius: BorderRadius.circular(10)
