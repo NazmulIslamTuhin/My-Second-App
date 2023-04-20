@@ -439,7 +439,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 SizedBox(width: 100,),
                                 Row(mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Text("E", style: TextStyle(fontSize: 2,fontWeight: FontWeight.bold, color: Colors.purpleAccent),),
+                                    Text("E", style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold, color: Colors.purpleAccent),),
                                   ],
                                 ),
                               ],
