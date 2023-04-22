@@ -448,7 +448,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                             Column(crossAxisAlignment: CrossAxisAlignment.end,
                               children: [
-                                Text("S", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
+                                Text("S", style: TextStyle(fontSize: 2, fontWeight: FontWeight.bold),),
                               ],
                             )
                           ],
