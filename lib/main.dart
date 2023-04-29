@@ -543,6 +543,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                     ),
                   ),
+                  SizedBox(height: 10,),
                   Container(
                     height: 300,
                     width: 500,
