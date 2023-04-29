@@ -232,7 +232,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ]),
 
                   ),
-                  SizedBox(height: 0.5,),
+                  SizedBox(height: 3,),
 
                   Container(
                     height: 50,
