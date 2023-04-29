@@ -543,20 +543,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                     ),
                   ),
-                  SizedBox(height: 10,),
-                  Container(
-                    height: 300,
-                    width: 500,
-                    decoration: BoxDecoration(
-                      color: Colors.red,
-                      borderRadius: BorderRadius.circular(10),
-                      image: DecorationImage(
-                        image: AssetImage("photo-1537147347432-676815edd56c.jpg"),
-                        fit: BoxFit.cover,
-                      )
-                    ),
-                  )
-
 
 
 
