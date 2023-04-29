@@ -157,7 +157,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ),Text("28°--38°", style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold),),
                               ]),
                         ]),),
-                  SizedBox(height: 0.5,),
+                  SizedBox(height: 3,),
                   Container(
                     height: 50,
                     width: 350,
