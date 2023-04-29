@@ -71,11 +71,10 @@ class _MyHomePageState extends State<MyHomePage> {
             child: SingleChildScrollView(
              child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  // Image.asset("photo-1537147347432-676815edd56c.jpg"),
                   SizedBox(height: 20,),
                   Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Rajshahi", style: TextStyle(color: Colors.black, fontSize: 40, fontStyle: FontStyle.italic),
+                      Text("Rajshahi", style: TextStyle(color: Colors.white70, fontSize: 40, fontStyle: FontStyle.italic),
                       ),
                     ],
                   ),
