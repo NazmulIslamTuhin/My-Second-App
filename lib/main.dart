@@ -65,6 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: SingleChildScrollView(
              child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
+                  // Image.asset("photo-1537147347432-676815edd56c.jpg"),
                   SizedBox(height: 20,),
                   Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: [
