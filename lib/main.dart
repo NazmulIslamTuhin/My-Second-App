@@ -226,7 +226,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children:[
                           Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children:[
-                                Center(child: Text("Wednesday", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                Center(child: Text("Wednesday", style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold),),
                                 ),Text("33°--33°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
                               ]),
                         ]),
