@@ -516,6 +516,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ],
                   ),
+
                   SizedBox(height: 10,),
                   Container(
                     height: 150,
@@ -542,6 +543,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                     ),
                   ),
+                  Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage("assets/photo-1537147347432-676815edd56c.jpg"),
+                        fit: BoxFit.cover,
+                      )
+                    ),
+                  )
 
 
 
