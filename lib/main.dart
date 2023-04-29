@@ -60,7 +60,13 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(title: Center(child: Text("Weather", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),)),),
-        body: Padding(
+        body: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/ba2ab2452a9eef11fbcf08731797295e.jpg"), fit: BoxFit.cover
+            ),
+          ),
+          child: Padding(
             padding: const EdgeInsets.all(15),
             child: SingleChildScrollView(
              child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center,
@@ -454,7 +460,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             )
                           ],
                         ),
-                        
+
                       ),
                       SizedBox(width: 10,),
 
@@ -553,7 +559,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
                 ],
               ),
-            )
+            ),
+          ),
         ),
       ),
     );
