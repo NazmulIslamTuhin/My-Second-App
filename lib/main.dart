@@ -208,7 +208,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children:[
                                 Center(child: Text("Tuesday", style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold),),
-                                ),Text("28°--33°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                ),Text("28°--33°", style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold),),
                               ]),
                         ]),),
                   SizedBox(height: 0.5,),
