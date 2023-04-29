@@ -123,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 50,
                     width: 350,
                     decoration: BoxDecoration(
-                        color: Colors.black12,
+                        color: Colors.black,
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
@@ -132,8 +132,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         children:[
                           Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children:[
-                                Center(child: Text("Today", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
-                                ),Text("31°--35°", style: TextStyle(color: Colors.black, fontSize: 20, fontWeight: FontWeight.bold),),
+                                Center(child: Text("Today", style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold),),
+                                ),Text("31°--35°", style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold),),
                               ]),
                         ]),
 
