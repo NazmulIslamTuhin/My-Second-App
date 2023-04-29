@@ -444,6 +444,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                ],
                              ),
                             SizedBox(height: 4,),
+
                             Center(child: Text("N", style: TextStyle(color: Colors.red, fontSize: 25,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 25,),
                             Row(mainAxisAlignment: MainAxisAlignment.start,
