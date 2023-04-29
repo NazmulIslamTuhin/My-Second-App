@@ -258,7 +258,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 50,
                     width: 350,
                     decoration: BoxDecoration(
-                        color: Colors.black12,
+                        color: Colors.black,
                         borderRadius: BorderRadius.circular(10)
                     ),
                     padding: const EdgeInsets.all(10),
