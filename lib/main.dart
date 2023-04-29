@@ -519,9 +519,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: EdgeInsets.all(10),
                         child: Column(mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            Center(child: Text("Visibility", style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold), )),
+                            Center(child: Text("Visibility", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold), )),
                             SizedBox(height: 15,),
-                            Center(child: Text("15km", style: TextStyle(fontSize: 40, color: Colors.white,),)),
+                            Center(child: Text("15km", style: TextStyle(fontSize: 45, color: Colors.white,),)),
                             SizedBox(height: 10,),
                              Center(child: Text("It's Perfectly Clear Right Now", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),))
                           ],
