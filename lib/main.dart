@@ -543,10 +543,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Row(mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text("Report an Issue", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black),),
+                          Text("Report an Issue", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold, color: Colors.red, fontStyle: FontStyle.italic),),
                         ],
                       ),
-                      SizedBox(height: 2,),
+                      SizedBox(height: 25,),
                       Row(crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Center(child: Text("You can describe the curent condition at your", style: TextStyle(fontSize: 16, color: Colors.blueAccent, fontWeight: FontWeight.bold),)),
