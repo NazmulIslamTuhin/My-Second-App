@@ -378,8 +378,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                 Text("UV INDEX", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                               ],
                             ),
-                            SizedBox(height: 30,),
-                            Center(child: Text("33°", style: TextStyle(color: Colors.red, fontSize: 40,fontWeight: FontWeight.bold),)),
+                            SizedBox(height: 25,),
+                            Center(child: Text("33°", style: TextStyle(color: Colors.red, fontSize: 50,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 15,),
 
                             Text("Humidity is making", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
