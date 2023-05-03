@@ -433,7 +433,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 170,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage("assets/3158174.png"),fit: BoxFit.fitHeight
+                            image: AssetImage("assets/3158174.png"),fit: BoxFit.contain
                           ),
                             color: Colors.blue,
                             borderRadius: BorderRadius.circular(10)
@@ -443,7 +443,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                              Row(mainAxisAlignment: MainAxisAlignment.start,
                                children: [
-                                 Text("WIND", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
+                                 Text("WIND", style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),),
                                ],
                              ),
                             SizedBox(height: 4,),
