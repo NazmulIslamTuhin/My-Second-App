@@ -432,6 +432,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         height: 180,
                         width: 170,
                         decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: AssetImage("assets/3158174.png"),fit: BoxFit.cover
+                          ),
                             color: Colors.blue,
                             borderRadius: BorderRadius.circular(10)
                         ),
