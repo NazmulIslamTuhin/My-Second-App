@@ -443,10 +443,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                              Row(mainAxisAlignment: MainAxisAlignment.start,
                                children: [
-                                 Text("WIND", style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),),
+                                 Text("WIND", style: TextStyle(color: Colors.black, fontSize: 17, fontWeight: FontWeight.bold),),
                                ],
                              ),
-                            SizedBox(height: 4,),
+
 
                             Center(child: Text("N", style: TextStyle(color: Colors.red, fontSize: 25,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 25,),
