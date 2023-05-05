@@ -435,7 +435,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           image: DecorationImage(
                             image: AssetImage("assets/3158174.png"),fit: BoxFit.cover
                           ),
-                            color: Colors.blue,
+                            color: Colors.white70,
                             borderRadius: BorderRadius.circular(10)
                         ),
                         padding: const EdgeInsets.all(10),
