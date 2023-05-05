@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("21°", style: TextStyle( color: Colors.black,  fontSize: 80,),),
+                      Text("29°", style: TextStyle( color: Colors.black,  fontSize: 80,),),
                     ],
                   ),
                   SizedBox(height: 5,),
@@ -449,7 +449,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
                             Center(child: Text("N", style: TextStyle(color: Colors.red, fontSize: 25,fontWeight: FontWeight.bold),)),
-                            SizedBox(height: 20,),
+                            SizedBox(height: 15,),
                             Row(mainAxisAlignment: MainAxisAlignment.start,
                               children: [
                                 Text("  W", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold, color: Colors.yellowAccent),),
