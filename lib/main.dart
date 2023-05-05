@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: const EdgeInsets.all(10),
                     child: Center(child: const Text("10-day Forecast", style: TextStyle(color: Colors.white70, fontSize: 15, fontWeight: FontWeight.bold),)),
                   ),
-                  SizedBox(height: 12,),
+                  SizedBox(height: 5,),
                   Container(
                     height: 50,
                     width: 350,
@@ -379,7 +379,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               ],
                             ),
                             SizedBox(height: 25,),
-                            Center(child: Text("33°", style: TextStyle(color: Colors.red, fontSize: 50,fontWeight: FontWeight.bold),)),
+                            Center(child: Text("33°", style: TextStyle(color: Colors.greenAccent, fontSize: 50,fontWeight: FontWeight.bold),)),
                             SizedBox(height: 15,),
 
                             Text("Humidity is making", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),),
