@@ -408,7 +408,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                        Text("HUMIDITY", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                                      ],
                                    ),
-                                    SizedBox( height: 30,),
+                                    SizedBox( height: 20,),
                                     Center(child: Text("39%", style: TextStyle(color: Colors.yellow, fontSize: 50, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 15,),
                                     Row(mainAxisAlignment: MainAxisAlignment.center,
