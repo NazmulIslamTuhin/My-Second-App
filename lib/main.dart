@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
 
 
-                    child:const Text ("Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
+                    child:const Text ("3Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
                       style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold, ),),
                   ),
                   SizedBox(height: 20,),
@@ -340,7 +340,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         padding: const EdgeInsets.all(10),
                         child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.start,
                             children:[
                               Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
                                   children:[
@@ -349,9 +349,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                         Text("SUNSET", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                                       ],
                                     ),
-                                    SizedBox( height: 30,),
-                                    Center(child: Text("6:21 PM", style: TextStyle(color: Colors.white, fontSize: 35, fontWeight: FontWeight.bold,),)),
-                                    SizedBox(height: 45,),
+                                    SizedBox( height: 15,),
+                                    Center(child: Text("6:21 PM", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold,),)),
+                                    SizedBox(height: 20,),
                                     Center(child: Text("SUNRISE: 5:50AM", style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.bold),))
                                   ]),
                             ]),
