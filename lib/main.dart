@@ -399,7 +399,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         padding: const EdgeInsets.all(10),
                         child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.start,
                             children:[
                               Column(mainAxisAlignment: MainAxisAlignment.spaceAround ,
                                   children:[
@@ -408,9 +408,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                        Text("HUMIDITY", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                                      ],
                                    ),
-                                    SizedBox( height: 20,),
+                                    SizedBox( height: 25,),
                                     Center(child: Text("39%", style: TextStyle(color: Colors.yellow, fontSize: 50, fontWeight: FontWeight.bold,),)),
-                                    SizedBox(height: 15,),
+                                    SizedBox(height: 10,),
                                     Row(mainAxisAlignment: MainAxisAlignment.center,
                                       children: [
                                         Text("The dew point is", style: TextStyle(color: Colors.black, fontSize: 17, fontWeight: FontWeight.bold),),
