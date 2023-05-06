@@ -493,7 +493,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                         Text(" PRECIPITATION", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                                       ],
                                     ),
-                                    SizedBox( height: 17,),
+                                    SizedBox( height: 10,),
                                     Center(child: Text("0 mm", style: TextStyle(color: Colors.white, fontSize: 45, fontWeight: FontWeight.bold,),)),
                                     SizedBox(height: 1,),
                                     Text("in last 24h"),
