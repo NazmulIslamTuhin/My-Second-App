@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return SafeArea(
       child: Scaffold(
-
+        backgroundColor: Colors.white,
         appBar: AppBar(title: Center(child: Text("Weather", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),)),),
         body: Container(
           decoration: BoxDecoration(
