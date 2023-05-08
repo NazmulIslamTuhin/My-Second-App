@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Row(mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("29°", style: TextStyle( color: Colors.black,  fontSize: 80,),),
+                      Text("29°", style: TextStyle( color: Colors.white,  fontSize: 80,),),
                     ],
                   ),
                   SizedBox(height: 5,),
