@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
 
 
-                    child:const Text ("3Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
+                    child:const Text ("Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
                       style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold, ),),
                   ),
                   SizedBox(height: 20,),
