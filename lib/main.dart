@@ -433,7 +433,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 170,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage("assets/3158174.png"),fit: BoxFit.cover
+                            image: AssetImage("assets/compas-icon-isolated-on-background-260nw-1452103889.webp"),fit: BoxFit.cover
                           ),
                             color: Colors.white70,
                             borderRadius: BorderRadius.circular(10)
