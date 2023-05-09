@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Text("Mostly clear", style: TextStyle(color: Colors.black,fontSize: 30),),
                   ],),
                   // Text(" Mostly Clear", style: TextStyle(color: Colors.black, fontSize: 30,),),
-                  Text("H:31°  L:19°", style: TextStyle(color: Colors.black, fontSize: 30,),),
+                  Text("H:31°  L:19°", style: TextStyle(color: Colors.white, fontSize: 30,),),
                   SizedBox(height: 40,),
 
                   Container(
