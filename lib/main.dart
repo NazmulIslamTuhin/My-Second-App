@@ -296,7 +296,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ],
                   ),
-                  SizedBox(height: 10,),
+                  SizedBox(height: 15,),
 
                   Row(mainAxisAlignment: MainAxisAlignment.start,
                     children: [
