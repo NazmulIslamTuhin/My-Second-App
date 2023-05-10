@@ -552,7 +552,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       SizedBox(height: 25,),
                       Row(crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Center(child: Text("You can describe the curent condition at your", style: TextStyle(fontSize: 16, color: Colors.blueAccent, fontWeight: FontWeight.bold),)),
+                          Center(child: Text("You can describe the curent condition at your ", style: TextStyle(fontSize: 16, color: Colors.blueAccent, fontWeight: FontWeight.bold),)),
                         ],
                       ),
                       Text("Location to help improve Forecasts", style: TextStyle(fontSize:15, color: Colors.blueAccent, fontWeight: FontWeight.bold),)
