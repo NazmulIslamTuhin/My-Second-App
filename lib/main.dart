@@ -546,7 +546,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Row(mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text("Report an Issue ", style: TextStyle(fontSize: 25,  color: Colors.red, fontStyle: FontStyle.italic),),
+                          Text("Report an Issue", style: TextStyle(fontSize: 25,  color: Colors.red, fontStyle: FontStyle.italic),),
                         ],
                       ),
                       SizedBox(height: 25,),
