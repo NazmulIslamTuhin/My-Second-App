@@ -359,7 +359,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ],
                   ),
-                  SizedBox(height: 10,),
+                  SizedBox(height: 8,),
                   // ************************
                   Row(mainAxisAlignment: MainAxisAlignment.start,
                     children: [
