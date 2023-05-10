@@ -267,7 +267,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children:[
                           Row(mainAxisAlignment: MainAxisAlignment.spaceAround ,
                               children:[
-                                 Center(child: Text("  Friday", style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold),)),
+                                 Center(child: Text("Friday", style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold),)),
                                 Center(child: Text("28°--31°", style: TextStyle(color: Colors.white70, fontSize: 20, fontWeight: FontWeight.bold,),)),
                               ]),
                         ]),
@@ -315,7 +315,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               Text("UV INDEX", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                             ],
                           ),
-                          SizedBox(height: 30,),
+                          SizedBox(height: 25,),
                           Center(child: Text("Low", style: TextStyle(color: Colors.red, fontSize: 35,fontWeight: FontWeight.bold),)),
                           SizedBox(height: 25,),
 
