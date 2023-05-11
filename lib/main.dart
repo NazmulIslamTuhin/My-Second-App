@@ -490,7 +490,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   children:[
                                     Row(mainAxisAlignment: MainAxisAlignment.start,
                                       children: [
-                                        Text(" PRECIPITATION", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
+                                        Text("PRECIPITATION", style: TextStyle(color: Colors.black54, fontSize: 15, fontWeight: FontWeight.bold),),
                                       ],
                                     ),
                                     SizedBox( height: 10,),
