@@ -524,7 +524,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             Center(child: Text("Visibility", style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold), )),
                             SizedBox(height: 15,),
-                            Center(child: Text("15km gfcaddhhaaa", style: TextStyle(fontSize: 45, color: Colors.white,),)),
+                            Center(child: Text("15km gfcaddhhaaah", style: TextStyle(fontSize: 45, color: Colors.white,),)),
                             SizedBox(height: 10,),
                              Center(child: Text("It's Perfectly Clear Right Now", style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),))
                           ],
