@@ -954,7 +954,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             Text(
                               "Report an Issue",
                               style: TextStyle(
-                                  fontSize:  25,
+                                  fontSize: 25,
                                   color: Colors.red,
                                   fontStyle: FontStyle.italic),
                             ),
