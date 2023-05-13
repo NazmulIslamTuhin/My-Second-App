@@ -952,7 +952,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              "Report an Issue fshevbrjqwnbmlkjhgffdsapiuyt",
+                              "Report an Issue fshevbrjqwnbmlkjhgffdsapiuytr",
                               style: TextStyle(
                                   fontSize: 25,
                                   color: Colors.red,
