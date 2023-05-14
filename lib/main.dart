@@ -65,8 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
         body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-                image:
-                    AssetImage("assets/ba2ab2452a9eef11fbcf08731797295e.jpg"),
+                image: AssetImage("assets/ba2ab2452a9eef11fbcf08731797295e.jpg"),
                 fit: BoxFit.cover),
           ),
           child: Padding(
@@ -81,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
+                    children:  [
                       Text(
                         "Rajshahi",
                         style: TextStyle(
@@ -145,8 +144,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                   SizedBox(
-                    height: 20,
-                  ),
+                    height: 20),
+
                   Container(
                     height: 40,
                     width: 350,
@@ -216,7 +215,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               children: [
                                 Center(
                                   child: Text(
-                                    "Saturday",
+                                    "Saturday ",
                                     style: TextStyle(
                                         color: Colors.white70,
                                         fontSize: 20,
@@ -493,10 +492,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             borderRadius: BorderRadius.circular(10)),
                         padding: const EdgeInsets.all(10),
                         child: Column(
-                          mainAxisAlignment: MainAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Row(
-                              mainAxisAlignment: MainAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
                                   "UV INDEX",
