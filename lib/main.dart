@@ -456,7 +456,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         decoration: BoxDecoration(
                             image: DecorationImage(
                                 image: AssetImage(
-                                    "assets/300px-Map_of_Rajshahi_Division.jpg"),
+                                    "assets/300px-Map_of_Rajshahi_Division.png"),
                                 fit: BoxFit.cover),
                             color: Colors.black,
                             borderRadius: BorderRadius.circular(10)),
