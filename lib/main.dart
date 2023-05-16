@@ -456,7 +456,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         decoration: BoxDecoration(
                             image: DecorationImage(
                                 image: AssetImage(
-                                    "assets/photo-1537147347432-676815edd56c.jpg"),
+                                    "assets/img.png"),
                                 fit: BoxFit.cover),
                             color: Colors.black,
                             borderRadius: BorderRadius.circular(10)),
