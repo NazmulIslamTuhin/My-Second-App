@@ -215,7 +215,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               children: [
                                 Center(
                                   child: Text(
-                                    "Saturday ",
+                                    "Saturday",
                                     style: TextStyle(
                                         color: Colors.white70,
                                         fontSize: 20,
