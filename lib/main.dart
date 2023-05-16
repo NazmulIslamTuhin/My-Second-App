@@ -448,7 +448,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 30,
                   ),
                   Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
                         height: 150,
@@ -462,10 +462,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             borderRadius: BorderRadius.circular(10)),
                         padding: const EdgeInsets.all(10),
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Text(
-                              "PRECIPITATION",
+                              "PRECIPITATION.",
                               style: TextStyle(
                                 color: Colors.redAccent,
                                 fontSize: 15,
