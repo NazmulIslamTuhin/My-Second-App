@@ -465,7 +465,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              "PRECIPITATION.",
+                              "PRECIPITATION",
                               style: TextStyle(
                                 color: Colors.redAccent,
                                 fontSize: 15,
