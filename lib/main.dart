@@ -452,7 +452,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Container(
                         height: 150,
-                        width: 360,
+                        width: 350,
                         decoration: BoxDecoration(
                             image: DecorationImage(
                                 image: AssetImage(
