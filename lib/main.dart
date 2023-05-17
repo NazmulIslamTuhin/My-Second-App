@@ -471,7 +471,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                 fontSize: 15,
                                 fontWeight: FontWeight.bold,
                               ),
-                            )
+                            ),
+                            Text("testing", style: TextStyle(color: Colors.red, fontSize: 20, fontWeight: FontWeight.bold),)
                           ],
                         ),
                       ),
