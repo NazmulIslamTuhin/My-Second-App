@@ -458,7 +458,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 image: AssetImage(
                                     "assets/300px-Map_of_Rajshahi_Division.png"),
                                 fit: BoxFit.cover),
-                            color: Colors.black,
+                            color: Colors.white70,
                             borderRadius: BorderRadius.circular(10)),
                         padding: const EdgeInsets.all(10),
                         child: Column(
