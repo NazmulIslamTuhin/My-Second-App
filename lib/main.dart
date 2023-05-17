@@ -740,7 +740,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 170,
                         decoration: BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage("assets/3158174.png"),
+                                image: AssetImage("assets/Screenshot 2023-05-17 060611.png"),
                                 fit: BoxFit.cover),
                             color: Colors.white70,
                             borderRadius: BorderRadius.circular(10)),
