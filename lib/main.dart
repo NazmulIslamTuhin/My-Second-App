@@ -468,7 +468,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               "PRECIPITATION",
                               style: TextStyle(
                                 backgroundColor: Colors.white70,
-                                color: Colors.redAccent,
+                                color: Colors.black,
                                 fontSize: 15,
                                 fontWeight: FontWeight.bold,
                               ),
