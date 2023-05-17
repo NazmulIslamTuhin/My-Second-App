@@ -472,7 +472,11 @@ class _MyHomePageState extends State<MyHomePage> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            Text("testing", style: TextStyle(color: Colors.red,),)
+                            Center(child: Column(mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text("testing", style: TextStyle(color: Colors.red, fontSize: 20,),),
+                              ],
+                            ))
                           ],
                         ),
                       ),
