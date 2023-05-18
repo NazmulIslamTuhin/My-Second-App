@@ -475,7 +475,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             Center(child: Column(mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text("Cloudy", style: TextStyle(color: Colors.deepOrangeAccent, fontSize: 20,),),
+                                Text("Cloudy", style: TextStyle(color: Colors.red, fontSize: 20,),),
                               ],
                             ))
                           ],
