@@ -458,7 +458,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 image: AssetImage(
                                     "assets/Screenshot 2023-05-17 060611.png"),
                                 fit: BoxFit.cover),
-                            color: Colors.white70,
+                            // color: Colors.red,
                             borderRadius: BorderRadius.circular(10)),
                         padding: const EdgeInsets.all(10),
                         child: Column(
@@ -467,7 +467,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             Text(
                               "PRECIPITATION",
                               style: TextStyle(
-                                backgroundColor: Colors.cyan,
+                                backgroundColor: Colors.yellow,
                                 color: Colors.black87,
                                 fontSize: 15,
                                 fontWeight: FontWeight.bold,
