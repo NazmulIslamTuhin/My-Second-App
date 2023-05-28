@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        "Mostly clear",
+                        "Mostly c lear",
                         style: TextStyle(color: Colors.black, fontSize: 30),
                       ),
                     ],
