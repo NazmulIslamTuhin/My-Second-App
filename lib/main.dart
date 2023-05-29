@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: Center(
               child: Text(
-            "Weather ",
+            "Weather",
             style: TextStyle(
                 color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),
           )),
