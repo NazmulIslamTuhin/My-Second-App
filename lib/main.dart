@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children:  [
                       Text(
-                        "Rajshahi",
+                        "Rajshahin  ",
                         style: TextStyle(
                             color: Colors.white70,
                             fontSize: 40,
