@@ -987,6 +987,13 @@ class _MyHomePageState extends State<MyHomePage> {
                               fontSize: 15,
                               color: Colors.blueAccent,
                               fontWeight: FontWeight.bold),
+                        ),
+                        Container(
+                          height: 50,
+                          width: 40,
+                          decoration: BoxDecoration(
+                            color: Colors.red
+                          ),
                         )
                       ],
                     ),
