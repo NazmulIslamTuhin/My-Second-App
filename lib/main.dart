@@ -1010,7 +1010,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 100,
                     width: 350,
                     decoration: BoxDecoration(
-                      color: Colors.red
+                      color: Colors.red,
+                      borderRadius: BorderRadius.circular(10),
                     ),
                   )
                 ],
