@@ -988,23 +988,31 @@ class _MyHomePageState extends State<MyHomePage> {
                               color: Colors.blueAccent,
                               fontWeight: FontWeight.bold),
                         ),
-                        SizedBox(
-                          height: 20,
-                        ),
-                        Column(mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Container(
-                              height: 50,
-                              width: 400,
-                              decoration: BoxDecoration(
-                                color: Colors.red
-                              ),
-                            ),
-                          ],
-                        )
+                        // SizedBox(
+                        //   height: 20,
+                        // ),
+                        // Column(mainAxisAlignment: MainAxisAlignment.center,
+                        //   children: [
+                        //     Container(
+                        //       height: 50,
+                        //       width: 400,
+                        //       decoration: BoxDecoration(
+                        //         color: Colors.red
+                        //       ),
+                        //     ),
+                        //   ],
+                        // )
                       ],
                     ),
                   ),
+                  SizedBox(height: 20,),
+                  Container(
+                    height: 100,
+                    width: 200,
+                    decoration: BoxDecoration(
+                      color: Colors.red
+                    ),
+                  )
                 ],
               ),
             ),
