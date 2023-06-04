@@ -997,14 +997,14 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 200,
                     width: 350,
                     decoration: BoxDecoration(
-                      color: Colors.greenAccent,
+                      color: Colors.teal,
                       borderRadius: BorderRadius.circular(11),
                     ),
                     child: Column(mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Row(mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text("This is a new container", style: TextStyle(color: Colors.red, fontSize: 20, fontWeight: FontWeight.bold,),),
+                          Text("This is a new container", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold,),),
                         ],
                         ),
                         
