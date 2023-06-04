@@ -997,7 +997,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 200,
                     width: 350,
                     decoration: BoxDecoration(
-                      color: Colors.teal,
+                      color: Colors.teal[400],
                       borderRadius: BorderRadius.circular(11),
                     ),
                     child: Column(mainAxisAlignment: MainAxisAlignment.center,
