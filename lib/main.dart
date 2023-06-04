@@ -1000,6 +1000,18 @@ class _MyHomePageState extends State<MyHomePage> {
                       color: Colors.greenAccent,
                       borderRadius: BorderRadius.circular(11),
                     ),
+                    child: Column(mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Row(mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text("This is a new container", style: TextStyle(color: Colors.red, fontSize: 10, fontWeight: FontWeight.bold,),),
+                        ],
+                        ),
+                        
+                      ],
+
+                    ),
+
                   )
                 ],
               ),
