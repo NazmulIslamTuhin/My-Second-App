@@ -982,7 +982,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ],
                         ),
                         Text(
-                          "Location to help improve Forecasts",
+                          "Location to help improve Forecasts ",
                           style: TextStyle(
                               fontSize: 15,
                               color: Colors.blueAccent,
