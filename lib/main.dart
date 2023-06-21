@@ -973,7 +973,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             Center(
                                 child: Text(
-                              "You can describe the curent conditionat your",
+                              "You can describe the curent condition at your",
                               style: TextStyle(
                                   fontSize: 16,
                                   color: Colors.blueAccent,
