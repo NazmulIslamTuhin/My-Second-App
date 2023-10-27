@@ -1004,7 +1004,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Row(mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text("After Long Day", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold,),),
+                          Text("After Long Day", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold,),),
                         ],
                         ),
                         
