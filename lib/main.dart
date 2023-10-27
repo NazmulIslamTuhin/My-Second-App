@@ -1004,7 +1004,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Row(mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text("This is a New Daynamic Container", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold,),),
+                          Text("After Long Day", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold,),),
                         ],
                         ),
                         
