@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
       home: const MyHomePage(title: 'Weather'),
     );
@@ -1004,7 +1004,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Row(mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text("After Long Day", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold,),),
+                          Text("New Container", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold,),),
                         ],
                         ),
                         
