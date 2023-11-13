@@ -62,12 +62,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),
           )),
         ),
+
+
         body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
                 image: AssetImage("assets/ba2ab2452a9eef11fbcf08731797295e.jpg"),
-                fit: BoxFit.cover),
-          ),
+                fit: BoxFit.cover),),
           child: Padding(
             padding: const EdgeInsets.all(15),
             child: SingleChildScrollView(
@@ -197,9 +198,10 @@ class _MyHomePageState extends State<MyHomePage> {
                               ]),
                         ]),
                   ),
+
                   SizedBox(
-                    height: 3,
-                  ),
+                    height: 3,),
+
                   Container(
                     height: 50,
                     width: 350,
