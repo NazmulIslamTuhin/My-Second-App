@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: Center(
               child: Text(
-            "Tuhin",
+            "Weather",
             style: TextStyle(
                 color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),
           )),
