@@ -865,11 +865,11 @@ class _MyHomePageState extends State<MyHomePage> {
                                         fontWeight: FontWeight.bold,
                                       ),
                                     )),
-                                    SizedBox(
+                                    const SizedBox(
                                       height: 1,
                                     ),
                                     Text("in last 24h"),
-                                    SizedBox(
+                                    const SizedBox(
                                       height: 15,
                                     ),
                                     Center(
@@ -880,7 +880,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                           fontSize: 15,
                                           fontWeight: FontWeight.bold),
                                     )),
-                                    Text(
+                                    const Text(
                                       "next 10 days",
                                       style: TextStyle(
                                         fontSize: 15,
@@ -894,7 +894,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   // *************************2
 
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
                   Row(
@@ -909,7 +909,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: EdgeInsets.all(10),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
+                          children: const [
                             Center(
                                 child: Text(
                               "Visibility",
@@ -995,26 +995,23 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
 
                   SizedBox(height: 20,),
-                  Container(
-                    height: 200,
-                    width: 350,
-                    decoration: BoxDecoration(
-                      color: Colors.teal,
-                      borderRadius: BorderRadius.circular(11),
-                    ),
-                    child: Column(mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Row(mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text("New Container", style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold,),),
-                        ],
-                        ),
-                        
-                      ],
+                 Container(
+                   height: 200,
+                   width: 350,
+                   decoration: BoxDecoration(
+                     color: Colors.teal,
+                     borderRadius: BorderRadius.circular(11),
+                   ),
+                   child: Column(mainAxisAlignment: MainAxisAlignment.center,
+                   children: [
+                     Row(mainAxisAlignment: MainAxisAlignment.center,
+                       children: [
+                         Text("New container", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),),
+                       ],
+                     )
+                   ],),
 
-                    ),
-
-                  )
+                 )
                 ],
               ),
             ),
