@@ -1002,14 +1002,15 @@ class _MyHomePageState extends State<MyHomePage> {
                      color: Colors.teal,
                      borderRadius: BorderRadius.circular(11),
                    ),
-                   child: Column(mainAxisAlignment: MainAxisAlignment.center,
-                   children: [
-                     Row(mainAxisAlignment: MainAxisAlignment.center,
-                       children: [
-                         Text("New container", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),),
-                       ],
-                     )
+                   padding: EdgeInsets.all(8),
+                   child: Column(crossAxisAlignment: CrossAxisAlignment.center,
+                   children: const [
+                     Text("Heading",style: TextStyle(fontSize: 50),),
+                     SizedBox(height: 11,),
+
+                     Text("Body", style: TextStyle(fontSize: 40, color: Colors.redAccent),)
                    ],),
+
 
                  )
                 ],
