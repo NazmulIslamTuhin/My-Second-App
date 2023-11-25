@@ -843,7 +843,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     Row(
                                       mainAxisAlignment:
                                           MainAxisAlignment.start,
-                                      children: [
+                                      children: const [
                                         Text(
                                           "PRECIPITATION",
                                           style: TextStyle(
@@ -853,10 +853,10 @@ class _MyHomePageState extends State<MyHomePage> {
                                         ),
                                       ],
                                     ),
-                                    SizedBox(
+                                    const SizedBox(
                                       height: 10,
                                     ),
-                                    Center(
+                                    const Center(
                                         child: Text(
                                       "0 mm",
                                       style: TextStyle(
@@ -872,7 +872,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     const SizedBox(
                                       height: 15,
                                     ),
-                                    Center(
+                                    const Center(
                                         child: Text(
                                       "None expected in",
                                       style: TextStyle(
@@ -1002,14 +1002,14 @@ class _MyHomePageState extends State<MyHomePage> {
                      color: Colors.teal,
                      borderRadius: BorderRadius.circular(11),
                    ),
-                   padding: EdgeInsets.all(8),
-                   child: Column(crossAxisAlignment: CrossAxisAlignment.center,
+                   padding: EdgeInsets.all(10),
+                   child: Column(crossAxisAlignment: CrossAxisAlignment.start,
                    children: const [
-                     Text("Heading",style: TextStyle(fontSize: 50),),
-                     SizedBox(height: 11,),
-
-                     Text("Body", style: TextStyle(fontSize: 40, color: Colors.redAccent),)
+                     Text("Heading",style: TextStyle(fontSize: 30),),
+                     SizedBox(height: 50,),
+                     Center(child: Text("Body", style: TextStyle(fontSize: 40, color: Colors.red,),)),
                    ],),
+                   
 
 
                  )
