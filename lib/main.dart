@@ -1022,7 +1022,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration:
                     BoxDecoration(borderRadius:
                     BorderRadius.circular(10),
-                      color: Colors.white,
+                      color: Colors.grey.shade300,
                       boxShadow: [
                         BoxShadow(
                         color: Colors.purple,
@@ -1032,16 +1032,18 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
 
                         BoxShadow(
-                          color: Colors.purple,
-                          spreadRadius: 1,
+                          color: Colors.black45,
+                          spreadRadius: 2,
                           blurRadius: 8,
                           offset: Offset(-2,-2),
-
                         ),
-                      ],
-
-
+                      ]
                     ),
+                    child: Center(child: Text("Click Me",
+                      style: TextStyle(
+                          color: Colors.purple,
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold),)),
                   )
 
 
