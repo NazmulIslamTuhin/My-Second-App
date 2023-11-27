@@ -1017,12 +1017,20 @@ class _MyHomePageState extends State<MyHomePage> {
                    ),
                   SizedBox(height: 10,),
                   Container(
-                    height: 400,
-                    width: 350,
+                    height: 50,
+                    width: 150,
                     decoration:
                     BoxDecoration(borderRadius:
                     BorderRadius.circular(10),
-                      color: Colors.red,
+                      boxShadow: [
+                        BoxShadow(
+                        color: Colors.purple,
+                          spreadRadius: 1,
+                          blurRadius: 8,
+                          offset: Offset(2,2),
+                      ),],
+                      color: Colors.white,
+
                     ),
                   )
 
