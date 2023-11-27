@@ -1022,14 +1022,24 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration:
                     BoxDecoration(borderRadius:
                     BorderRadius.circular(10),
+                      color: Colors.white,
                       boxShadow: [
                         BoxShadow(
                         color: Colors.purple,
                           spreadRadius: 1,
                           blurRadius: 8,
                           offset: Offset(2,2),
-                      ),],
-                      color: Colors.white,
+                      ),
+
+                        BoxShadow(
+                          color: Colors.purple,
+                          spreadRadius: 1,
+                          blurRadius: 8,
+                          offset: Offset(2,2),
+
+                        ),
+                      ],
+
 
                     ),
                   )
