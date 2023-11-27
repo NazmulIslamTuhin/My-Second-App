@@ -1035,7 +1035,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           color: Colors.purple,
                           spreadRadius: 1,
                           blurRadius: 8,
-                          offset: Offset(2,2),
+                          offset: Offset(-2,-2),
 
                         ),
                       ],
