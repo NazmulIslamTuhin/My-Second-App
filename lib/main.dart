@@ -49,6 +49,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+
+
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -995,24 +999,25 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
 
                   SizedBox(height: 20,),
-                 Container(
-                   height: 200,
-                   width: 350,
-                   decoration: BoxDecoration(
-                     color: Colors.teal,
-                     borderRadius: BorderRadius.circular(11),
+
+                    Container(
+                     height: 200,
+                     width: 350,
+                     decoration: BoxDecoration(
+                       color: Colors.teal,
+                       borderRadius: BorderRadius.circular(11),
+                     ),
+                     padding: EdgeInsets.all(10),
+                     child: Column(crossAxisAlignment: CrossAxisAlignment.center,
+                     children: const [
+                       Text("Heading",style: TextStyle(fontSize: 30, color: Colors.lightGreenAccent),),
+                       SizedBox(height: 20,),
+                       Center(child: Text("Body", style: TextStyle(fontSize: 40, color: Colors.red,),)),
+
+                     ],),
+
                    ),
-                   padding: EdgeInsets.all(10),
-                   child: Column(crossAxisAlignment: CrossAxisAlignment.start,
-                   children: const [
-                     Text("Heading",style: TextStyle(fontSize: 30),),
-                     SizedBox(height: 50,),
-                     Center(child: Text("Body", style: TextStyle(fontSize: 40, color: Colors.red,),)),
-                   ],),
-                   
 
-
-                 )
                 ],
               ),
             ),
