@@ -1013,10 +1013,19 @@ class _MyHomePageState extends State<MyHomePage> {
                        Text("Heading",style: TextStyle(fontSize: 30, color: Colors.lightGreenAccent),),
                        SizedBox(height: 20,),
                        Center(child: Text("Body", style: TextStyle(fontSize: 40, color: Colors.red,),)),
-
                      ],),
-
                    ),
+                  SizedBox(height: 10,),
+                  Container(
+                    height: 400,
+                    width: 350,
+                    decoration:
+                    BoxDecoration(borderRadius:
+                    BorderRadius.circular(10),
+                      color: Colors.red,
+                    ),
+                  )
+
 
                 ],
               ),
