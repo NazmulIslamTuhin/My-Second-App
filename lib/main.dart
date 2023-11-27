@@ -1015,36 +1015,43 @@ class _MyHomePageState extends State<MyHomePage> {
                        Center(child: Text("Body", style: TextStyle(fontSize: 40, color: Colors.red,),)),
                      ],),
                    ),
-                  SizedBox(height: 10,),
-                  Container(
-                    height: 50,
-                    width: 150,
-                    decoration:
-                    BoxDecoration(borderRadius:
-                    BorderRadius.circular(10),
-                      color: Colors.grey.shade300,
-                      boxShadow: [
-                        BoxShadow(
-                        color: Colors.purple,
-                          spreadRadius: 1,
-                          blurRadius: 8,
-                          offset: Offset(2,2),
-                      ),
+                  SizedBox(height: 30,),
+                  
+                  
+                    GestureDetector(onTap: () {
+                      print("Button Clicked");
+                    },
+                      child: Container(
+                        height: 50,
+                        width: 150,
+                        decoration:
+                        BoxDecoration(borderRadius:
+                        BorderRadius.circular(10),
+                          color: Colors.grey.shade300,
+                          boxShadow: [
+                            BoxShadow(
+                            color: Colors.purple,
+                              spreadRadius: 1,
+                              blurRadius: 8,
+                              offset: Offset(2,2),
+                          ),
 
-                        BoxShadow(
-                          color: Colors.black45,
-                          spreadRadius: 2,
-                          blurRadius: 8,
-                          offset: Offset(-2,-2),
+                            BoxShadow(
+                              color: Colors.black45,
+                              spreadRadius: 2,
+                              blurRadius: 8,
+                              offset: Offset(-2,-2),
+                            ),
+                          ]
                         ),
-                      ]
+                        child: Center(child: Text("Click Me",
+                          style: TextStyle(
+                              color: Colors.purple,
+                              fontSize: 25,
+                              fontWeight: FontWeight.bold),)),
+                      ),
                     ),
-                    child: Center(child: Text("Click Me",
-                      style: TextStyle(
-                          color: Colors.purple,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold),)),
-                  )
+
 
 
                 ],
