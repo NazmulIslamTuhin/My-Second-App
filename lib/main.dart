@@ -964,8 +964,9 @@ class _MyHomePageState extends State<MyHomePage> {
                      children:
                      [
                        const Text("Heading",style: TextStyle(fontSize: 30, color: Colors.lightGreenAccent),),
-                       SizedBox(height: 40,),
+                       SizedBox(height: 15,),
                        const Center(child: Text("Body", style: TextStyle(fontSize: 40, color: Colors.red,),)),
+                       SizedBox(height: 25,),
                        InkWell(
                          onTap: (){
                            print("clicked");
