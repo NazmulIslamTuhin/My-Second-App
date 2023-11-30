@@ -969,7 +969,7 @@ class _MyHomePageState extends State<MyHomePage> {
                        SizedBox(height: 25,),
                        InkWell(
                          onTap: (){
-                           print("clicked");
+                           print("Button Clicked");
                              if(distance == "0"){
                                setState(() {
                                  distance = "10";
