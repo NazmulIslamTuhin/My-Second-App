@@ -50,6 +50,8 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
+  String distance = "0";
+
 
 
 
@@ -913,7 +915,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: EdgeInsets.all(10),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.start,
-                          children: const [
+                          children: [
                             Center(
                                 child: Text(
                               "Visibility",
@@ -925,7 +927,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             Center(
                                 child: Text(
-                              "15km",
+                              "$distance KM",
                               style: TextStyle(
                                 fontSize: 45,
                                 color: Colors.white,
@@ -959,46 +961,63 @@ class _MyHomePageState extends State<MyHomePage> {
                      ),
                      padding: EdgeInsets.all(10),
                      child: Column(crossAxisAlignment: CrossAxisAlignment.center,
-                     children: const [
-                       Text("Heading",style: TextStyle(fontSize: 30, color: Colors.lightGreenAccent),),
+                     children:
+                     [
+                       const Text("Heading",style: TextStyle(fontSize: 30, color: Colors.lightGreenAccent),),
                        SizedBox(height: 40,),
-                       Center(child: Text("Body", style: TextStyle(fontSize: 40, color: Colors.red,),)),
+                       const Center(child: Text("Body", style: TextStyle(fontSize: 40, color: Colors.red,),)),
+                       InkWell(
+                         onTap: (){
+                           print("clicked");
+                             if(distance == "0"){
+                               setState(() {
+                                 distance = "10";
+                               });
+                             }
+                             else{
+                               setState(() {
+                                 distance = "0";
+                               });
+                             }
+                         },
+                         child: Container(
+                           height: 50,
+                           width: 150,
+                           decoration:
+                           BoxDecoration(borderRadius:
+                           BorderRadius.circular(10),
+                               color: Colors.grey.shade300,
+
+                               boxShadow: const [
+                                 BoxShadow(
+                                   color: Colors.purple,
+                                   spreadRadius: 1,
+                                   blurRadius:10,
+                                   offset: Offset(2,2),
+                                 ),
+
+                                 BoxShadow(
+                                   color: Colors.black45,
+                                   spreadRadius: 2,
+                                   blurRadius: 8,
+                                   offset: Offset(-2,-2),
+                                 ),
+                               ]
+                           ),
+                           child: const Center(child: Text("Click Me",
+                             style: TextStyle(
+                                 color: Colors.purple,
+                                 fontSize: 25,
+                                 fontWeight: FontWeight.bold),)),
+                         ),
+                       ),
                      ],),
                    ),
                   SizedBox(height: 20,),
 
 
 
-                         Container(
-                                  height: 50,
-                                  width: 150,
-                                  decoration:
-                                  BoxDecoration(borderRadius:
-                                  BorderRadius.circular(10),
-                                    color: Colors.grey.shade300,
 
-                                    boxShadow: [
-                                      BoxShadow(
-                                      color: Colors.purple,
-                                        spreadRadius: 1,
-                                        blurRadius:10,
-                                        offset: Offset(2,2),
-                                    ),
-
-                                      BoxShadow(
-                                        color: Colors.black45,
-                                        spreadRadius: 2,
-                                        blurRadius: 8,
-                                        offset: Offset(-2,-2),
-                                      ),
-                                    ]
-                                  ),
-                                  child: Center(child: Text("Click Me",
-                                    style: TextStyle(
-                                        color: Colors.purple,
-                                        fontSize: 25,
-                                        fontWeight: FontWeight.bold),)),
-                                ),
 
 
 
