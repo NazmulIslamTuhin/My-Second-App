@@ -920,7 +920,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 child: Text(
                               "Visibility",
                               style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
+                                  fontSize: 25, fontWeight: FontWeight.bold),
                             )),
                             SizedBox(
                               height: 15,
