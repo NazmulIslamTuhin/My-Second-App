@@ -946,57 +946,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
 
-                  SizedBox(
-                    height: 10,
-                  ),
-                  Container(
-                    height: 130,
-                    width: 350,
-                    decoration: BoxDecoration(
-                        color: Colors.black,
-                        borderRadius: BorderRadius.circular(10)),
-                    padding: EdgeInsets.all(10),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text(
-                              "Report an Issue",
-                              style: TextStyle(
-                                  fontSize: 25,
-                                  color: Colors.red,
-                                  fontStyle: FontStyle.italic),
-                            ),
-                          ],
-                        ),
-                        SizedBox(
-                          height: 25,
-                        ),
-                        Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Center(
-                                child: Text(
-                              "You can describe the curent condition at your",
-                              style: TextStyle(
-                                  fontSize: 16,
-                                  color: Colors.blueAccent,
-                                  fontWeight: FontWeight.bold),
-                            )),
-                          ],
-                        ),
-                        Text(
-                          "Location to help improve Forecasts",
-                          style: TextStyle(
-                              fontSize: 15,
-                              color: Colors.blueAccent,
-                              fontWeight: FontWeight.bold),
-                        ),
-                      ],
-                    ),
-                  ),
+
 
                   SizedBox(height: 20,),
 
@@ -1011,11 +961,11 @@ class _MyHomePageState extends State<MyHomePage> {
                      child: Column(crossAxisAlignment: CrossAxisAlignment.center,
                      children: const [
                        Text("Heading",style: TextStyle(fontSize: 30, color: Colors.lightGreenAccent),),
-                       SizedBox(height: 20,),
+                       SizedBox(height: 40,),
                        Center(child: Text("Body", style: TextStyle(fontSize: 40, color: Colors.red,),)),
                      ],),
                    ),
-                  SizedBox(height: 30,),
+                  SizedBox(height: 20,),
                   
                   
                      GestureDetector(
@@ -1053,6 +1003,58 @@ class _MyHomePageState extends State<MyHomePage> {
                                   fontWeight: FontWeight.bold),)),
                           ),
                      ),
+                  SizedBox(
+                    height: 10,
+                  ),
+
+                  Container(
+                    height: 130,
+                    width: 350,
+                    decoration: BoxDecoration(
+                        color: Colors.black,
+                        borderRadius: BorderRadius.circular(10)),
+                    padding: EdgeInsets.all(10),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "Report an Issue",
+                              style: TextStyle(
+                                  fontSize: 25,
+                                  color: Colors.red,
+                                  fontStyle: FontStyle.italic),
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 25,
+                        ),
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Center(
+                                child: Text(
+                                  "You can describe the curent condition at your",
+                                  style: TextStyle(
+                                      fontSize: 16,
+                                      color: Colors.blueAccent,
+                                      fontWeight: FontWeight.bold),
+                                )),
+                          ],
+                        ),
+                        Text(
+                          "Location to help improve Forecasts",
+                          style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.blueAccent,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      ],
+                    ),
+                  ),
 
 
 
