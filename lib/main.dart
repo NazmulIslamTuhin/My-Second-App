@@ -963,7 +963,7 @@ class _MyHomePageState extends State<MyHomePage> {
                      child: Column(crossAxisAlignment: CrossAxisAlignment.center,
                      children:
                      [
-                       const Text("Heading",style: TextStyle(fontSize: 25, color: Colors.black),),
+                       const Text("Heading",style: TextStyle(fontSize: 25, color: Colors.black, fontWeight: FontWeight.bold),),
                        SizedBox(height: 15,),
                        const Center(child: Text("Body", style: TextStyle(fontSize: 40, color: Colors.red,),)),
                        SizedBox(height: 25,),
