@@ -86,29 +86,20 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 20,
                   ),
 
+
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text("Rajshahi", style: TextStyle(
-                               color: Colors.white70,
-                               fontSize: 40,
-                              fontStyle: FontStyle.italic),),
+                    children:  [
+                      Text(
+                        "Rajshahi",
+                        style: TextStyle(
+                            color: Colors.white70,
+                            fontSize: 40,
+                            fontStyle: FontStyle.italic),
+                      ),
                     ],
                   ),
 
-
-                  // Row(
-                  //   mainAxisAlignment: MainAxisAlignment.center,
-                  //   children:  [
-                  //     Text(
-                  //       "Rajshahi",
-                  //       style: TextStyle(
-                  //           color: Colors.white70,
-                  //           fontSize: 40,
-                  //           fontStyle: FontStyle.italic),
-                  //     ),
-                  //   ],
-                  // ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
