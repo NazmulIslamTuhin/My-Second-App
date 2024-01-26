@@ -85,18 +85,30 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(
                     height: 20,
                   ),
+
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children:  [
-                      Text(
-                        "Rajshahi",
-                        style: TextStyle(
-                            color: Colors.white70,
-                            fontSize: 40,
-                            fontStyle: FontStyle.italic),
-                      ),
+                    children: [
+                      Text("Rajshahi", style: TextStyle(
+                               color: Colors.white70,
+                               fontSize: 40,
+                              fontStyle: FontStyle.italic),),
                     ],
                   ),
+
+
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.center,
+                  //   children:  [
+                  //     Text(
+                  //       "Rajshahi",
+                  //       style: TextStyle(
+                  //           color: Colors.white70,
+                  //           fontSize: 40,
+                  //           fontStyle: FontStyle.italic),
+                  //     ),
+                  //   ],
+                  // ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -956,7 +968,7 @@ class _MyHomePageState extends State<MyHomePage> {
                      height: 200,
                      width: 350,
                      decoration: BoxDecoration(
-                       color: Colors.blue,
+                       color: Colors.yellow,
                        borderRadius: BorderRadius.circular(11),
                      ),
                      padding: EdgeInsets.all(10),
@@ -1065,7 +1077,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 )),
                           ],
                         ),
-                        Text(
+                        const Text(
                           "Location to help improve Forecasts",
                           style: TextStyle(
                               fontSize: 15,
