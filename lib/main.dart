@@ -1017,7 +1017,7 @@ class _MyHomePageState extends State<MyHomePage> {
                        ),
                      ],),
                    ),
-                  SizedBox(height: 20,),
+                  SizedBox(height: 10,),
 
 
 
@@ -1026,9 +1026,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-                  SizedBox(
-                    height: 1,
-                  ),
+
 
                   Container(
                     height: 130,
