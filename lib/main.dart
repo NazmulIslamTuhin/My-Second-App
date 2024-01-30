@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children:  [
+                    children:  const [
                       Text(
                         "Rajshahi",
                         style: TextStyle(
