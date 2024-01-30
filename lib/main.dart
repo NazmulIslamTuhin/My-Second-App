@@ -145,7 +145,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.lightBlueAccent,
                         borderRadius: BorderRadius.circular(10)),
                     child: const Text(
-                      "Clear conditions tonight,continuing through the morning.Wind gusts are upto 10km/h.",
+                      "Clear conditions tonight,continuing through the morning.Wind gusts are up to 10km/h.",
                       style: TextStyle(
                         color: Colors.black,
                         fontSize: 18,
