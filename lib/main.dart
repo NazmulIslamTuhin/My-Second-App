@@ -210,7 +210,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
 
                   SizedBox(
-                    height: 3,),
+                    height: 4,),
 
                   Container(
                     height: 50,
