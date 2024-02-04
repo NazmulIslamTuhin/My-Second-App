@@ -224,7 +224,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: [
+                              children: const [
                                 Center(
                                   child: Text(
                                     "Saturday",
