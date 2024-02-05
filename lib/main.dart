@@ -60,13 +60,17 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.white,
+       // appBar: AppBar(
+       //   title: Center(
+       //       child: const Text("Weather App", style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),)),
+       // ),
         appBar: AppBar(
           title: Center(
               child: Text(
-            "Weather",
-            style: TextStyle(
-                color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),
-          )),
+                "Weather",
+                style: TextStyle(
+                    color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),
+              )),
         ),
 
 
@@ -163,8 +167,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.lightBlueAccent,
                         borderRadius: BorderRadius.circular(10)),
                     padding: const EdgeInsets.all(10),
-                    child: Center(
-                        child: const Text(
+                    child: const Center(
+                        child: Text(
                       "10-day Forecast",
                       style: TextStyle(
                           color: Colors.white70,
