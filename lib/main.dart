@@ -69,9 +69,13 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Text(
                 "Weather",
                 style: TextStyle(
-                    color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),
+                    color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30 ),
               )),
-          leading: IconButton(onPressed: () {}, icon: Icon(Icons.menu),)
+          leading: IconButton(onPressed: () {}, icon: Icon(Icons.notifications),alignment: Alignment.centerRight,),
+          actions: [
+            IconButton(onPressed: () {},
+                icon: Icon(Icons.share))
+          ],
         ),
 
 
