@@ -76,12 +76,13 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: Icon(Icons.menu, size: 30,),
           ),
 
-          actions: [
-            IconButton(onPressed: () {},
-                icon: Icon(Icons.notifications, size: 30,),
-            alignment: Alignment.centerLeft,
-            )
-          ],
+
+          // actions: [
+          //   IconButton(onPressed: () {},
+          //       icon: Icon(Icons.notifications, size: 30,),
+          //   alignment: Alignment.centerLeft,
+          //   )
+          // ],
         ),
 
 
