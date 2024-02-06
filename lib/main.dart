@@ -71,6 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: TextStyle(
                     color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),
               )),
+          leading: IconButton(onPressed: () {}, icon: Icon(Icons.menu),)
         ),
 
 
