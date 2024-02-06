@@ -72,9 +72,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30 ),
               )),
 
-          // leading: IconButton(onPressed: () {},
-          //   icon: Icon(Icons.menu, size: 30,),
-          // ),
+          leading: IconButton(onPressed: () {},
+            icon: Icon(Icons.menu, size: 30,),
+          ),
 
           actions: [
             IconButton(onPressed: () {},
