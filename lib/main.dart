@@ -60,10 +60,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.white,
-       // appBar: AppBar(
-       //   title: Center(
-       //       child: const Text("Weather App", style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),)),
-       // ),
         appBar: AppBar(
           title: const Center(
               child: Text(
@@ -117,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
+                    children: const [
                       Text(
                         "29°",
                         style: TextStyle(
@@ -127,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 5,
                   ),
 
@@ -274,7 +270,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: [
+                              children: const [
                                 Center(
                                   child: Text(
                                     "Sunday",
@@ -309,7 +305,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: [
+                              children: const [
                                 Center(
                                   child: Text(
                                     "Monday",
@@ -344,7 +340,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: [
+                              children: const [
                                 Center(
                                   child: Text(
                                     "Tuesday",
@@ -380,7 +376,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: [
+                              children: const [
                                 Center(
                                   child: Text(
                                     "Wednesday",
@@ -416,7 +412,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: [
+                              children: const [
                                 Text(
                                   "Thursday",
                                   style: TextStyle(
@@ -449,7 +445,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: [
+                              children: const [
                                 Center(
                                     child: Text(
                                   "Friday",
@@ -481,7 +477,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         height: 150,
                         width: 350,
                         decoration: BoxDecoration(
-                            image: DecorationImage(
+                            image: const DecorationImage(
                                 image: AssetImage(
                                     "assets/Screenshot 2023-05-17 060611.png"),
                                 fit: BoxFit.cover),
@@ -491,7 +487,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(
+                            const Text(
                               "PRECIPITATION",
                               style: TextStyle(
                                 backgroundColor: Colors.yellow,
