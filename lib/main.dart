@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
        //       child: const Text("Weather App", style: TextStyle(color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),)),
        // ),
         appBar: AppBar(
-          title: Center(
+          title: const Center(
               child: Text(
                 "Weather",
                 style: TextStyle(
