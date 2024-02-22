@@ -525,7 +525,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
+                              children: const [
                                 Text(
                                   "UV INDEX",
                                   style: TextStyle(
