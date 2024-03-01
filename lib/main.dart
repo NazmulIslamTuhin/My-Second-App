@@ -50,7 +50,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  String distance = "0";
 
 
 
