@@ -74,9 +74,29 @@ class _MyHomePageState extends State<MyHomePage> {
             )
           ],
         ),
-        body: Row(
+
+
+        body: Container(
+          child: Padding(
+            padding: EdgeInsets.all(15),
+            child: SingleChildScrollView(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  SizedBox(
+                    height: 250,),
+
+                  Text("This is home page", style: TextStyle(fontSize: 30,
+                      color: Colors.black, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic),)
+                ],
+              ),
+            ),
+          ),
+
 
         ),
+
       ),
     );
   }
