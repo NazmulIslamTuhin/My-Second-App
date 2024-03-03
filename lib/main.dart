@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Text(
               "Flutter App",
               style: TextStyle(
-                  color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30 ),
+                  color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25 ),
             ),
           ),
 
