@@ -49,7 +49,7 @@ class NavBar extends StatelessWidget {
             leading: Icon(Icons.notifications),
             title: Text('Request'),
           ),
-          Divider(),
+          Divider(color: Colors.black,),
           ListTile(
             leading: Icon(Icons.settings),
             title: Text('Settings'),
@@ -60,7 +60,7 @@ class NavBar extends StatelessWidget {
             title: Text('Policies'),
             onTap: () => null,
           ),
-          Divider(),
+          Divider(color: Colors.black,),
           ListTile(
             title: Text('Exit'),
             leading: Icon(Icons.exit_to_app),

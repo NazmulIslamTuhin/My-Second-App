@@ -67,14 +67,15 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
 
-
-
           actions: [
             IconButton(onPressed: () {},
                 icon: Icon(Icons.notifications, size: 30,),
             alignment: Alignment.centerLeft,
             )
           ],
+        ),
+        body: Row(
+
         ),
       ),
     );
