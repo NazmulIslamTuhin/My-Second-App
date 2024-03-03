@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'NavBar.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -54,25 +56,25 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        drawer: NavBar(),
         backgroundColor: Colors.white,
         appBar: AppBar(
           title: const Center(
-              child: Text(
-                "Flutter",
-                style: TextStyle(
-                    color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30 ),
-              )),
-
-          leading: IconButton(onPressed: () {},
-            icon: Icon(Icons.menu, size: 30,),
+            child: Text(
+              "Flutter App",
+              style: TextStyle(
+                  color: Colors.black, fontWeight: FontWeight.bold, fontSize: 30 ),
+            ),
           ),
 
-          actions: [
-            IconButton(onPressed: () {},
-                icon: Icon(Icons.notifications, size: 30,),
-            alignment: Alignment.centerLeft,
-            )
-          ],
+
+
+          // actions: [
+          //   IconButton(onPressed: () {},
+          //       icon: Icon(Icons.notifications, size: 30,),
+          //   alignment: Alignment.centerLeft,
+          //   )
+          // ],
         ),
       ),
     );
