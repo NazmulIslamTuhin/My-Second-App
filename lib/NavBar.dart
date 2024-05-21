@@ -48,6 +48,7 @@ class NavBar extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.notifications),
             title: Text('Request'),
+            onTap: () => null,
           ),
           Divider(color: Colors.black,),
           ListTile(
