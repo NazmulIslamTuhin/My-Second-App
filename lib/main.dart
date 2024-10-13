@@ -88,22 +88,19 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 20,),
 
                   Center(
-                    child: Text("Apple Store", style: TextStyle(fontSize: 50,
-                        color: Colors.red, fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic, backgroundColor: Colors.black ),),
+                    child: Container(
+                      child: Text("Apple Store",
+                        style: TextStyle(fontSize: 50,
+                          color: Colors.red, fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic, backgroundColor: Colors.black,),),
+
+                    ),
                   ),
                   SizedBox(
                     height: 100,
                   ),
-                  Container(
-                      height: 100,
-                      width: 100,
-                      color: Colors.red,
 
-                      child:
-                      Text("hello", style: TextStyle(
-                        color: Colors.black, fontSize: 30,
-                      fontWeight: FontWeight.bold, ),)),
+
                   
                   
                   
