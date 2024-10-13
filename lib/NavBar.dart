@@ -12,7 +12,7 @@ class NavBar extends StatelessWidget {
         children: [
           UserAccountsDrawerHeader(
               accountName: Text("Flutter"),
-              accountEmail: Text("nazmulislam@640050@gmail.com"),
+              accountEmail: Text("nazmulislam640050@gmail.com"),
           currentAccountPicture: CircleAvatar(
             child: ClipOval(
               child: Image.network('https://oflutter.com/wp-content/uploads/2021/02/girl-profile.png',
@@ -22,7 +22,7 @@ class NavBar extends StatelessWidget {
               ),
             ),
           ),
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.blue,
               image: DecorationImage(
                   fit: BoxFit.fill,
@@ -37,7 +37,7 @@ class NavBar extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(Icons.person),
-            title: Text('Friends'),
+            title: Text('Team'),
             onTap: () => null,
           ),
           ListTile(

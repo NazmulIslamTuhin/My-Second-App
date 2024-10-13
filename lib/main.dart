@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   Center(
                     child: Text("This is my first Project", style: TextStyle(fontSize: 30,
-                        color: Colors.redAccent, fontWeight: FontWeight.bold,
+                        color: Colors.green, fontWeight: FontWeight.bold,
                         fontStyle: FontStyle.italic),),
                   )
                 ],
