@@ -95,8 +95,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(
                     height: 100,
                   ),
-                  Container(child: Text("hello",
-                    style: TextStyle(color: Colors.black, fontSize: 30,
+                  Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.red,
+
+                      child:
+                      Text("hello", style: TextStyle(
+                        color: Colors.black, fontSize: 30,
                       fontWeight: FontWeight.bold, ),)),
                   
                   
