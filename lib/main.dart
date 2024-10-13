@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         body: Container(
           child: Padding(
-            padding: EdgeInsets.all(15),
+            padding: EdgeInsets.all(5),
             child: SingleChildScrollView(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -101,15 +101,19 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 10,
                   ),
 
-                  Container(
-                    decoration: BoxDecoration(borderRadius:(BorderRadius.circular(5))),
-                    height: 200,
-                    width: 200,
+                  Row(mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+
+                      Container(
+                        height: 200,
+                        width: 200,
+                        padding: EdgeInsets.all(5),
 
 
-                    
-                    child: Image.network('https://rivermall.ua/wp-content/uploads/2023/11/1420x1010_river_web.jpg'),
+                        child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',),
 
+                      ),
+                    ],
                   ),
 
 
