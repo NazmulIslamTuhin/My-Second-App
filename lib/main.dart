@@ -85,12 +85,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: const [
                   SizedBox(
-                    height: 50,),
+                    height: 20,),
 
                   Center(
-                    child: Text("Apple Store", style: TextStyle(fontSize: 20,
+                    child: Text("Apple Store", style: TextStyle(fontSize: 50,
                         color: Colors.red, fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic, backgroundColor: Colors.green ),),
+                        fontStyle: FontStyle.italic, backgroundColor: Colors.black ),),
 
                   )
                 ],
