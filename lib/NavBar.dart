@@ -11,18 +11,18 @@ class NavBar extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           UserAccountsDrawerHeader(
-              accountName: Text("Flutter"),
-              accountEmail: Text("nazmulislam640050@gmail.com"),
-          currentAccountPicture: CircleAvatar(
-            child: ClipOval(
-              child: Image.network('https://oflutter.com/wp-content/uploads/2021/02/girl-profile.png',
-                fit: BoxFit.cover,
-                width: 90,
-                height: 90,
+            accountName: Text("Flutter"),
+            accountEmail: Text("nazmulislam@640050@gmail.com"),
+            currentAccountPicture: CircleAvatar(
+              child: ClipOval(
+                child: Image.network('https://static-00.iconduck.com/assets.00/flutter-icon-2048x2048-ufx4idi8.png',
+                  fit: BoxFit.cover,
+                  width: 90,
+                  height: 90,
+                ),
               ),
             ),
-          ),
-            decoration: const BoxDecoration(
+            decoration: BoxDecoration(
               color: Colors.blue,
               image: DecorationImage(
                   fit: BoxFit.fill,
@@ -37,7 +37,7 @@ class NavBar extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(Icons.person),
-            title: Text('Team'),
+            title: Text('Friends'),
             onTap: () => null,
           ),
           ListTile(
