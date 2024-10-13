@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: const [
+                children:  [
                   SizedBox(
                     height: 20,),
 
@@ -91,8 +91,16 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Text("Apple Store", style: TextStyle(fontSize: 50,
                         color: Colors.red, fontWeight: FontWeight.bold,
                         fontStyle: FontStyle.italic, backgroundColor: Colors.black ),),
-
-                  )
+                  ),
+                  SizedBox(
+                    height: 100,
+                  ),
+                  Container(child: Text("hello",
+                    style: TextStyle(color: Colors.black, fontSize: 30,
+                      fontWeight: FontWeight.bold, ),)),
+                  
+                  
+                  
                 ],
               ),
             ),
