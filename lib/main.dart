@@ -96,7 +96,23 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                    child: Image.network('https://rivermall.ua/wp-content/uploads/2023/11/1420x1010_river_web.jpg'),
 
-                  )
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+
+                  Container(
+
+                    decoration: BoxDecoration(
+                      border: Border.all(width: 2),
+                      borderRadius: BorderRadius.circular(9),
+
+                    ),
+                    child: Image.network('https://rivermall.ua/wp-content/uploads/2023/11/1420x1010_river_web.jpg'),
+
+                  ),
+
+
 
 
 
