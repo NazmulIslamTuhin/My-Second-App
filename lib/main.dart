@@ -87,18 +87,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(
                     height: 20,),
 
-                  Center(
-                    child: Container(
-                      child: Text("Apple Store",
-                        style: TextStyle(fontSize: 50,
-                          color: Colors.red, fontWeight: FontWeight.bold,
-                          fontStyle: FontStyle.italic, backgroundColor: Colors.black,),),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(width: 3),
 
                     ),
-                  ),
-                  SizedBox(
-                    height: 100,
-                  ),
+                   child: Image.network('https://rivermall.ua/wp-content/uploads/2023/11/1420x1010_river_web.jpg'),
+
+                  )
+
+
+
 
 
                   
