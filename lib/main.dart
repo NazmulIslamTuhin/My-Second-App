@@ -104,16 +104,22 @@ class _MyHomePageState extends State<MyHomePage> {
                   Row(mainAxisAlignment: MainAxisAlignment.start,
                     children: [
 
-                      Container(
-                        height: 200,
-                        width: 200,
-                        padding: EdgeInsets.all(5),
+                      
+                        
+                       
+                          Container(
+                            height: 200,
+                            width: 200,
+                            padding: EdgeInsets.all(5),
 
 
-                        child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg', fit: BoxFit.cover,
-                        ),
+                            child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg', fit: BoxFit.cover,
+                            ),
 
-                      ),
+                          ),
+                      Text("iphone"),
+                        
+                      
                     ],
                   ),
 
