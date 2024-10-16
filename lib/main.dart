@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 import 'NavBar.dart';
 
@@ -114,14 +115,29 @@ class _MyHomePageState extends State<MyHomePage> {
                               child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
                                 fit: BoxFit.cover,
                               ),
-
                             ),
 
+                      // SizedBox(height: 200,),      (
 
-                        
+
                       
                     ],
                   ),
+
+                  //test container
+
+                  Row(crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Container(
+                        height: 35,
+                        width: 29,
+                        padding: EdgeInsets.all(4),
+                        color: Colors.red,
+                      ),
+                    ],
+                  )
+                  //end test conainer
+
 
 
                 ],
