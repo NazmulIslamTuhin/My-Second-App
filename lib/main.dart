@@ -102,10 +102,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   Row(mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-
-                      
-                        
-                       
                           Container(
                             height: 200,
                             width: 200,
@@ -116,21 +112,13 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
 
                           ),
-                      Text("iphone"),
+                      Container(child: Text("iphone")),
                         
                       
                     ],
                   ),
 
 
-
-
-
-
-
-                  
-                  
-                  
                 ],
               ),
             ),
