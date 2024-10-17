@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
                    child: Image.network('https://rivermall.ua/wp-content/uploads/2023/11/1420x1010_river_web.jpg'),
 
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
 
@@ -119,8 +119,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
                       // SizedBox(height: 200,),      (
 
-
-                      
                     ],
                   ),
 
@@ -135,7 +133,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.red,
                       ),
                     ],
-                  )
+                  ),
+
                   //end test conainer
 
 
