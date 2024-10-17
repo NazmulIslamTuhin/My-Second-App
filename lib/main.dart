@@ -92,8 +92,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: BoxDecoration(
                       border: Border.all(width: 2),
                       borderRadius: BorderRadius.circular(9),
+                      color: Colors.black54
 
                     ),
+                    padding: EdgeInsets.all(1),
+                    margin: EdgeInsets.all(5),
                    child: Image.network('https://rivermall.ua/wp-content/uploads/2023/11/1420x1010_river_web.jpg'),
 
                   ),
@@ -113,6 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               height: 200,
                               width: 200,
                               padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
 
 
 
