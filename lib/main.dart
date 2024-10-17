@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: const Center(
             child: Text(
-              "Flutter App",
+              "Apple Store",
               style: TextStyle(
                   color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25 ),
             ),
