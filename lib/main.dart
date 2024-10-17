@@ -116,9 +116,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                 fit: BoxFit.cover,
                               ),
                             ),
-
-                      // SizedBox(height: 200,),      (
-
                     ],
                   ),
 
@@ -135,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
 
-                  //end test conainer
+                  //end test container
 
 
 
