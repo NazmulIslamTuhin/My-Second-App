@@ -124,13 +124,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   Row(crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
                       Container(
-                        height: 35,
-                        width: 200,
+                        height: 25,
+                        width: 197,
                         padding: EdgeInsets.all(5),
 
                         decoration: BoxDecoration(
                           border: Border.all(width: 0.8),
-                          borderRadius: BorderRadius.circular(9),
+                          borderRadius: BorderRadius.circular(1),
 
                         ),
                       ),
