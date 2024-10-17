@@ -92,7 +92,15 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: BoxDecoration(
                       border: Border.all(width: 2),
                       borderRadius: BorderRadius.circular(9),
-                      color: Colors.black54
+                      color: Colors.black54,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.5),
+                          spreadRadius: 5,
+                          blurRadius: 7,
+                          offset: Offset(0, 3), // changes position of shadow
+                        ),
+                      ],
 
                     ),
                     padding: EdgeInsets.all(1),
@@ -111,6 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
                              decoration: BoxDecoration(
                                border: Border.all(width: 1),
                                borderRadius: BorderRadius.circular(9),
+
                              ),
 
                               height: 200,
@@ -137,9 +146,17 @@ class _MyHomePageState extends State<MyHomePage> {
                         decoration: BoxDecoration(
                           border: Border.all(width: 0.8),
                           borderRadius: BorderRadius.circular(5),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.red.withOpacity(0.5),
+                              spreadRadius: 5,
+                              blurRadius: 7,
+                              offset: Offset(0, 3), // changes position of shadow
+                            ),
+                          ],
 
                         ),
-                        child: Text('iphone 15 Plus'),
+                        child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
                       ),
                     ],
                   ),
