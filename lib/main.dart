@@ -159,9 +159,36 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
                       ),
                     ],
-                  ),
 
+                  ),
                   //end test container
+
+                  //start 2nd container
+
+
+
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(width: 1),
+                              borderRadius: BorderRadius.circular(9),
+
+                            ),
+
+                            height: 200,
+                            width: 200,
+                            padding: EdgeInsets.all(2),
+                            margin: EdgeInsets.all(5),
+                            child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ],
+                      ),
+
+                  //End 2nd container
 
 
 
