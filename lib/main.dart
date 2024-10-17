@@ -112,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                               height: 200,
                               width: 200,
-                              padding: EdgeInsets.all(5),
+                              padding: EdgeInsets.all(2),
 
 
 
