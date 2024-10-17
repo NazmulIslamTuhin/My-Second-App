@@ -139,9 +139,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
                         decoration: BoxDecoration(
                           border: Border.all(width: 0.8),
-                          borderRadius: BorderRadius.circular(1),
+                          borderRadius: BorderRadius.circular(5),
 
                         ),
+                        child: Text('iphone 15 Plus'),
                       ),
                     ],
                   ),
