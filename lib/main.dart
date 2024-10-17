@@ -117,9 +117,6 @@ class _MyHomePageState extends State<MyHomePage> {
                               width: 200,
                               padding: EdgeInsets.all(2),
                               margin: EdgeInsets.all(5),
-
-
-
                               child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
                                 fit: BoxFit.cover,
                               ),
