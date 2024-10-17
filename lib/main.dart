@@ -148,10 +148,10 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(5),
                           boxShadow: [
                             BoxShadow(
-                              color: Colors.red.withOpacity(0.5),
-                              spreadRadius: 5,
-                              blurRadius: 7,
-                              offset: Offset(0, 3), // changes position of shadow
+                              color: Colors.red,
+
+
+                             // offset: Offset(0, 3), // changes position of shadow
                             ),
                           ],
 
