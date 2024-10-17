@@ -134,7 +134,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       Container(
                         height: 20,
                         width: 197,
-                        padding: EdgeInsets.all(5),
+                        padding: EdgeInsets.all(2),
+                        margin: EdgeInsets.all(5),
 
                         decoration: BoxDecoration(
                           border: Border.all(width: 0.8),
