@@ -105,6 +105,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
 
                            Container(
+                             decoration: BoxDecoration(
+                               border: Border.all(width: 1),
+                               borderRadius: BorderRadius.circular(9),
+                             ),
 
                               height: 200,
                               width: 200,
@@ -124,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Row(crossAxisAlignment: CrossAxisAlignment.end,
                     children: [
                       Container(
-                        height: 25,
+                        height: 20,
                         width: 197,
                         padding: EdgeInsets.all(5),
 
