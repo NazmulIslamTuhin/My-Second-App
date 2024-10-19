@@ -135,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   //test container
 
-                  Row(crossAxisAlignment: CrossAxisAlignment.end,
+                  Row(mainAxisAlignment : MainAxisAlignment.center,
                     children: [
                       Container(
                         height: 20,
