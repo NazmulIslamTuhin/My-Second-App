@@ -208,10 +208,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             height: 180,
                             width: 150,
-                            padding: EdgeInsets.all(1),
+                            padding: EdgeInsets.all(6),
                             margin: EdgeInsets.all(5),
-                            child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
-                              fit: BoxFit.cover,
+                            child: Image.network('https://www.jbhifi.com.au/cdn/shop/files/746440-Product-0-I-638615223603773626.jpg?v=1727141018',
+                              fit: BoxFit.contain,
 
                             ),
                           ),
@@ -231,7 +231,8 @@ class _MyHomePageState extends State<MyHomePage> {
                               ],
                             ),
 
-                            child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
+                            child: const Center(child: Text('iphone 16', style: TextStyle(fontSize: 13,
+                                fontWeight: FontWeight.bold ,backgroundColor: Colors.red),)),
                           ),
                         ],
                       ),
