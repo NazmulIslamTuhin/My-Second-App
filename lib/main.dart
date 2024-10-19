@@ -151,7 +151,6 @@ class _MyHomePageState extends State<MyHomePage> {
                               color: Colors.red,
                             ),
                           ],
-
                         ),
                         child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
                       ),
