@@ -424,7 +424,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               ],
                             ),
 
-                            child: Center(child: Text('iphone 15 Pro', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
+                            child: Center(child: Text('iphone 14 Pro', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                           ),
                         ],
                       ),
