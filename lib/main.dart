@@ -112,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 40,
                   ),
 
-                  Row(mainAxisAlignment: MainAxisAlignment.start,
+                  Row(mainAxisAlignment: MainAxisAlignment.end,
                     children: [
 
                            Container(
@@ -152,6 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ],
                         ),
+
                         child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
                       ),
                     ],
