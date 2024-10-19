@@ -364,9 +364,9 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             height: 180,
                             width: 150,
-                            padding: EdgeInsets.all(6),
+                            padding: EdgeInsets.all(4),
                             margin: EdgeInsets.all(5),
-                            child: Image.network('https://www.jbhifi.com.au/cdn/shop/files/746440-Product-0-I-638615223603773626.jpg?v=1727141018',
+                            child: Image.network('https://tangerois.ma/20849-large_default/iphone-14-512gb-purple-apple.jpg',
                               fit: BoxFit.contain,
 
                             ),
@@ -387,7 +387,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               ],
                             ),
 
-                            child: const Center(child: Text('iphone 16', style: TextStyle(fontSize: 13,
+                            child: const Center(child: Text('iphone 14', style: TextStyle(fontSize: 13,
                                 fontWeight: FontWeight.bold ,backgroundColor: Colors.red),)),
                           ),
                         ],
