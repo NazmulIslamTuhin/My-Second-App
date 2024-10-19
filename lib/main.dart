@@ -135,8 +135,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
 
-
-
                   Row(mainAxisAlignment : MainAxisAlignment.start,
                     children: [
                       Container(
@@ -166,7 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   //2nd container start
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.end,
+                        mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Container(
                             decoration: BoxDecoration(
