@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        drawer: NavBar(),
+        drawer: const NavBar(),
         backgroundColor: Colors.white,
         appBar: AppBar(
           title: const Center(
@@ -85,8 +85,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children:  [
-                  SizedBox(
+                  const SizedBox(
                     height: 20),
+
+                  //Top container start
 
                   Container(
                     decoration: BoxDecoration(
@@ -108,6 +110,9 @@ class _MyHomePageState extends State<MyHomePage> {
                    child: Image.network('https://rivermall.ua/wp-content/uploads/2023/11/1420x1010_river_web.jpg'),
 
                   ),
+
+                  //Top container end
+
                   const SizedBox(
                     height: 40,
                   ),
