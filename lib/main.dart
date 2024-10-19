@@ -116,76 +116,82 @@ class _MyHomePageState extends State<MyHomePage> {
                   //first container start
                   Row(mainAxisAlignment: MainAxisAlignment.start,
                     children: [
+                           Column(
+                             children: [
+                               Container(
+                                 decoration: BoxDecoration(
+                                   border: Border.all(width: 1),
+                                   borderRadius: BorderRadius.circular(9),
 
-                           Container(
-                             decoration: BoxDecoration(
-                               border: Border.all(width: 1),
-                               borderRadius: BorderRadius.circular(9),
+                                 ),
 
-                             ),
+                                  height: 180,
+                                  width: 150,
+                                  padding: EdgeInsets.all(5),
+                                  margin: EdgeInsets.all(5),
+                                  child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                               Container(
+                                 height: 20,
+                                 width: 150,
+                                 padding: EdgeInsets.all(2),
+                                 margin: EdgeInsets.all(5),
 
-                              height: 180,
-                              width: 150,
-                              padding: EdgeInsets.all(5),
-                              margin: EdgeInsets.all(5),
-                              child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
-                                fit: BoxFit.cover,
-                              ),
-                            ),
+                                 decoration: BoxDecoration(
+                                   border: Border.all(width: 0.8),
+                                   borderRadius: BorderRadius.circular(5),
+                                   boxShadow: [
+                                     BoxShadow(
+                                       color: Colors.red,
+                                     ),
+                                   ],
+                                 ),
+
+                                 child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
+                               ),
+                             ],
+                           ),
+                           Column(
+                             children: [
+                               Container(
+                                 decoration: BoxDecoration(
+                                   border: Border.all(width: 1),
+                                   borderRadius: BorderRadius.circular(9),
+
+                                 ),
+
+                                  height: 180,
+                                  width: 150,
+                                  padding: EdgeInsets.all(5),
+                                  margin: EdgeInsets.all(5),
+                                  child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
+                               Container(
+                                 height: 20,
+                                 width: 150,
+                                 padding: EdgeInsets.all(2),
+                                 margin: EdgeInsets.all(5),
+
+                                 decoration: BoxDecoration(
+                                   border: Border.all(width: 0.8),
+                                   borderRadius: BorderRadius.circular(5),
+                                   boxShadow: [
+                                     BoxShadow(
+                                       color: Colors.red,
+                                     ),
+                                   ],
+                                 ),
+
+                                 child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
+                               ),
+                             ],
+                           ),
                     ],
                   ),
-
-                  Row(mainAxisAlignment : MainAxisAlignment.start,
-                    children: [
-                      Container(
-                        height: 20,
-                        width: 150,
-                        padding: EdgeInsets.all(2),
-                        margin: EdgeInsets.all(5),
-
-                        decoration: BoxDecoration(
-                          border: Border.all(width: 0.8),
-                          borderRadius: BorderRadius.circular(5),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.red,
-                            ),
-                          ],
-                        ),
-
-                        child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
-                      ),
-                    ],
-                  ),
-
-                  //first container end
-                  SizedBox(height: 30,),
-
-
-
-                  //2nd container start
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Container(
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 1),
-                              borderRadius: BorderRadius.circular(9),
-
-                            ),
-
-                            height: 180,
-                            width: 150,
-                            padding: EdgeInsets.all(2),
-                            margin: EdgeInsets.all(5),
-                            child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ],
-                      ),
-
-                  //2nd container end
 
 
 
