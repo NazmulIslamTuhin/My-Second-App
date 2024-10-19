@@ -112,6 +112,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 40,
                   ),
 
+
+                  //first container start
                   Row(mainAxisAlignment: MainAxisAlignment.start,
                     children: [
 
@@ -133,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
 
-                  //test container
+
 
                   Row(mainAxisAlignment : MainAxisAlignment.start,
                     children: [
@@ -156,11 +158,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
                       ),
                     ],
-
                   ),
-                  //end test container
+                  //first container end
 
-                  //start 2nd container
 
 
 
@@ -175,7 +175,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
 
                             height: 180,
-                            width: 200,
+                            width: 150,
                             padding: EdgeInsets.all(2),
                             margin: EdgeInsets.all(5),
                             child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
