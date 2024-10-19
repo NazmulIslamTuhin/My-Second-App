@@ -401,10 +401,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             height: 180,
                             width: 150,
-                            padding: EdgeInsets.all(7),
+                            padding: EdgeInsets.all(12),
                             margin: EdgeInsets.all(5),
-                            child: Image.network('https://phones.mintmobile.com/wp-content/uploads/2023/09/Apple_iPhone_15_Pro_Titanium_Blue_PDP_Image.png',
-                              fit: BoxFit.fitWidth,
+                            child: Image.network('https://cdn.dxomark.com/wp-content/uploads/medias/post-125428/Apple-iPhone-14-Pro-Max_FINAL_featured-image-packshot-review-1-1024x691.jpg',
+                              fit: BoxFit.fitHeight,
 
                             ),
                           ),
