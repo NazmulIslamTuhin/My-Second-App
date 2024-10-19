@@ -122,8 +122,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
                              ),
 
-                              height: 200,
-                              width: 200,
+                              height: 180,
+                              width: 150,
                               padding: EdgeInsets.all(2),
                               margin: EdgeInsets.all(5),
                               child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
@@ -135,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   //test container
 
-                  Row(mainAxisAlignment : MainAxisAlignment.center,
+                  Row(mainAxisAlignment : MainAxisAlignment.end,
                     children: [
                       Container(
                         height: 20,
@@ -164,7 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
-                      Column(
+                      Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Container(
