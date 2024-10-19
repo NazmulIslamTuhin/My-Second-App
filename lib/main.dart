@@ -165,7 +165,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
                       Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           Container(
                             decoration: BoxDecoration(
