@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   width: 150,
                                   padding: EdgeInsets.all(1),
                                   margin: EdgeInsets.all(5),
-                                  child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
+                                  child: Image.network('https://d61s2hjse0ytn.cloudfront.net/color/1053/16_pro_Desert_Titanium.webp',
                                     fit: BoxFit.cover,
 
                                   ),
@@ -152,7 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                    ],
                                  ),
 
-                                 child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
+                                 child: Center(child: Text('iphone 16 Pro', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                                ),
                              ],
                            ),
