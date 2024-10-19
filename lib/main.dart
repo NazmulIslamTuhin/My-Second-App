@@ -139,7 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Container(
                         height: 20,
-                        width: 197,
+                        width: 150,
                         padding: EdgeInsets.all(2),
                         margin: EdgeInsets.all(5),
 
