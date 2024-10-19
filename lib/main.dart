@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
                   //first container start
-                  Row(mainAxisAlignment: MainAxisAlignment.start,
+                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                            Column(
                              children: [
@@ -144,7 +144,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                  decoration: BoxDecoration(
                                    border: Border.all(width: 0.8),
                                    borderRadius: BorderRadius.circular(5),
-                                   boxShadow: [
+                                   boxShadow: const [
                                      BoxShadow(
                                        color: Colors.red,
                                      ),
@@ -181,7 +181,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                  decoration: BoxDecoration(
                                    border: Border.all(width: 0.8),
                                    borderRadius: BorderRadius.circular(5),
-                                   boxShadow: [
+                                   boxShadow: const [
                                      BoxShadow(
                                        color: Colors.red,
                                      ),
