@@ -112,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 40,
                   ),
 
-                  Row(mainAxisAlignment: MainAxisAlignment.end,
+                  Row(mainAxisAlignment: MainAxisAlignment.start,
                     children: [
 
                            Container(
