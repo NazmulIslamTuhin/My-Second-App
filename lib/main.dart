@@ -323,10 +323,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             height: 180,
                             width: 150,
-                            padding: EdgeInsets.all(7),
+                            padding: EdgeInsets.all(5),
                             margin: EdgeInsets.all(5),
-                            child: Image.network('https://phones.mintmobile.com/wp-content/uploads/2023/09/Apple_iPhone_15_Pro_Titanium_Blue_PDP_Image.png',
-                              fit: BoxFit.fitWidth,
+                            child: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzZM0o-JjdPbiUSiiLKMGnECbdq7SazUoiXs4Wb8RakT1wK0_TewResHSczJMM5mrw-uM&usqp=CAU',
+                              fit: BoxFit.cover,
 
                             ),
                           ),
@@ -346,7 +346,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               ],
                             ),
 
-                            child: Center(child: Text('iphone 15 Pro', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
+                            child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                           ),
                         ],
                       ),
