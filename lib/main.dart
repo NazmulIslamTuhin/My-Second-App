@@ -274,6 +274,163 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ],
                   ),
+                  SizedBox(height: 30,),
+                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(width: 1),
+                              borderRadius: BorderRadius.circular(9),
+                            ),
+                            height: 180,
+                            width: 150,
+                            padding: EdgeInsets.all(2),
+                            margin: EdgeInsets.all(5),
+                            child: Image.network('https://geniusmobile.lk/wp-content/uploads/2023/09/iphone-15-4.jpg',
+                              fit: BoxFit.cover,
+
+                            ),
+                          ),
+                          Container(
+                            height: 20,
+                            width: 150,
+                            padding: EdgeInsets.all(2),
+                            margin: EdgeInsets.all(5),
+
+                            decoration: BoxDecoration(
+                              border: Border.all(width: 0.8),
+                              borderRadius: BorderRadius.circular(5),
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Colors.red,
+                                ),
+                              ],
+                            ),
+
+                            child: const Center(child: Text('iphone 15', style: TextStyle(fontSize: 13,
+                                fontWeight: FontWeight.bold ,backgroundColor: Colors.red),)),
+                          ),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(width: 1),
+                              borderRadius: BorderRadius.circular(9),
+                            ),
+                            height: 180,
+                            width: 150,
+                            padding: EdgeInsets.all(7),
+                            margin: EdgeInsets.all(5),
+                            child: Image.network('https://phones.mintmobile.com/wp-content/uploads/2023/09/Apple_iPhone_15_Pro_Titanium_Blue_PDP_Image.png',
+                              fit: BoxFit.fitWidth,
+
+                            ),
+                          ),
+                          Container(
+                            height: 20,
+                            width: 150,
+                            padding: EdgeInsets.all(2),
+                            margin: EdgeInsets.all(5),
+
+                            decoration: BoxDecoration(
+                              border: Border.all(width: 0.8),
+                              borderRadius: BorderRadius.circular(5),
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Colors.red,
+                                ),
+                              ],
+                            ),
+
+                            child: Center(child: Text('iphone 15 Pro', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  SizedBox(height: 30,),
+                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(width: 1),
+                              borderRadius: BorderRadius.circular(9),
+                            ),
+                            height: 180,
+                            width: 150,
+                            padding: EdgeInsets.all(6),
+                            margin: EdgeInsets.all(5),
+                            child: Image.network('https://www.jbhifi.com.au/cdn/shop/files/746440-Product-0-I-638615223603773626.jpg?v=1727141018',
+                              fit: BoxFit.contain,
+
+                            ),
+                          ),
+                          Container(
+                            height: 20,
+                            width: 150,
+                            padding: EdgeInsets.all(2),
+                            margin: EdgeInsets.all(5),
+
+                            decoration: BoxDecoration(
+                              border: Border.all(width: 0.8),
+                              borderRadius: BorderRadius.circular(5),
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Colors.red,
+                                ),
+                              ],
+                            ),
+
+                            child: const Center(child: Text('iphone 16', style: TextStyle(fontSize: 13,
+                                fontWeight: FontWeight.bold ,backgroundColor: Colors.red),)),
+                          ),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(width: 1),
+                              borderRadius: BorderRadius.circular(9),
+                            ),
+                            height: 180,
+                            width: 150,
+                            padding: EdgeInsets.all(7),
+                            margin: EdgeInsets.all(5),
+                            child: Image.network('https://phones.mintmobile.com/wp-content/uploads/2023/09/Apple_iPhone_15_Pro_Titanium_Blue_PDP_Image.png',
+                              fit: BoxFit.fitWidth,
+
+                            ),
+                          ),
+                          Container(
+                            height: 20,
+                            width: 150,
+                            padding: EdgeInsets.all(2),
+                            margin: EdgeInsets.all(5),
+
+                            decoration: BoxDecoration(
+                              border: Border.all(width: 0.8),
+                              borderRadius: BorderRadius.circular(5),
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Colors.red,
+                                ),
+                              ],
+                            ),
+
+                            child: Center(child: Text('iphone 15 Pro', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+
 
 
 
