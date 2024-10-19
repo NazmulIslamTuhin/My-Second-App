@@ -110,7 +110,6 @@ class _MyHomePageState extends State<MyHomePage> {
                    child: Image.network('https://rivermall.ua/wp-content/uploads/2023/11/1420x1010_river_web.jpg'),
 
                   ),
-
                   //Top container end
 
                   const SizedBox(
@@ -127,9 +126,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                  decoration: BoxDecoration(
                                    border: Border.all(width: 1),
                                    borderRadius: BorderRadius.circular(9),
-
                                  ),
-
                                   height: 180,
                                   width: 150,
                                   padding: EdgeInsets.all(5),
