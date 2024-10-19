@@ -132,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   padding: EdgeInsets.all(1),
                                   margin: EdgeInsets.all(5),
                                   child: Image.network('https://systematixmedia.com/storage/product_varient/large/MTP93HN-A_1_20230913124223.jpg',
-                                    fit: BoxFit.fitHeight,
+                                    fit: BoxFit.cover,
 
                                   ),
                                 ),
@@ -165,9 +165,10 @@ class _MyHomePageState extends State<MyHomePage> {
                                  ),
                                   height: 180,
                                   width: 150,
-                                  padding: EdgeInsets.all(5),
+                                  padding: EdgeInsets.all(7),
                                   margin: EdgeInsets.all(5),
                                   child: Image.network('https://phones.mintmobile.com/wp-content/uploads/2023/09/Apple_iPhone_15_Pro_Titanium_Blue_PDP_Image.png',
+                                    fit: BoxFit.fitWidth,
 
                                   ),
                                 ),
