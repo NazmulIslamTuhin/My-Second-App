@@ -364,7 +364,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         height: 185,
                         width: 150,
-                        padding: EdgeInsets.all(9),
+                        padding: EdgeInsets.all(8),
                         margin: EdgeInsets.all(5),
 
                         child: Column(
@@ -408,7 +408,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         height: 185,
                         width: 150,
-                        padding: EdgeInsets.all(5),
+                        padding: EdgeInsets.all(8),
                         margin: EdgeInsets.all(5),
 
                         child: Column(
