@@ -296,7 +296,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Container(
                             height: 20,
                             width: 150,
-                            padding: EdgeInsets.all(2),
+                            padding: EdgeInsets.all(3),
                             margin: EdgeInsets.all(5),
 
                             decoration: BoxDecoration(
@@ -318,7 +318,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         children: [
                           Container(
                             decoration: BoxDecoration(
-                              border: Border.all(width: 1),
+                              border: Border.all(width: 3),
+
                               borderRadius: BorderRadius.circular(9),
                             ),
                             height: 180,
@@ -392,41 +393,48 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ],
                       ),
-                      Column(
-                        children: [
-                          Container(
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 1),
-                              borderRadius: BorderRadius.circular(9),
-                            ),
-                            height: 180,
-                            width: 150,
-                            padding: EdgeInsets.all(12),
-                            margin: EdgeInsets.all(5),
-                            child: Image.network('https://cdn.dxomark.com/wp-content/uploads/medias/post-125428/Apple-iPhone-14-Pro-Max_FINAL_featured-image-packshot-review-1-1024x691.jpg',
-                              fit: BoxFit.fitHeight,
+                      Container(
+                        decoration: BoxDecoration(
+
+
+                          border: Border.all(width: 1),
+                          borderRadius: BorderRadius.circular(9),
+                        ),
+                        height: 180,
+                        width: 150,
+                        padding: EdgeInsets.all(12),
+                        margin: EdgeInsets.all(5),
+
+                        child: Column(
+                          children: [
+                            Image.asset("assets/apple.png",
+                            fit: BoxFit.cover,
+                              height: 124,
+
 
                             ),
-                          ),
-                          Container(
-                            height: 20,
-                            width: 150,
-                            padding: EdgeInsets.all(2),
-                            margin: EdgeInsets.all(5),
+                            Container(
+                              height: 20,
+                              width: 150,
+                              padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
 
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 0.8),
-                              borderRadius: BorderRadius.circular(5),
-                              boxShadow: const [
-                                BoxShadow(
-                                  color: Colors.red,
-                                ),
-                              ],
+                              decoration: BoxDecoration(
+                                border: Border.all(width: 0.8),
+                                borderRadius: BorderRadius.circular(5),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Colors.red,
+                                  ),
+                                ],
+                              ),
+
+                              child: const Center(child: Text('iphone 14 Pro', style: TextStyle(
+                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                             ),
+                          ],
+                        ),
 
-                            child: Center(child: Text('iphone 14 Pro', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
-                          ),
-                        ],
                       ),
                     ],
                   ),
