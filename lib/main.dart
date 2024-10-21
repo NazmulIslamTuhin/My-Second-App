@@ -356,47 +356,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox(height: 30,),
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      Column(
-                        children: [
-                          Container(
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 1),
-                              borderRadius: BorderRadius.circular(9),
-                            ),
-                            height: 180,
-                            width: 150,
-                            padding: EdgeInsets.all(4),
-                            margin: EdgeInsets.all(5),
-                            child: Image.network('https://tangerois.ma/20849-large_default/iphone-14-512gb-purple-apple.jpg',
-                              fit: BoxFit.contain,
 
-                            ),
-                          ),
-                          Container(
-                            height: 20,
-                            width: 150,
-                            padding: EdgeInsets.all(2),
-                            margin: EdgeInsets.all(5),
-
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 0.8),
-                              borderRadius: BorderRadius.circular(5),
-                              boxShadow: const [
-                                BoxShadow(
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-
-                            child: const Center(child: Text('iphone 14', style: TextStyle(fontSize: 13,
-                                fontWeight: FontWeight.bold ,backgroundColor: Colors.red),)),
-                          ),
-                        ],
-                      ),
                       Container(
                         decoration: BoxDecoration(
-
-
                           border: Border.all(width: 3),
                           borderRadius: BorderRadius.circular(9),
                         ),
@@ -437,20 +399,58 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
 
                       ),
+                      Container(
+                        decoration: BoxDecoration(
+
+
+                          border: Border.all(width: 3),
+                          borderRadius: BorderRadius.circular(9),
+                        ),
+                        height: 185,
+                        width: 150,
+                        padding: EdgeInsets.all(5),
+                        margin: EdgeInsets.all(5),
+
+                        child: Column(
+                          children: [
+                            Image.asset("assets/iphone14.png",
+                              fit: BoxFit.cover,
+                              height: 120,
+
+
+                            ),
+                            SizedBox(height: 10,),
+                            Container(
+                              height: 20,
+                              width: 150,
+                              padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
+
+                              decoration: BoxDecoration(
+                                border: Border.all(width: 0.8),
+                                borderRadius: BorderRadius.circular(5),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Colors.red,
+                                  ),
+                                ],
+                              ),
+
+                              child: const Center(child: Text('iphone 14 Pro', style: TextStyle(
+                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                            ),
+                          ],
+                        ),
+                      ),
+
                     ],
                   ),
-
-
-
 
                 ],
               ),
             ),
           ),
-
-
         ),
-
       ),
     );
   }
