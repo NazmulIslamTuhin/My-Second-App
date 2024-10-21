@@ -120,242 +120,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   //first container start
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                           Column(
-                             children: [
-                               Container(
-                                 decoration: BoxDecoration(
-                                   border: Border.all(width: 1),
-                                   borderRadius: BorderRadius.circular(9),
-                                 ),
-                                  height: 180,
-                                  width: 150,
-                                  padding: EdgeInsets.all(1),
-                                  margin: EdgeInsets.all(5),
-                                  child: Image.network('https://d61s2hjse0ytn.cloudfront.net/color/1053/16_pro_Desert_Titanium.webp',
-                                    fit: BoxFit.cover,
-
-                                  ),
-                                ),
-                               Container(
-                                 height: 20,
-                                 width: 150,
-                                 padding: EdgeInsets.all(1),
-                                 margin: EdgeInsets.all(5),
-
-                                 decoration: BoxDecoration(
-                                   border: Border.all(width: 0.8),
-                                   borderRadius: BorderRadius.circular(5),
-                                   boxShadow: const [
-                                     BoxShadow(
-                                       color: Colors.red,
-                                     ),
-                                   ],
-                                 ),
-
-                                 child: Center(child: Text('iphone 16 Pro', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
-                               ),
-                             ],
-                           ),
-                           Column(
-                             children: [
-                               Container(
-                                 decoration: BoxDecoration(
-                                   border: Border.all(width: 1),
-                                   borderRadius: BorderRadius.circular(9),
-                                 ),
-                                  height: 180,
-                                  width: 150,
-                                  padding: EdgeInsets.all(4),
-                                  margin: EdgeInsets.all(5),
-                                  child: Image.network('https://kryinternational.com/wp-content/uploads/2024/09/iPhone-16-Pro-Max.jpg',
-                                    fit: BoxFit.cover,
-
-                                  ),
-                                ),
-                               Container(
-                                 height: 20,
-                                 width: 150,
-                                 padding: EdgeInsets.all(2),
-                                 margin: EdgeInsets.all(5),
-
-                                 decoration: BoxDecoration(
-                                   border: Border.all(width: 0.8),
-                                   borderRadius: BorderRadius.circular(5),
-                                   boxShadow: const [
-                                     BoxShadow(
-                                       color: Colors.red,
-                                     ),
-                                   ],
-                                 ),
-
-                                 child: Center(child: Text('iphone 15 Pro Max', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
-                               ),
-                             ],
-                           ),
-                    ],
-                  ),
-
-                  SizedBox(height: 30,),
-
-                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Column(
-                        children: [
-                          Container(
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 1),
-                              borderRadius: BorderRadius.circular(9),
-                            ),
-                            height: 180,
-                            width: 150,
-                            padding: EdgeInsets.all(6),
-                            margin: EdgeInsets.all(5),
-                            child: Image.network('https://www.jbhifi.com.au/cdn/shop/files/746440-Product-0-I-638615223603773626.jpg?v=1727141018',
-                              fit: BoxFit.contain,
-
-                            ),
-                          ),
-                          Container(
-                            height: 20,
-                            width: 150,
-                            padding: EdgeInsets.all(2),
-                            margin: EdgeInsets.all(5),
-
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 0.8),
-                              borderRadius: BorderRadius.circular(5),
-                              boxShadow: const [
-                                BoxShadow(
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-
-                            child: const Center(child: Text('iphone 16', style: TextStyle(fontSize: 13,
-                                fontWeight: FontWeight.bold ,backgroundColor: Colors.red),)),
-                          ),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          Container(
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 1),
-                              borderRadius: BorderRadius.circular(9),
-                            ),
-                            height: 180,
-                            width: 150,
-                            padding: EdgeInsets.all(7),
-                            margin: EdgeInsets.all(5),
-                            child: Image.network('https://phones.mintmobile.com/wp-content/uploads/2023/09/Apple_iPhone_15_Pro_Titanium_Blue_PDP_Image.png',
-                              fit: BoxFit.fitWidth,
-
-                            ),
-                          ),
-                          Container(
-                            height: 20,
-                            width: 150,
-                            padding: EdgeInsets.all(2),
-                            margin: EdgeInsets.all(5),
-
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 0.8),
-                              borderRadius: BorderRadius.circular(5),
-                              boxShadow: const [
-                                BoxShadow(
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-
-                            child: Center(child: Text('iphone 15 Pro', style: TextStyle(fontSize: 13, backgroundColor: Colors.red),)),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                  SizedBox(height: 30,),
-                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Column(
-                        children: [
-                          Container(
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 1),
-                              borderRadius: BorderRadius.circular(9),
-                            ),
-                            height: 180,
-                            width: 150,
-                            padding: EdgeInsets.all(2),
-                            margin: EdgeInsets.all(5),
-                            child: Image.network('https://geniusmobile.lk/wp-content/uploads/2023/09/iphone-15-4.jpg',
-                              fit: BoxFit.cover,
-
-                            ),
-                          ),
-                          Container(
-                            height: 20,
-                            width: 150,
-                            padding: EdgeInsets.all(3),
-                            margin: EdgeInsets.all(5),
-
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 0.8),
-                              borderRadius: BorderRadius.circular(5),
-                              boxShadow: const [
-                                BoxShadow(
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-
-                            child: const Center(child: Text('iphone 15', style: TextStyle(fontSize: 13,
-                                fontWeight: FontWeight.bold ,backgroundColor: Colors.red),)),
-                          ),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          Container(
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 3),
-
-                              borderRadius: BorderRadius.circular(9),
-                            ),
-                            height: 180,
-                            width: 150,
-                            padding: EdgeInsets.all(5),
-                            margin: EdgeInsets.all(5),
-                            child: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzZM0o-JjdPbiUSiiLKMGnECbdq7SazUoiXs4Wb8RakT1wK0_TewResHSczJMM5mrw-uM&usqp=CAU',
-                              fit: BoxFit.cover,
-
-                            ),
-                          ),
-                          Container(
-                            height: 20,
-                            width: 150,
-                            padding: EdgeInsets.all(2),
-                            margin: EdgeInsets.all(5),
-
-                            decoration: BoxDecoration(
-                              border: Border.all(width: 0.8),
-                              borderRadius: BorderRadius.circular(5),
-                              boxShadow: const [
-                                BoxShadow(
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-
-                            child: Center(child: Text('iphone 15 Plus', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                  SizedBox(height: 30,),
-                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
 
                       Container(
                         decoration: BoxDecoration(
@@ -370,12 +134,13 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Column(
                           children: [
                             Image.asset("assets/apple14.png",
-                            fit: BoxFit.cover,
+                              fit: BoxFit.cover,
                               height: 120,
 
 
                             ),
                             SizedBox(height: 8,),
+
                             Container(
                               height: 20,
                               width: 150,
@@ -416,9 +181,377 @@ class _MyHomePageState extends State<MyHomePage> {
                             Image.asset("assets/iphone14.png",
                               fit: BoxFit.cover,
                               height: 120,
+                            ),
+
+                            SizedBox(height: 10,),
+                            Container(
+                              height: 20,
+                              width: 150,
+                              padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
+
+                              decoration: BoxDecoration(
+                                border: Border.all(width: 0.8),
+                                borderRadius: BorderRadius.circular(5),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Colors.red,
+                                  ),
+                                ],
+                              ),
+
+                              child: const Center(child: Text('iphone 14 Pro', style: TextStyle(
+                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                    ],
+                  ),
+
+                  SizedBox(height: 30,),
+
+                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+
+                      Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(width: 3),
+                          borderRadius: BorderRadius.circular(9),
+                        ),
+                        height: 185,
+                        width: 150,
+                        padding: EdgeInsets.all(8),
+                        margin: EdgeInsets.all(5),
+
+                        child: Column(
+                          children: [
+                            Image.asset("assets/apple14.png",
+                              fit: BoxFit.cover,
+                              height: 120,
 
 
                             ),
+                            SizedBox(height: 8,),
+
+                            Container(
+                              height: 20,
+                              width: 150,
+                              padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
+
+                              decoration: BoxDecoration(
+                                border: Border.all(width: 0.8),
+                                borderRadius: BorderRadius.circular(5),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Colors.red,
+                                  ),
+                                ],
+                              ),
+
+                              child: const Center(child: Text('iphone 14', style: TextStyle(
+                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                            ),
+                          ],
+                        ),
+
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+
+
+                          border: Border.all(width: 3),
+                          borderRadius: BorderRadius.circular(9),
+                        ),
+                        height: 185,
+                        width: 150,
+                        padding: EdgeInsets.all(8),
+                        margin: EdgeInsets.all(5),
+
+                        child: Column(
+                          children: [
+                            Image.asset("assets/iphone14.png",
+                              fit: BoxFit.cover,
+                              height: 120,
+                            ),
+
+                            SizedBox(height: 10,),
+                            Container(
+                              height: 20,
+                              width: 150,
+                              padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
+
+                              decoration: BoxDecoration(
+                                border: Border.all(width: 0.8),
+                                borderRadius: BorderRadius.circular(5),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Colors.red,
+                                  ),
+                                ],
+                              ),
+
+                              child: const Center(child: Text('iphone 14 Pro', style: TextStyle(
+                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                    ],
+                  ),
+                  SizedBox(height: 30,),
+                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+
+                      Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(width: 3),
+                          borderRadius: BorderRadius.circular(9),
+                        ),
+                        height: 185,
+                        width: 150,
+                        padding: EdgeInsets.all(8),
+                        margin: EdgeInsets.all(5),
+
+                        child: Column(
+                          children: [
+                            Image.asset("assets/apple14.png",
+                              fit: BoxFit.cover,
+                              height: 120,
+
+
+                            ),
+                            SizedBox(height: 8,),
+
+                            Container(
+                              height: 20,
+                              width: 150,
+                              padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
+
+                              decoration: BoxDecoration(
+                                border: Border.all(width: 0.8),
+                                borderRadius: BorderRadius.circular(5),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Colors.red,
+                                  ),
+                                ],
+                              ),
+
+                              child: const Center(child: Text('iphone 14', style: TextStyle(
+                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                            ),
+                          ],
+                        ),
+
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+
+
+                          border: Border.all(width: 3),
+                          borderRadius: BorderRadius.circular(9),
+                        ),
+                        height: 185,
+                        width: 150,
+                        padding: EdgeInsets.all(8),
+                        margin: EdgeInsets.all(5),
+
+                        child: Column(
+                          children: [
+                            Image.asset("assets/iphone14.png",
+                              fit: BoxFit.cover,
+                              height: 120,
+                            ),
+
+                            SizedBox(height: 10,),
+                            Container(
+                              height: 20,
+                              width: 150,
+                              padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
+
+                              decoration: BoxDecoration(
+                                border: Border.all(width: 0.8),
+                                borderRadius: BorderRadius.circular(5),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Colors.red,
+                                  ),
+                                ],
+                              ),
+
+                              child: const Center(child: Text('iphone 14 Pro', style: TextStyle(
+                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                    ],
+                  ),
+                  SizedBox(height: 30,),
+                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+
+                      Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(width: 3),
+                          borderRadius: BorderRadius.circular(9),
+                        ),
+                        height: 185,
+                        width: 150,
+                        padding: EdgeInsets.all(8),
+                        margin: EdgeInsets.all(5),
+
+                        child: Column(
+                          children: [
+                            Image.asset("assets/apple14.png",
+                            fit: BoxFit.cover,
+                              height: 120,
+
+
+                            ),
+                            SizedBox(height: 8,),
+
+                            Container(
+                              height: 20,
+                              width: 150,
+                              padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
+
+                              decoration: BoxDecoration(
+                                border: Border.all(width: 0.8),
+                                borderRadius: BorderRadius.circular(5),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Colors.red,
+                                  ),
+                                ],
+                              ),
+
+                              child: const Center(child: Text('iphone 14', style: TextStyle(
+                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                            ),
+                          ],
+                        ),
+
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+
+
+                          border: Border.all(width: 3),
+                          borderRadius: BorderRadius.circular(9),
+                        ),
+                        height: 185,
+                        width: 150,
+                        padding: EdgeInsets.all(8),
+                        margin: EdgeInsets.all(5),
+
+                        child: Column(
+                          children: [
+                            Image.asset("assets/iphone14.png",
+                              fit: BoxFit.cover,
+                              height: 120,
+                            ),
+
+                            SizedBox(height: 10,),
+                            Container(
+                              height: 20,
+                              width: 150,
+                              padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
+
+                              decoration: BoxDecoration(
+                                border: Border.all(width: 0.8),
+                                borderRadius: BorderRadius.circular(5),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Colors.red,
+                                  ),
+                                ],
+                              ),
+
+                              child: const Center(child: Text('iphone 14 Pro', style: TextStyle(
+                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                            ),
+                          ],
+                        ),
+                      ),
+
+                    ],
+                  ),
+                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+
+                      Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(width: 3),
+                          borderRadius: BorderRadius.circular(9),
+                        ),
+                        height: 185,
+                        width: 150,
+                        padding: EdgeInsets.all(8),
+                        margin: EdgeInsets.all(5),
+
+                        child: Column(
+                          children: [
+                            Image.asset("assets/iphone133.png",
+                              fit: BoxFit.cover,
+                              height: 120,
+
+
+                            ),
+                            SizedBox(height: 8,),
+
+                            Container(
+                              height: 20,
+                              width: 150,
+                              padding: EdgeInsets.all(2),
+                              margin: EdgeInsets.all(5),
+
+                              decoration: BoxDecoration(
+                                border: Border.all(width: 0.8),
+                                borderRadius: BorderRadius.circular(5),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Colors.red,
+                                  ),
+                                ],
+                              ),
+
+                              child: const Center(child: Text('iphone 13', style: TextStyle(
+                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                            ),
+                          ],
+                        ),
+
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+
+
+                          border: Border.all(width: 3),
+                          borderRadius: BorderRadius.circular(9),
+                        ),
+                        height: 185,
+                        width: 150,
+                        padding: EdgeInsets.all(8),
+                        margin: EdgeInsets.all(5),
+
+                        child: Column(
+                          children: [
+                            Image.asset("assets/iphone14.png",
+                              fit: BoxFit.cover,
+                              height: 120,
+                            ),
+
                             SizedBox(height: 10,),
                             Container(
                               height: 20,
