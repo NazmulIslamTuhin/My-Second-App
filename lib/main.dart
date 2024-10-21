@@ -173,14 +173,14 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         height: 185,
                         width: 150,
-                        padding: EdgeInsets.all(8),
+                        padding: EdgeInsets.all(2),
                         margin: EdgeInsets.all(5),
 
                         child: Column(
                           children: [
                             Image.asset("assets/iphone6.jpeg",
                               fit: BoxFit.cover,
-                              height: 130,
+                              height: 135,
 
                             ),
 
@@ -271,11 +271,11 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: EdgeInsets.all(8),
                         margin: EdgeInsets.all(5),
 
-                        child: Column(
+                        child: Column(mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Image.asset("assets/iphonemax.jpeg",
                               fit: BoxFit.cover,
-                              height: 120,
+                              height: 110,
                             ),
 
                             SizedBox(height: 10,),
