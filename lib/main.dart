@@ -362,20 +362,20 @@ class _MyHomePageState extends State<MyHomePage> {
                           border: Border.all(width: 3),
                           borderRadius: BorderRadius.circular(9),
                         ),
-                        height: 180,
+                        height: 185,
                         width: 150,
-                        padding: EdgeInsets.all(5),
+                        padding: EdgeInsets.all(9),
                         margin: EdgeInsets.all(5),
 
                         child: Column(
                           children: [
-                            Image.asset("assets/iphone14.png",
+                            Image.asset("assets/apple14.png",
                             fit: BoxFit.cover,
                               height: 120,
 
 
                             ),
-                            SizedBox(height: 10,),
+                            SizedBox(height: 8,),
                             Container(
                               height: 20,
                               width: 150,
@@ -392,7 +392,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ],
                               ),
 
-                              child: const Center(child: Text('iphone 14 Pro', style: TextStyle(
+                              child: const Center(child: Text('iphone 14', style: TextStyle(
                                   fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                             ),
                           ],
