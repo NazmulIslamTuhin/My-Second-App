@@ -273,7 +273,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                         child: Column(
                           children: [
-                            Image.asset("assets/iphone14.png",
+                            Image.asset("assets/iphonemax.jpeg",
                               fit: BoxFit.cover,
                               height: 120,
                             ),
@@ -320,7 +320,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                         child: Column(
                           children: [
-                            Image.asset("assets/iphone133.png",
+                            Image.asset("assets/iphone15.jpeg",
                               fit: BoxFit.cover,
                               height: 120,
 
@@ -366,7 +366,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                         child: Column(
                           children: [
-                            Image.asset("assets/iphone133.png",
+                            Image.asset("assets/iphone15plus.jpeg",
                               fit: BoxFit.cover,
                               height: 120,
                             ),
@@ -388,7 +388,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ],
                               ),
 
-                              child: const Center(child: Text('iphone 15 Pro', style: TextStyle(
+                              child: const Center(child: Text('iphone 15 Plus', style: TextStyle(
                                   fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                             ),
                           ],
