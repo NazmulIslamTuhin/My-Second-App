@@ -402,17 +402,18 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         height: 180,
                         width: 150,
-                        padding: EdgeInsets.all(12),
+                        padding: EdgeInsets.all(5),
                         margin: EdgeInsets.all(5),
 
                         child: Column(
                           children: [
                             Image.asset("assets/iphone14.png",
                             fit: BoxFit.cover,
-                              height: 124,
+                              height: 120,
 
 
                             ),
+                            SizedBox(height: 10,),
                             Container(
                               height: 20,
                               width: 150,
