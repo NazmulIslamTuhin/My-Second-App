@@ -407,7 +407,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                         child: Column(
                           children: [
-                            Image.asset("assets/apple.png",
+                            Image.asset("assets/iphone14.png",
                             fit: BoxFit.cover,
                               height: 124,
 
