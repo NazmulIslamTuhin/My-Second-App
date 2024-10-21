@@ -128,18 +128,18 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         height: 185,
                         width: 150,
-                        padding: EdgeInsets.all(8),
+                        padding: EdgeInsets.all(2),
                         margin: EdgeInsets.all(5),
 
                         child: Column(
                           children: [
-                            Image.asset("assets/apple14.png",
+                            Image.asset("assets/iphone16desert.png",
                               fit: BoxFit.cover,
-                              height: 120,
+                              height: 140,
 
 
                             ),
-                            SizedBox(height: 8,),
+                            SizedBox(height: 1,),
 
                             Container(
                               height: 20,
@@ -157,7 +157,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ],
                               ),
 
-                              child: const Center(child: Text('iphone 14', style: TextStyle(
+                              child: const Center(child: Text('iphone 16 Pro', style: TextStyle(
                                   fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                             ),
                           ],
@@ -319,9 +319,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
                         child: Column(
                           children: [
-                            Image.asset("assets/apple14.png",
+                            Image.asset("assets/iphone16.png",
                               fit: BoxFit.cover,
-                              height: 120,
+
 
 
                             ),
@@ -343,7 +343,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ],
                               ),
 
-                              child: const Center(child: Text('iphone 14', style: TextStyle(
+                              child: const Center(child: Text('iphone 15', style: TextStyle(
                                   fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                             ),
                           ],
@@ -364,9 +364,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
                         child: Column(
                           children: [
-                            Image.asset("assets/iphone14.png",
+                            Image.asset("assets/iphone15pro.png",
                               fit: BoxFit.cover,
-                              height: 120,
+                              height: 10,
                             ),
 
                             SizedBox(height: 10,),
@@ -386,7 +386,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ],
                               ),
 
-                              child: const Center(child: Text('iphone 14 Pro', style: TextStyle(
+                              child: const Center(child: Text('iphone 15 Pro', style: TextStyle(
                                   fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                             ),
                           ],
@@ -396,6 +396,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
                   SizedBox(height: 30,),
+                  //iphone14 start
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
 
@@ -487,6 +488,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                     ],
                   ),
+
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
 
