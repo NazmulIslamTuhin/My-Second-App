@@ -178,12 +178,13 @@ class _MyHomePageState extends State<MyHomePage> {
 
                         child: Column(
                           children: [
-                            Image.asset("assets/iphone14.png",
+                            Image.asset("assets/iphone6.jpeg",
                               fit: BoxFit.cover,
-                              height: 120,
+                              height: 130,
+
                             ),
 
-                            SizedBox(height: 10,),
+                            SizedBox(height: 1,),
                             Container(
                               height: 20,
                               width: 150,
@@ -321,6 +322,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             Image.asset("assets/iphone133.png",
                               fit: BoxFit.cover,
+                              height: 120,
 
 
 
@@ -366,7 +368,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           children: [
                             Image.asset("assets/iphone133.png",
                               fit: BoxFit.cover,
-                              height: 10,
+                              height: 120,
                             ),
 
                             SizedBox(height: 10,),
