@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:get/get.dart';
 
 import 'NavBar.dart';
 
@@ -121,281 +122,347 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
 
 
-                  //first container start
+                  //first container start****************************
+
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
 
-                      Container(
-                        decoration: BoxDecoration(
-                          border: Border.all(width: 3),
-                          borderRadius: BorderRadius.circular(9),
-                        ),
-                        height: 185,
-                        width: 150,
-                        padding: EdgeInsets.all(2),
-                        margin: EdgeInsets.all(5),
+                      InkWell(onTap: (){
+                        setState(() {
 
-                        child: Column(
-                          children: [
-                            Image.asset("assets/iphone16desert.png",
-                              fit: BoxFit.cover,
-                              height: 135,
+                        });
+                      },
+                        child: Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(width: 3),
+                            borderRadius: BorderRadius.circular(9),
+                          ),
+                          height: 185,
+                          width: 150,
+                          padding: EdgeInsets.all(2),
+                          margin: EdgeInsets.all(5),
+
+                          child: Column(
+                            children: [
+                              Image.asset("assets/iphone16desert.png",
+                                fit: BoxFit.cover,
+                                height: 135,
 
 
-                            ),
-                            SizedBox(height: 1,),
-
-                            Container(
-                              height: 20,
-                              width: 150,
-                              padding: EdgeInsets.all(2),
-                              margin: EdgeInsets.all(5),
-
-                              decoration: BoxDecoration(
-                                border: Border.all(width: 0.8),
-                                borderRadius: BorderRadius.circular(5),
-                                boxShadow: const [
-                                  BoxShadow(
-                                    color: Colors.red,
-                                  ),
-                                ],
                               ),
+                              SizedBox(height: 1,),
 
-                              child: const Center(child: Text('iphone 16 Pro', style: TextStyle(
-                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
-                            ),
-                          ],
+                              Container(
+                                height: 20,
+                                width: 150,
+                                padding: EdgeInsets.all(2),
+                                margin: EdgeInsets.all(5),
+
+                                decoration: BoxDecoration(
+                                  border: Border.all(width: 0.8),
+                                  borderRadius: BorderRadius.circular(5),
+                                  boxShadow: const [
+                                    BoxShadow(
+                                      color: Colors.red,
+                                    ),
+                                  ],
+                                ),
+
+                                child: const Center(child: Text('iphone 16 Pro', style: TextStyle(
+                                    fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                              ),
+                            ],
+                          ),
+
                         ),
-
                       ),
-                      Container(
-                        decoration: BoxDecoration(
+
+                      // 1st container end ****************************
 
 
-                          border: Border.all(width: 3),
-                          borderRadius: BorderRadius.circular(9),
-                        ),
-                        height: 185,
-                        width: 150,
-                        padding: EdgeInsets.all(2),
-                        margin: EdgeInsets.all(5),
+                      // 2st container start *************************
 
-                        child: Column(
-                          children: [
-                            Image.asset("assets/iphone6.jpeg",
-                              fit: BoxFit.cover,
-                              height: 135,
+                      InkWell(onTap: (){
+                        setState(() {
 
-                            ),
+                        });
+                      },
 
-                            SizedBox(height: 1,),
-                            Container(
-                              height: 20,
-                              width: 150,
-                              padding: EdgeInsets.all(2),
-                              margin: EdgeInsets.all(5),
+                        child: Container(
+                          decoration: BoxDecoration(
 
-                              decoration: BoxDecoration(
-                                border: Border.all(width: 0.8),
-                                borderRadius: BorderRadius.circular(5),
-                                boxShadow: const [
-                                  BoxShadow(
-                                    color: Colors.red,
-                                  ),
-                                ],
+
+                            border: Border.all(width: 3),
+                            borderRadius: BorderRadius.circular(9),
+                          ),
+                          height: 185,
+                          width: 150,
+                          padding: EdgeInsets.all(2),
+                          margin: EdgeInsets.all(5),
+
+                          child: Column(
+                            children: [
+                              Image.asset("assets/iphone6.jpeg",
+                                fit: BoxFit.cover,
+                                height: 135,
+
                               ),
 
-                              child: const Center(child: Text('iphone 16 Pro Max', style: TextStyle(
-                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
-                            ),
-                          ],
+                              SizedBox(height: 1,),
+                              Container(
+                                height: 20,
+                                width: 150,
+                                padding: EdgeInsets.all(2),
+                                margin: EdgeInsets.all(5),
+
+                                decoration: BoxDecoration(
+                                  border: Border.all(width: 0.8),
+                                  borderRadius: BorderRadius.circular(5),
+                                  boxShadow: const [
+                                    BoxShadow(
+                                      color: Colors.red,
+                                    ),
+                                  ],
+                                ),
+
+                                child: const Center(child: Text('iphone 16 Pro Max', style: TextStyle(
+                                    fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+
+                  // 2st container end *************************
+
+                  SizedBox(height: 30,),
+
+
+                  // 3rd container start ************************
+
+                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+
+                      InkWell(onTap: (){
+                        setState(() {
+
+                        });
+                      },
+                        child: Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(width: 3),
+                            borderRadius: BorderRadius.circular(9),
+                          ),
+                          height: 185,
+                          width: 150,
+                          padding: EdgeInsets.all(8),
+                          margin: EdgeInsets.all(5),
+
+                          child: Column(
+                            children: [
+                              Image.asset("assets/iphone15pro.jpg",
+                                fit: BoxFit.cover,
+                                height: 120,
+
+
+                              ),
+                              SizedBox(height: 8,),
+
+                              Container(
+                                height: 20,
+                                width: 150,
+                                padding: EdgeInsets.all(2),
+                                margin: EdgeInsets.all(5),
+
+                                decoration: BoxDecoration(
+                                  border: Border.all(width: 0.8),
+                                  borderRadius: BorderRadius.circular(5),
+                                  boxShadow: const [
+                                    BoxShadow(
+                                      color: Colors.red,
+                                    ),
+                                  ],
+                                ),
+
+                                child: const Center(child: Text('iphone 15 Pro', style: TextStyle(
+                                    fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                              ),
+                            ],
+                          ),
+
+                        ),
+                      ),
+
+                      // 3rd container end ************************
+
+
+
+                      // 4th container start ************************
+
+                      InkWell(onTap: (){
+                        setState(() {
+
+                        });
+                      },
+                        child: Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(width: 3),
+                            borderRadius: BorderRadius.circular(9),
+                          ),
+                          height: 185,
+                          width: 150,
+                          padding: EdgeInsets.all(8),
+                          margin: EdgeInsets.all(5),
+
+                          child: Column(mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Image.asset("assets/iphonemax.jpeg",
+                                fit: BoxFit.cover,
+                                height: 110,
+                              ),
+
+                              SizedBox(height: 10,),
+                              Container(
+                                height: 20,
+                                width: 150,
+                                padding: EdgeInsets.all(2),
+                                margin: EdgeInsets.all(5),
+
+                                decoration: BoxDecoration(
+                                  border: Border.all(width: 0.8),
+                                  borderRadius: BorderRadius.circular(5),
+                                  boxShadow: const [
+                                    BoxShadow(
+                                      color: Colors.red,
+                                    ),
+                                  ],
+                                ),
+
+                                child: const Center(child: Text('iphone 15 Pro Max', style: TextStyle(
+                                    fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
 
                     ],
                   ),
 
+                  // 4th container end ************************
+
+
+                  // 5th container start ************************
+
                   SizedBox(height: 30,),
 
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
 
-                      Container(
-                        decoration: BoxDecoration(
-                          border: Border.all(width: 3),
-                          borderRadius: BorderRadius.circular(9),
-                        ),
-                        height: 185,
-                        width: 150,
-                        padding: EdgeInsets.all(8),
-                        margin: EdgeInsets.all(5),
+                      InkWell(onTap: (){
+                        setState(() {
 
-                        child: Column(
-                          children: [
-                            Image.asset("assets/iphone15pro.jpg",
-                              fit: BoxFit.cover,
-                              height: 120,
+                        });
+                      },
+                        child: Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(width: 3),
+                            borderRadius: BorderRadius.circular(9),
+                          ),
+                          height: 185,
+                          width: 150,
+                          padding: EdgeInsets.all(8),
+                          margin: EdgeInsets.all(5),
+
+                          child: Column(
+                            children: [
+                              Image.asset("assets/iphone15.jpeg",
+                                fit: BoxFit.cover,
+                                height: 120,
 
 
-                            ),
-                            SizedBox(height: 8,),
 
-                            Container(
-                              height: 20,
-                              width: 150,
-                              padding: EdgeInsets.all(2),
-                              margin: EdgeInsets.all(5),
-
-                              decoration: BoxDecoration(
-                                border: Border.all(width: 0.8),
-                                borderRadius: BorderRadius.circular(5),
-                                boxShadow: const [
-                                  BoxShadow(
-                                    color: Colors.red,
-                                  ),
-                                ],
                               ),
+                              SizedBox(height: 8,),
 
-                              child: const Center(child: Text('iphone 15 Pro', style: TextStyle(
-                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
-                            ),
-                          ],
-                        ),
+                              Container(
+                                height: 20,
+                                width: 150,
+                                padding: EdgeInsets.all(2),
+                                margin: EdgeInsets.all(5),
 
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
+                                decoration: BoxDecoration(
+                                  border: Border.all(width: 0.8),
+                                  borderRadius: BorderRadius.circular(5),
+                                  boxShadow: const [
+                                    BoxShadow(
+                                      color: Colors.red,
+                                    ),
+                                  ],
+                                ),
 
-
-                          border: Border.all(width: 3),
-                          borderRadius: BorderRadius.circular(9),
-                        ),
-                        height: 185,
-                        width: 150,
-                        padding: EdgeInsets.all(8),
-                        margin: EdgeInsets.all(5),
-
-                        child: Column(mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Image.asset("assets/iphonemax.jpeg",
-                              fit: BoxFit.cover,
-                              height: 110,
-                            ),
-
-                            SizedBox(height: 10,),
-                            Container(
-                              height: 20,
-                              width: 150,
-                              padding: EdgeInsets.all(2),
-                              margin: EdgeInsets.all(5),
-
-                              decoration: BoxDecoration(
-                                border: Border.all(width: 0.8),
-                                borderRadius: BorderRadius.circular(5),
-                                boxShadow: const [
-                                  BoxShadow(
-                                    color: Colors.red,
-                                  ),
-                                ],
+                                child: const Center(child: Text('iphone 15', style: TextStyle(
+                                    fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                               ),
+                            ],
+                          ),
 
-                              child: const Center(child: Text('iphone 15 Pro Max', style: TextStyle(
-                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
-                            ),
-                          ],
                         ),
                       ),
 
-                    ],
-                  ),
-                  SizedBox(height: 30,),
-                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-
-                      Container(
-                        decoration: BoxDecoration(
-                          border: Border.all(width: 3),
-                          borderRadius: BorderRadius.circular(9),
-                        ),
-                        height: 185,
-                        width: 150,
-                        padding: EdgeInsets.all(8),
-                        margin: EdgeInsets.all(5),
-
-                        child: Column(
-                          children: [
-                            Image.asset("assets/iphone15.jpeg",
-                              fit: BoxFit.cover,
-                              height: 120,
+                      // 5th container end ************************
 
 
+                      //6th container start **********************
 
-                            ),
-                            SizedBox(height: 8,),
+                      InkWell(onTap: (){
+                        setState(() {
 
-                            Container(
-                              height: 20,
-                              width: 150,
-                              padding: EdgeInsets.all(2),
-                              margin: EdgeInsets.all(5),
+                        });
+                      },
+                        child: Container(
+                          decoration: BoxDecoration(
 
-                              decoration: BoxDecoration(
-                                border: Border.all(width: 0.8),
-                                borderRadius: BorderRadius.circular(5),
-                                boxShadow: const [
-                                  BoxShadow(
-                                    color: Colors.red,
-                                  ),
-                                ],
+
+                            border: Border.all(width: 3),
+                            borderRadius: BorderRadius.circular(9),
+                          ),
+                          height: 185,
+                          width: 150,
+                          padding: EdgeInsets.all(8),
+                          margin: EdgeInsets.all(5),
+
+                          child: Column(
+                            children: [
+                              Image.asset("assets/iphone15plus.jpeg",
+                                fit: BoxFit.cover,
+                                height: 120,
                               ),
 
-                              child: const Center(child: Text('iphone 15', style: TextStyle(
-                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
-                            ),
-                          ],
-                        ),
+                              SizedBox(height: 10,),
+                              Container(
+                                height: 20,
+                                width: 150,
+                                padding: EdgeInsets.all(2),
+                                margin: EdgeInsets.all(5),
 
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
+                                decoration: BoxDecoration(
+                                  border: Border.all(width: 0.8),
+                                  borderRadius: BorderRadius.circular(5),
+                                  boxShadow: const [
+                                    BoxShadow(
+                                      color: Colors.red,
+                                    ),
+                                  ],
+                                ),
 
-
-                          border: Border.all(width: 3),
-                          borderRadius: BorderRadius.circular(9),
-                        ),
-                        height: 185,
-                        width: 150,
-                        padding: EdgeInsets.all(8),
-                        margin: EdgeInsets.all(5),
-
-                        child: Column(
-                          children: [
-                            Image.asset("assets/iphone15plus.jpeg",
-                              fit: BoxFit.cover,
-                              height: 120,
-                            ),
-
-                            SizedBox(height: 10,),
-                            Container(
-                              height: 20,
-                              width: 150,
-                              padding: EdgeInsets.all(2),
-                              margin: EdgeInsets.all(5),
-
-                              decoration: BoxDecoration(
-                                border: Border.all(width: 0.8),
-                                borderRadius: BorderRadius.circular(5),
-                                boxShadow: const [
-                                  BoxShadow(
-                                    color: Colors.red,
-                                  ),
-                                ],
+                                child: const Center(child: Text('iphone 15 Plus', style: TextStyle(
+                                    fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
                               ),
-
-                              child: const Center(child: Text('iphone 15 Plus', style: TextStyle(
-                                  fontSize: 13, fontWeight: FontWeight.bold, backgroundColor: Colors.red),)),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                       ),
 
