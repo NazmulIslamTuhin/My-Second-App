@@ -87,13 +87,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children:  [
                   const SizedBox(
-                    height: 20),
+                    height: 15),
 
                   //Top container start
 
                   Container(
                     decoration: BoxDecoration(
-                      border: Border.all(width: 2),
+                      border: Border.all(width: 1),
                       borderRadius: BorderRadius.circular(9),
                       color: Colors.black54,
                       boxShadow: [
@@ -106,11 +106,13 @@ class _MyHomePageState extends State<MyHomePage> {
                       ],
 
                     ),
-                    padding: EdgeInsets.all(1),
+                    padding: EdgeInsets.all(2),
                     margin: EdgeInsets.all(5),
                    child: Column(
                      children: [
-                       Image.asset("assets/apple.png"),
+                       Image.asset("assets/apple.png",
+                       fit: BoxFit.cover,
+                       ),
                      ],
                    ),
 
@@ -122,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
 
 
-                  //first container start****************************
+                  //1st container start****************************
 
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
