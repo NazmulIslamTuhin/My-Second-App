@@ -107,7 +107,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     padding: EdgeInsets.all(1),
                     margin: EdgeInsets.all(5),
-                   child: Image.network('https://rivermall.ua/wp-content/uploads/2023/11/1420x1010_river_web.jpg'),
+                   child: Column(
+                     children: [
+                       Image.asset("assets/apple.png"),
+                     ],
+                   ),
 
                   ),
                   //Top container end
