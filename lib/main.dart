@@ -53,6 +53,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  List imageList = ["assets/apple.png", "assets/iphone15pro.jpg", "assets/iphone133.png"];
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -86,54 +89,35 @@ class _MyHomePageState extends State<MyHomePage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children:  [
                   const SizedBox(
-                    height: 15),
+                    height: 25),
 
                   //Top container start
 
                   CarouselSlider(
-                    options: CarouselOptions(height: 100.0),
-                    items: [1,2,3,4,5].map((i) {
+                    options: CarouselOptions(height: 200.0, autoPlay: true),
+                    items: imageList.map((i) {
                       return Builder(
                         builder: (BuildContext context) {
                           return Container(
                               width: MediaQuery.of(context).size.width,
-                              margin: EdgeInsets.symmetric(horizontal: 5.0),
-                              decoration: BoxDecoration(
-                                  color: Colors.amber
-                              ),
-                              child: Text('text $i', style: TextStyle(fontSize: 16.0),)
+                              margin: EdgeInsets.symmetric(horizontal: 9.0),
+                             decoration: BoxDecoration(
+                               // color: Colors.red,
+                               borderRadius: BorderRadius.circular(15)
+                             ),
+                              child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(15),
+                                  child: Image.asset(i, fit: BoxFit.cover)),
+
+                              // Text('text $i', style: TextStyle(fontSize: 16.0),)
                           );
                         },
                       );
                     }).toList(),
                   ),
-                  SizedBox(height: 10,),
+                  SizedBox(height: 15,),
 
-                  Container(
-                    decoration: BoxDecoration(
-                      border: Border.all(width: 1),
-                      borderRadius: BorderRadius.circular(9),
-                      color: Colors.black54,
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.grey.withOpacity(0.5),
-                          spreadRadius: 5,
-                          blurRadius: 7,
-                          offset: Offset(0, 3), // changes position of shadow
-                        ),
-                      ],
-                    ),
-                    padding: EdgeInsets.all(2),
-                    margin: EdgeInsets.all(5),
-                   child: Column(
-                     children: [
-                       Image.asset("assets/apple.png",
-                       fit: BoxFit.cover,
-                       ),
-                     ],
-                   ),
 
-                  ),
                   //Top container end
 
                   const SizedBox(
