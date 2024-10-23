@@ -1,7 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:get/get.dart';
 
+import 'package:flutter/material.dart';
 import 'NavBar.dart';
 
 
@@ -104,7 +102,6 @@ class _MyHomePageState extends State<MyHomePage> {
                           offset: Offset(0, 3), // changes position of shadow
                         ),
                       ],
-
                     ),
                     padding: EdgeInsets.all(2),
                     margin: EdgeInsets.all(5),

@@ -50,18 +50,18 @@ class NavBar extends StatelessWidget {
             title: Text('Request'),
             onTap: () => null,
           ),
-          Divider(color: Colors.black,),
           ListTile(
             leading: Icon(Icons.settings),
             title: Text('Settings'),
             onTap: () => null,
           ),
+          Divider(color: Colors.black),
+
           ListTile(
             leading: Icon(Icons.star),
             title: Text('Rate Us'),
             onTap: () => null,
           ),
-          Divider(color: Colors.black,),
           ListTile(
             title: Text('Exit'),
             leading: Icon(Icons.exit_to_app),
